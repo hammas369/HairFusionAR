@@ -1,0 +1,10 @@
+- !<AssetCache/63160727-e1fe-312a-f0d9-9a690280670e>
+  AssetFiles:
+    fa816a44-15f3-4a2d-944b-56a6f67a37b0: 6b0533bb-8401-44fd-99bb-d429f4b6b069/63160727e1fe312af0d99a690280670e/Data/ponytails_top_rear.hair
+  Assets:
+    - !<HairDataAsset/fa816a44-15f3-4a2d-944b-56a6f67a37b0>
+      PackagePath: ""
+  SourceHash: 63160727e1fe312af0d99a690280670e
+  FileHash: 959c2b24c7adee9089ddca2776aa0acc
+  NativePackageItems:
+    []

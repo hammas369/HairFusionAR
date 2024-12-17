@@ -1,0 +1,13 @@
+- !<AssetCache/c4f4dcc6-1bab-9f43-8fc1-2bd94385ec71>
+  AssetFiles:
+    1da0f69c-2c3b-4f0f-9478-57b67e103c57: c53ee8ae-762d-49a1-91c9-815be5e55fbe/c4f4dcc61bab9f438fc12bd94385ec71/Data/opacity_mask.png
+  Assets:
+    - !<FileTexture/1da0f69c-2c3b-4f0f-9478-57b67e103c57>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 16
+        Height: 16
+  SourceHash: c4f4dcc61bab9f438fc12bd94385ec71
+  FileHash: cb1cb506591aec4ef2858608e53299b2
+  NativePackageItems:
+    []

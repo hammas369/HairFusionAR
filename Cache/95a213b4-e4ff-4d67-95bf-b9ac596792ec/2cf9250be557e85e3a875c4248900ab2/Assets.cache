@@ -1,0 +1,13 @@
+- !<AssetCache/2cf9250b-e557-e85e-3a87-5c4248900ab2>
+  AssetFiles:
+    9da955e0-3c4d-4c39-a59b-d76b9ce86a4a: 95a213b4-e4ff-4d67-95bf-b9ac596792ec/2cf9250be557e85e3a875c4248900ab2/Data/beard_intensity.jpg
+  Assets:
+    - !<FileTexture/9da955e0-3c4d-4c39-a59b-d76b9ce86a4a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1
+        Height: 32
+  SourceHash: 2cf9250be557e85e3a875c4248900ab2
+  FileHash: 734ae81b394599ff1bcee17c48a56b79
+  NativePackageItems:
+    []

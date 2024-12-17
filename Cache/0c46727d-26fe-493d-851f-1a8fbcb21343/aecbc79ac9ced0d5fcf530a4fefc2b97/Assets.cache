@@ -1,0 +1,10 @@
+- !<AssetCache/aecbc79a-c9ce-d0d5-fcf5-30a4fefc2b97>
+  AssetFiles:
+    e5b0a507-2d83-44d9-aa8a-b8d41d1135bb: 0c46727d-26fe-493d-851f-1a8fbcb21343/aecbc79ac9ced0d5fcf530a4fefc2b97/Data/mustache1.hair
+  Assets:
+    - !<HairDataAsset/e5b0a507-2d83-44d9-aa8a-b8d41d1135bb>
+      PackagePath: ""
+  SourceHash: aecbc79ac9ced0d5fcf530a4fefc2b97
+  FileHash: 22bbb5ce520d5e612195086fb5f701aa
+  NativePackageItems:
+    []

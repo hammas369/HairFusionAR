@@ -1,0 +1,10 @@
+- !<AssetCache/89e92115-fb4e-07b8-0493-6b1ab88dd34d>
+  AssetFiles:
+    ced24023-687f-43b4-8acb-ee0c73179a6f: 14ab7c44-69bf-41b4-bbb5-45ab018f678e/89e92115fb4e07b804936b1ab88dd34d/Data/curly_long.hair
+  Assets:
+    - !<HairDataAsset/ced24023-687f-43b4-8acb-ee0c73179a6f>
+      PackagePath: ""
+  SourceHash: 89e92115fb4e07b804936b1ab88dd34d
+  FileHash: e2b99a736a99ad1156d70656f100fc7d
+  NativePackageItems:
+    []

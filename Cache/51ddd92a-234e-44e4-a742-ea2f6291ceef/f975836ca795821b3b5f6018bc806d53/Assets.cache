@@ -1,0 +1,13 @@
+- !<AssetCache/f975836c-a795-821b-3b5f-6018bc806d53>
+  AssetFiles:
+    8a59ef97-5dfc-46fa-8267-c3925f514465: 51ddd92a-234e-44e4-a742-ea2f6291ceef/f975836ca795821b3b5f6018bc806d53/Data/shadow22.png
+  Assets:
+    - !<FileTexture/8a59ef97-5dfc-46fa-8267-c3925f514465>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 256
+        Height: 256
+  SourceHash: f975836ca795821b3b5f6018bc806d53
+  FileHash: c8ad9d7de4bc99636b2b94623b518493
+  NativePackageItems:
+    []

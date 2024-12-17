@@ -1,0 +1,13 @@
+- !<AssetCache/7a6a44da-41c0-ce3a-4e28-200e071f7e3c>
+  AssetFiles:
+    96be918b-5b4e-4c25-b012-60f3fd02d5ed: cde47006-5746-47ad-aef2-4a2eea95c930/7a6a44da41c0ce3a4e28200e071f7e3c/Data/Glasses3.png
+  Assets:
+    - !<FileTexture/96be918b-5b4e-4c25-b012-60f3fd02d5ed>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 520
+        Height: 562
+  SourceHash: 7a6a44da41c0ce3a4e28200e071f7e3c
+  FileHash: 34ea61bfbd42752cbc06652e451363f1
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache/3710fefe-bff7-7684-44db-030ae6865c6f>
+  AssetFiles:
+    48ebf94f-7ce3-409a-881f-4c970c18ec0c: bc9bc1e0-e5c0-4510-8769-8cd5e65c9000/3710fefebff7768444db030ae6865c6f/Data/direction_2.jpg
+  Assets:
+    - !<FileTexture/48ebf94f-7ce3-409a-881f-4c970c18ec0c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 34
+        Height: 128
+  SourceHash: 3710fefebff7768444db030ae6865c6f
+  FileHash: f6a6cab7ef9f92b82a87db6421ec2174
+  NativePackageItems:
+    []

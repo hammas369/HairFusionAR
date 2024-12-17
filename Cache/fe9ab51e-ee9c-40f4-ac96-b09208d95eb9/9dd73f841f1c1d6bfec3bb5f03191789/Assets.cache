@@ -1,0 +1,10 @@
+- !<AssetCache/9dd73f84-1f1c-1d6b-fec3-bb5f03191789>
+  AssetFiles:
+    3a6e200e-d1c8-4f2c-8bcc-b0d881b916ab: fe9ab51e-ee9c-40f4-ac96-b09208d95eb9/9dd73f841f1c1d6bfec3bb5f03191789/Data/smooth_and_straight.hair
+  Assets:
+    - !<HairDataAsset/3a6e200e-d1c8-4f2c-8bcc-b0d881b916ab>
+      PackagePath: ""
+  SourceHash: 9dd73f841f1c1d6bfec3bb5f03191789
+  FileHash: ce4a03e7c8772133e05cff8504361c6a
+  NativePackageItems:
+    []

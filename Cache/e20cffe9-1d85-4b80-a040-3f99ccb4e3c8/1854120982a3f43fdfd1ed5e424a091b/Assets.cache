@@ -1,0 +1,10 @@
+- !<AssetCache/18541209-82a3-f43f-dfd1-ed5e424a091b>
+  AssetFiles:
+    ad4d72a0-93bb-46ad-b0e6-3d66581da9e4: e20cffe9-1d85-4b80-a040-3f99ccb4e3c8/1854120982a3f43fdfd1ed5e424a091b/Data/wavy_top_layer.hair
+  Assets:
+    - !<HairDataAsset/ad4d72a0-93bb-46ad-b0e6-3d66581da9e4>
+      PackagePath: ""
+  SourceHash: 1854120982a3f43fdfd1ed5e424a091b
+  FileHash: 9a81276feced210cbfdc14487b094673
+  NativePackageItems:
+    []

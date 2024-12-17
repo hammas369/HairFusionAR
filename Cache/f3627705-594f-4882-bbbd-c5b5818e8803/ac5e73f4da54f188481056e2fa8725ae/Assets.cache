@@ -1,0 +1,13 @@
+- !<AssetCache/ac5e73f4-da54-f188-4810-56e2fa8725ae>
+  AssetFiles:
+    22228119-14df-4196-b3d6-f17ff60021ec: f3627705-594f-4882-bbbd-c5b5818e8803/ac5e73f4da54f188481056e2fa8725ae/Data/refl.jpg
+  Assets:
+    - !<FileTexture/22228119-14df-4196-b3d6-f17ff60021ec>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: ac5e73f4da54f188481056e2fa8725ae
+  FileHash: 662c174c3a0799a9da28c832cfa57676
+  NativePackageItems:
+    []

@@ -1,0 +1,161 @@
+- !<Material/6a4ae755-ef94-489e-b468-46b82f2b9e16>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 3a5bb91a-2315-4136-ae2d-0c6e2ad0aa5d
+- !<PassInfo/3a5bb91a-2315-4136-ae2d-0c6e2ad0aa5d>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Disabled
+  Properties:
+    LitLookup:
+      typeIdx: 9
+      value:
+        id: e7ba8d14-d4bd-4e57-b1ae-76918e3997e3
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: true
+        type: Texture2D
+    LitLookupBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    LitLookupDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    LitLookupTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    LitLookupUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Port_Input1_N014:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N030:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N057:
+      typeIdx: 1
+      value: 0.500000
+    Port_Input1_N134:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Input1_N135:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Value2_N120:
+      typeIdx: 1
+      value: 1.000000
+    Port_Value3_N132:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    Tweak_N0:
+      typeIdx: 9
+      value:
+        id: a9a6316b-9943-474f-8914-9dc6757cbcc5
+        sampler:
+          filteringMode: Bilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: true
+        type: Texture2D
+    Tweak_N0BorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N0Dims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N0Transform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Tweak_N0UvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N10:
+      typeIdx: 1
+      value: 1.000000
+    Tweak_N12:
+      typeIdx: 1
+      value: 1.000000
+    Tweak_N15:
+      typeIdx: 1
+      value: 0.750000
+    Tweak_N16:
+      typeIdx: 1
+      value: 1.000000
+    Tweak_N17:
+      typeIdx: 5
+      value: {x: 0.992157, y: 0.752941, z: 0.752941, w: 0.450004}
+    Tweak_N18:
+      typeIdx: 5
+      value: {x: 0.964706, y: 0.988235, z: 1.000000, w: 0.600000}
+    Tweak_N19:
+      typeIdx: 1
+      value: 0.538000
+    Tweak_N20:
+      typeIdx: 1
+      value: 1.932000
+    Tweak_N5:
+      typeIdx: 5
+      value: {x: 0.996078, y: 0.831373, z: 0.478431, w: 1.000000}
+    Tweak_N6:
+      typeIdx: 5
+      value: {x: 1.000000, y: 0.870588, z: 0.670588, w: 1.000000}
+    Tweak_N9:
+      typeIdx: 1
+      value: 0.295000
+    clumpInstanceCount:
+      typeIdx: 1
+      value: 0.000000
+    clumpRadius:
+      typeIdx: 1
+      value: 0.000000
+    clumpTipScale:
+      typeIdx: 1
+      value: 0.000000
+    hairstyleInstanceCount:
+      typeIdx: 1
+      value: 0.000000
+    hairstyleNoise:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeDelta:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+    strandTaper:
+      typeIdx: 1
+      value: 0.000000
+    strandWidth:
+      typeIdx: 1
+      value: 0.000000
+  Pass: !<reference> a1ed6f86-c9b7-44c1-ad11-9f1c2a75d66a

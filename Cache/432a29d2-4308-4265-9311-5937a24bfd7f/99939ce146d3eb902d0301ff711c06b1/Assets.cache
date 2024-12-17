@@ -1,0 +1,13 @@
+- !<AssetCache/99939ce1-46d3-eb90-2d03-01ff711c06b1>
+  AssetFiles:
+    51dd5a45-bc4f-49f7-8db6-53662b081cec: 432a29d2-4308-4265-9311-5937a24bfd7f/99939ce146d3eb902d0301ff711c06b1/Data/alpha_curly_wavy_long.png
+  Assets:
+    - !<FileTexture/51dd5a45-bc4f-49f7-8db6-53662b081cec>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 42
+        Height: 512
+  SourceHash: 99939ce146d3eb902d0301ff711c06b1
+  FileHash: 9763a5d02302af8c4111720e7fd46847
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache/b74e89a7-22ba-1e1a-f730-3132d0cf5d29>
+  AssetFiles:
+    81a4d61c-6892-4e1a-b1d0-0c3c54e1eaee: 05157b3f-62d2-424d-a4cc-ae40772faca4/b74e89a722ba1e1af7303132d0cf5d29/Data/circlesN.jpg
+  Assets:
+    - !<FileTexture/81a4d61c-6892-4e1a-b1d0-0c3c54e1eaee>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: b74e89a722ba1e1af7303132d0cf5d29
+  FileHash: 8d8a4cbda799e92fc150163b367fcc90
+  NativePackageItems:
+    []

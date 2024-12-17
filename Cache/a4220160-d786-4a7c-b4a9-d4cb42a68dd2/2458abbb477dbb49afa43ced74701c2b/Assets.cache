@@ -1,0 +1,16 @@
+- !<AssetCache/2458abbb-477d-bb49-afa4-3ced74701c2b>
+  AssetFiles:
+    01789ce8-1151-49af-815f-b9c4fa478f33: a4220160-d786-4a7c-b4a9-d4cb42a68dd2/2458abbb477dbb49afa43ced74701c2b/Data/SummerH 2.mesh
+  Assets:
+    - !<FileMesh/01789ce8-1151-49af-815f-b9c4fa478f33>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 764
+        Vertices: 579
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 2458abbb477dbb49afa43ced74701c2b
+  FileHash: ce4891b99f545fa4cba396eeed7546c4
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache/1a846e45-db13-1cf2-3423-c353db4fa5cc>
+  AssetFiles:
+    40e040f8-9454-45a7-8f51-66542ad6e38c: b07c3463-e2e1-4f47-9bde-af473651ef66/1a846e45db131cf23423c353db4fa5cc/Data/pier_2_spec.png
+  Assets:
+    - !<FileTexture/40e040f8-9454-45a7-8f51-66542ad6e38c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 256
+  SourceHash: 1a846e45db131cf23423c353db4fa5cc
+  FileHash: 0a6492421237fe45be8a992814ff55f7
+  NativePackageItems:
+    []

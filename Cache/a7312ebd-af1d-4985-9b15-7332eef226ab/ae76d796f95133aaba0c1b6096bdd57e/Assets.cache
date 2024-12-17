@@ -1,0 +1,10 @@
+- !<AssetCache/ae76d796-f951-33aa-ba0c-1b6096bdd57e>
+  AssetFiles:
+    6a85dc4d-4c2a-450b-8de2-959f334bb006: a7312ebd-af1d-4985-9b15-7332eef226ab/ae76d796f95133aaba0c1b6096bdd57e/Data/single_bun_front.hair
+  Assets:
+    - !<HairDataAsset/6a85dc4d-4c2a-450b-8de2-959f334bb006>
+      PackagePath: ""
+  SourceHash: ae76d796f95133aaba0c1b6096bdd57e
+  FileHash: 020caebc9dc4178da42372863bb8d194
+  NativePackageItems:
+    []

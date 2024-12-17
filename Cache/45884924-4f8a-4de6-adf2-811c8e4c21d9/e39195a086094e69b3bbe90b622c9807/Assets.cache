@@ -1,0 +1,13 @@
+- !<AssetCache/e39195a0-8609-4e69-b3bb-e90b622c9807>
+  AssetFiles:
+    5d6c5d02-a034-4651-a1f5-6fe2e44601ad: 45884924-4f8a-4de6-adf2-811c8e4c21d9/e39195a086094e69b3bbe90b622c9807/Data/hexagon_bokeh.jpg
+  Assets:
+    - !<FileTexture/5d6c5d02-a034-4651-a1f5-6fe2e44601ad>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: e39195a086094e69b3bbe90b622c9807
+  FileHash: b7559c8a6869cd4b2d07d1ddceb2ccf7
+  NativePackageItems:
+    []

@@ -1,0 +1,16 @@
+- !<AssetCache/ebb72ee7-ab28-a77f-6f14-9de301555c7b>
+  AssetFiles:
+    51a1e9fb-e4c9-4b53-8585-f99706f962ca: 57c2eaa8-9166-41c5-b4f5-bd9e7bc5b9b4/ebb72ee7ab28a77f6f149de301555c7b/Data/mosepads.mesh
+  Assets:
+    - !<FileMesh/51a1e9fb-e4c9-4b53-8585-f99706f962ca>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 256
+        Vertices: 164
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: ebb72ee7ab28a77f6f149de301555c7b
+  FileHash: a0905e3712a8a493f5dba28e4ff82095
+  NativePackageItems:
+    []

@@ -1,0 +1,1530 @@
+- !<AssetCache/66aa5e88-33c6-4a96-2a83-8feb96fc9abf>
+  AssetFiles:
+    33984bb1-0d24-40ac-a209-55b79a3f13a9: e7b0338c-17b5-42e0-aeba-5402634de4aa/66aa5e8833c64a962a838feb96fc9abf/Data/bunny_pink_hair.ss_graph
+  Assets:
+    - !<ShaderGraphPass/33984bb1-0d24-40ac-a209-55b79a3f13a9>
+      PackagePath: ""
+      DefaultDefines:
+        - NODE_167_DROPLIST_ITEM 0
+        - NODE_67_DROPLIST_ITEM 0
+        - NODE_257_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_Center_N174:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Center_N218:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Center_N274:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Center_N283:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Center_N337:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Center_N376:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Center_N434:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Default_N064:
+          typeIdx: 1
+          value: 0.000000
+        Port_Default_N070:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Default_N121:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Default_N123:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Default_N126:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Default_N139:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Default_N165:
+          typeIdx: 1
+          value: 0.000000
+        Port_Default_N211:
+          typeIdx: 1
+          value: 0.000000
+        Port_Default_N256:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Dimension_N434:
+          typeIdx: 3
+          value: {x: 1.000000, y: 1.000000}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N170:
+          typeIdx: 1
+          value: 0.340000
+        Port_Import_N172:
+          typeIdx: 3
+          value: {x: 2.000000, y: 0.510000}
+        Port_Import_N183:
+          typeIdx: 1
+          value: 6.000000
+        Port_Import_N215:
+          typeIdx: 3
+          value: {x: 0.340000, y: 0.150000}
+        Port_Import_N227:
+          typeIdx: 1
+          value: 9.000000
+        Port_Import_N240:
+          typeIdx: 1
+          value: 0.370000
+        Port_Import_N272:
+          typeIdx: 3
+          value: {x: 0.740000, y: 0.080000}
+        Port_Import_N281:
+          typeIdx: 3
+          value: {x: 0.430000, y: 0.140000}
+        Port_Import_N292:
+          typeIdx: 1
+          value: 7.000000
+        Port_Import_N305:
+          typeIdx: 1
+          value: 0.600000
+        Port_Import_N315:
+          typeIdx: 1
+          value: 7.000000
+        Port_Import_N328:
+          typeIdx: 1
+          value: 0.600000
+        Port_Import_N335:
+          typeIdx: 3
+          value: {x: 0.080000, y: 0.140000}
+        Port_Import_N346:
+          typeIdx: 1
+          value: 4.000000
+        Port_Import_N359:
+          typeIdx: 1
+          value: 0.600000
+        Port_Import_N374:
+          typeIdx: 3
+          value: {x: 0.800000, y: 0.090000}
+        Port_Import_N385:
+          typeIdx: 1
+          value: 7.000000
+        Port_Import_N398:
+          typeIdx: 1
+          value: 0.600000
+        Port_Input0_N143:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input0_N173:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input0_N182:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input0_N201:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Input0_N217:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input0_N226:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input0_N273:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input0_N282:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input0_N291:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input0_N314:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input0_N336:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input0_N345:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input0_N375:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input0_N384:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N040:
+          typeIdx: 1
+          value: 5.000000
+        Port_Input1_N048:
+          typeIdx: 1
+          value: 0.010000
+        Port_Input1_N079:
+          typeIdx: 1
+          value: 0.010000
+        Port_Input1_N114:
+          typeIdx: 1
+          value: 0.100000
+        Port_Input1_N115:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Input1_N138:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N147:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N166:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N175:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N176:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N179:
+          typeIdx: 1
+          value: -1.000000
+        Port_Input1_N185:
+          typeIdx: 1
+          value: 3.000000
+        Port_Input1_N188:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N198:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N206:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N219:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N220:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N223:
+          typeIdx: 1
+          value: -1.000000
+        Port_Input1_N229:
+          typeIdx: 1
+          value: 3.000000
+        Port_Input1_N232:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N243:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N249:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N260:
+          typeIdx: 1
+          value: 6.000000
+        Port_Input1_N264:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N275:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N276:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N284:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N285:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N288:
+          typeIdx: 1
+          value: -1.000000
+        Port_Input1_N294:
+          typeIdx: 1
+          value: 3.000000
+        Port_Input1_N297:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N308:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N310:
+          typeIdx: 1
+          value: -1.000000
+        Port_Input1_N317:
+          typeIdx: 1
+          value: 3.000000
+        Port_Input1_N320:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N331:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N338:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N339:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N342:
+          typeIdx: 1
+          value: -1.000000
+        Port_Input1_N348:
+          typeIdx: 1
+          value: 3.000000
+        Port_Input1_N351:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N362:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N366:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N377:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N378:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N381:
+          typeIdx: 1
+          value: -1.000000
+        Port_Input1_N387:
+          typeIdx: 1
+          value: 3.000000
+        Port_Input1_N390:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N401:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N402:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N404:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N405:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N433:
+          typeIdx: 1
+          value: 180.000000
+        Port_Input2_N138:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N185:
+          typeIdx: 1
+          value: 50.000000
+        Port_Input2_N198:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N206:
+          typeIdx: 1
+          value: 0.800000
+        Port_Input2_N229:
+          typeIdx: 1
+          value: 50.000000
+        Port_Input2_N243:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N294:
+          typeIdx: 1
+          value: 50.000000
+        Port_Input2_N308:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N317:
+          typeIdx: 1
+          value: 50.000000
+        Port_Input2_N331:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N348:
+          typeIdx: 1
+          value: 50.000000
+        Port_Input2_N362:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N387:
+          typeIdx: 1
+          value: 50.000000
+        Port_Input2_N401:
+          typeIdx: 1
+          value: 1.000000
+        Port_LODValue_N065:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N071:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N090:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N093:
+          typeIdx: 1
+          value: 0.000000
+        Port_Metallic_N049:
+          typeIdx: 1
+          value: 0.000000
+        Port_Normal_N049:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Normal_N057:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_Offset_N199:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.270000}
+        Port_Offset_N245:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.155000}
+        Port_Offset_N269:
+          typeIdx: 3
+          value: {x: 0.000000, y: -0.260000}
+        Port_Offset_N278:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.065000}
+        Port_Offset_N371:
+          typeIdx: 3
+          value: {x: 0.000000, y: -0.250000}
+        Port_Opacity_N049:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N056:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N081:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N118:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N056:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N081:
+          typeIdx: 1
+          value: 1.100000
+        Port_RangeMaxB_N118:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N196:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N241:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N306:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N329:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N360:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N399:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMinA_N056:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N081:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N118:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N196:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N241:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N306:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N329:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N360:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N399:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N081:
+          typeIdx: 1
+          value: 0.500000
+        Port_RangeMinB_N118:
+          typeIdx: 1
+          value: -1.000000
+        Port_RangeMinB_N196:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N241:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N306:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N329:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N360:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N399:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Roughness_N049:
+          typeIdx: 1
+          value: 1.000000
+        Port_Scale_N437:
+          typeIdx: 3
+          value: {x: 22.000000, y: 22.000000}
+        Port_SpecularAO_N049:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_UVCoord_N090:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Value0_N121:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Value0_N123:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Value0_N126:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Value3_N028:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N250:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N259:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N268:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N370:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N028:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N101:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N250:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N259:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N268:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N370:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value_N054:
+          typeIdx: 1
+          value: 0.250000
+        Port_Value_N151:
+          typeIdx: 1
+          value: 5.000000
+        Port_Value_N252:
+          typeIdx: 1
+          value: 0.300000
+        Port_Value_N253:
+          typeIdx: 1
+          value: -0.200000
+        Port_Value_N265:
+          typeIdx: 1
+          value: 0.820000
+        Port_Value_N367:
+          typeIdx: 1
+          value: 0.700000
+        Port_VectorIn_N094:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_VectorIn_N095:
+          typeIdx: 4
+          value: {x: 1.000000, y: 0.000000, z: 0.000000}
+        Port_VectorIn_N096:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_VectorIn_N097:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData/00000000-0000-0000-0000-000000000000>
+        ExtraDefines:
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Style
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Falloff
+            mType: Property
+            mName: colorFalloff
+            mWidget: slider
+            mHint: |-
+              Property: colorFalloff
+              
+              0 = base, 1 = linear, 2 = ends
+            mMin: 0.000000
+            mMax: 2.000000
+            mStep: 0.100000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColorRGB
+            mWidget: color
+            mHint: |-
+              Property: baseColorRGB
+              
+              color of hair base
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Ends Color
+            mType: Property
+            mName: endsColor
+            mWidget: color
+            mHint: |-
+              Property: endsColor
+              
+              color of hair ends
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Decoloration
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: decolorizeIntensity
+            mWidget: slider
+            mHint: |-
+              Property: decolorizeIntensity
+              
+              decolorization intensity
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color
+            mType: Property
+            mName: decolorizeColor
+            mWidget: color
+            mHint: |-
+              Property: decolorizeColor
+              
+              decolorization color
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Seed
+            mType: Property
+            mName: decolorizeSeed
+            mWidget: spinbox
+            mHint: |-
+              Property: decolorizeSeed
+              
+              decolorization area seed
+            mMin: ~
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: AreaScale
+            mType: Property
+            mName: decolorizeAreaScale
+            mWidget: spinbox
+            mHint: |-
+              Property: decolorizeAreaScale
+              
+              decolorization area scale
+            mMin: ~
+            mMax: ~
+            mStep: 0.100000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Define
+            mName: Tweak_N204
+            mWidget: group_start
+            mHint: "Define: Tweak_N204"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Property
+            mName: baseTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: baseTexture
+              
+              custom color map for the base
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N204
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Ends Texture
+            mType: Define
+            mName: Tweak_N50
+            mWidget: group_start
+            mHint: "Define: Tweak_N50"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Ends Texture
+            mType: Property
+            mName: endsTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: endsTexture
+              
+              custom color map for the ends
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N50
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Light
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Rim Exponent
+            mType: Property
+            mName: rimExponent
+            mWidget: spinbox
+            mHint: |-
+              Property: rimExponent
+              
+              rim light falloff
+            mMin: ~
+            mMax: ~
+            mStep: 0.100000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rim Intensity
+            mType: Property
+            mName: rimIntensity
+            mWidget: spinbox
+            mHint: |-
+              Property: rimIntensity
+              
+              rim light strength
+            mMin: ~
+            mMax: ~
+            mStep: 0.100000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rim Color
+            mType: Property
+            mName: rimColor
+            mWidget: color
+            mHint: |-
+              Property: rimColor
+              
+              rim light color
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Subsurface
+            mType: Property
+            mName: subsurface
+            mWidget: color
+            mHint: |-
+              Property: subsurface
+              
+              light shining through tips of hair
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: AO
+            mType: Property
+            mName: AO
+            mWidget: slider
+            mHint: |-
+              Property: AO
+              
+              darker near base
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Rainbow
+            mType: Define
+            mName: Tweak_N160
+            mWidget: group_start
+            mHint: "Define: Tweak_N160"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Rings Count
+            mType: Property
+            mName: rainbowRingsCount
+            mWidget: spinbox
+            mHint: |-
+              Property: rainbowRingsCount
+              
+              overrides current colors with a rainbow effect
+            mMin: ~
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rainbow Offset
+            mType: Property
+            mName: rainbowOffset
+            mWidget: slider
+            mHint: |-
+              Property: rainbowOffset
+              
+              rainbow rings offset
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N160
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Hair Shape
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Density
+            mType: Property
+            mName: uvScaleTex
+            mWidget: spinbox
+            mHint: |-
+              Property: uvScaleTex
+              
+              hair density
+            mMin: ~
+            mMax: ~
+            mStep: 0.500000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: UVs
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: "uvs to use for distributing hairs (on face mesh, coords 1 is more uniform)"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Coords 0
+                mType: DefineSelectValue
+                mName: NODE_257_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Coords 1
+                mType: DefineSelectValue
+                mName: NODE_257_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Use Texture
+            mType: Define
+            mName: Tweak_N63
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N63
+              
+              use a custom (repeatable/tileable) texture for the shape of the hairs
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Shape Texture
+            mType: Property
+            mName: shapeTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: shapeTexture
+              
+              repeatable black & white noise pattern to use as base for the hairs
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N63
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Length
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Hair Length
+            mType: Property
+            mName: hairLength
+            mWidget: spinbox
+            mHint: |-
+              Property: hairLength
+              
+              overall multiplier for length of hair
+            mMin: ~
+            mMax: ~
+            mStep: 0.100000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Cutoff
+            mType: Property
+            mName: cutoff
+            mWidget: spinbox
+            mHint: |-
+              Property: cutoff
+              
+              remove hairs below this length
+            mMin: ~
+            mMax: ~
+            mStep: 0.200000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Mask
+            mType: Define
+            mName: Tweak_N164
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N164
+              
+              use a custom hair length map
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Mask Type
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: pick a texture type to use as length mask
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Texture
+                mType: DefineSelectValue
+                mName: NODE_167_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Face Mesh Beard
+                mType: DefineSelectValue
+                mName: NODE_167_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Face Mesh Moustache
+                mType: DefineSelectValue
+                mName: NODE_167_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Face Mesh Eyebrows
+                mType: DefineSelectValue
+                mName: NODE_167_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Face Mesh Unibrow
+                mType: DefineSelectValue
+                mName: NODE_167_DROPLIST_ITEM 4
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Custom Length Texture
+            mType: Property
+            mName: customLengthTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: customLengthTexture
+              
+              black & white texture of hair length on mesh
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Use Uv From
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: uvs to use for custom hair length map
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Coords 0
+                mType: DefineSelectValue
+                mName: NODE_67_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Coords 1
+                mType: DefineSelectValue
+                mName: NODE_67_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Custom Length Blend
+            mType: Property
+            mName: customLengthBlend
+            mWidget: slider
+            mHint: |-
+              Property: customLengthBlend
+              
+              strength of custom hair length map
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N164
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Variation
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Strength
+            mType: Property
+            mName: variationStrength
+            mWidget: slider
+            mHint: "Property: variationStrength"
+            mMin: 0.000000
+            mMax: 2.000000
+            mStep: 0.050000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: variationScale
+            mWidget: slider
+            mHint: |-
+              Property: variationScale
+              
+              density of variation pattern
+            mMin: 0.000000
+            mMax: 100.000000
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Sharpness
+            mType: Property
+            mName: variationSharpness
+            mWidget: slider
+            mHint: |-
+              Property: variationSharpness
+              
+              sharpness in the variation of hair length
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Thickness
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Bend Direction
+            mType: Property
+            mName: bendDirection
+            mWidget: spinbox
+            mHint: |-
+              Property: bendDirection
+              
+              direction to bend hair ends towards
+            mMin: ~
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Fluffy
+            mType: Property
+            mName: fluffy
+            mWidget: spinbox
+            mHint: |-
+              Property: fluffy
+              
+              hair thickness falloff changes the fluffyness
+            mMin: 0.050000
+            mMax: ~
+            mStep: 0.050000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Hair Transparency
+            mType: Property
+            mName: hairTransparency
+            mWidget: slider
+            mHint: "Property: hairTransparency"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Feathered Small Hairs
+            mType: Property
+            mName: featheredSmallHairs
+            mWidget: spinbox
+            mHint: |-
+              Property: featheredSmallHairs
+              
+              transparency falloff - makes hair with length variation feel more organic
+            mMin: ~
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Wind
+            mType: Define
+            mName: Tweak_N108
+            mWidget: group_start
+            mHint: "Define: Tweak_N108"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Wind Strength
+            mType: Property
+            mName: Tweak_N107
+            mWidget: slider
+            mHint: |-
+              Property: Tweak_N107
+              
+              amount of wind motion
+            mMin: 0.000000
+            mMax: 0.500000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Wind Speed
+            mType: Property
+            mName: Tweak_N110
+            mWidget: spinbox
+            mHint: |-
+              Property: Tweak_N110
+              
+              wind motion speed
+            mMin: ~
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Wind Scale
+            mType: Property
+            mName: windScale
+            mWidget: spinbox
+            mHint: |-
+              Property: windScale
+              
+              wind motion scale
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N108
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: e7b0338c-17b5-42e0-aeba-5402634de4aa/66aa5e8833c64a962a838feb96fc9abf/Data/804754a/bunny_pink_hair.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 66aa5e8833c64a962a838feb96fc9abf
+  FileHash: b6f4626bc89b010e43d9306d099199e5
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache/e75e4586-92e4-e859-d3b4-a8ba1992f565>
+  AssetFiles:
+    e5dcb88a-228c-48b7-bbfe-02464979bf18: 5d8dfe6d-9a2f-48c1-9381-d9b9c019a988/e75e458692e4e859d3b4a8ba1992f565/Data/beard.hair
+  Assets:
+    - !<HairDataAsset/e5dcb88a-228c-48b7-bbfe-02464979bf18>
+      PackagePath: ""
+  SourceHash: e75e458692e4e859d3b4a8ba1992f565
+  FileHash: b07dcdca2a9f7f495264618c907982a4
+  NativePackageItems:
+    []

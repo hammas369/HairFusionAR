@@ -1,0 +1,13 @@
+- !<AssetCache/17f90f6a-54c0-8d09-69ab-9af51c072288>
+  AssetFiles:
+    a7ce0b3e-f29f-4a06-8383-907cc7ec67de: 0c061b20-f27e-4088-99ac-7efbaa69c641/17f90f6a54c08d0969ab9af51c072288/Data/alpha_smallcurl_double.png
+  Assets:
+    - !<FileTexture/a7ce0b3e-f29f-4a06-8383-907cc7ec67de>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 153
+        Height: 256
+  SourceHash: 17f90f6a54c08d0969ab9af51c072288
+  FileHash: 3a0c3f089524c3db258d7fb2628f3a16
+  NativePackageItems:
+    []

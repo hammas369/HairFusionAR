@@ -1,0 +1,13 @@
+- !<AssetCache/8fb30574-0442-112b-e9a7-3c913023845e>
+  AssetFiles:
+    7156cef1-a10c-4e56-9553-0c45f9fc930c: 05ba772b-0f13-49aa-9419-e27849d805c3/8fb305740442112be9a73c913023845e/Data/Beard3.png
+  Assets:
+    - !<FileTexture/7156cef1-a10c-4e56-9553-0c45f9fc930c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 520
+        Height: 562
+  SourceHash: 8fb305740442112be9a73c913023845e
+  FileHash: 2d21691a3ffd64799a96a01ae3e7b8fc
+  NativePackageItems:
+    []

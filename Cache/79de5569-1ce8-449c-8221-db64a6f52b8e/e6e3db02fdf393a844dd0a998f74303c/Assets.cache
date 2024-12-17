@@ -1,0 +1,13 @@
+- !<AssetCache/e6e3db02-fdf3-93a8-44dd-0a998f74303c>
+  AssetFiles:
+    40fb4fbe-cb9a-4d13-8248-a14e70c868ff: 79de5569-1ce8-449c-8221-db64a6f52b8e/e6e3db02fdf393a844dd0a998f74303c/Data/hair (1).png
+  Assets:
+    - !<FileTexture/40fb4fbe-cb9a-4d13-8248-a14e70c868ff>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: e6e3db02fdf393a844dd0a998f74303c
+  FileHash: 9217ab43096997ed1ece4e045f554634
+  NativePackageItems:
+    []

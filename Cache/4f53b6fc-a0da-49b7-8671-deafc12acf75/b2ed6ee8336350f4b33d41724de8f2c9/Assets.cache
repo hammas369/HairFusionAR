@@ -1,0 +1,13 @@
+- !<AssetCache/b2ed6ee8-3363-50f4-b33d-41724de8f2c9>
+  AssetFiles:
+    9da72e7c-89e7-4340-b5c7-fd6b03388a60: 4f53b6fc-a0da-49b7-8671-deafc12acf75/b2ed6ee8336350f4b33d41724de8f2c9/Data/Hat6.png
+  Assets:
+    - !<FileTexture/9da72e7c-89e7-4340-b5c7-fd6b03388a60>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 520
+        Height: 562
+  SourceHash: b2ed6ee8336350f4b33d41724de8f2c9
+  FileHash: ab81c95dcc3b7b7873d1094e26f945ea
+  NativePackageItems:
+    []

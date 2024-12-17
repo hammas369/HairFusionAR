@@ -1,0 +1,184 @@
+- !<AssetCache/b6f46bb7-1d2a-27af-7979-edf608189895>
+  AssetFiles:
+    2201eee4-2715-4b39-b2a6-808a8b9c79a6: 35d52608-6684-4803-b63d-af25a86c05f2/b6f46bb71d2a27af7979edf608189895/Data/Blur Material LQ.ss_graph
+  Assets:
+    - !<ShaderGraphPass/2201eee4-2715-4b39-b2a6-808a8b9c79a6>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N056:
+          typeIdx: 1
+          value: 1.000000
+        Port_Import_N080:
+          typeIdx: 1
+          value: 2.000000
+        Port_Import_N096:
+          typeIdx: 1
+          value: 3.000000
+        Port_Input1_N013:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N034:
+          typeIdx: 3
+          value: {x: 2.000000, y: 2.000000}
+        Port_LODValue_N001:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N002:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N049:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N051:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N164:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N166:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N168:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N170:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_UVCoord_N001:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_UVCoord_N002:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Value3_N033:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N033:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value_N024:
+          typeIdx: 1
+          value: 0.214600
+        Port_Value_N026:
+          typeIdx: 1
+          value: 0.189900
+        Port_Value_N028:
+          typeIdx: 1
+          value: 0.131500
+        Port_Value_N030:
+          typeIdx: 1
+          value: 0.071300
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData/00000000-0000-0000-0000-000000000000>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Main Texture
+            mType: Property
+            mName: mainTexture
+            mWidget: texture_group
+            mHint: "Property: mainTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Tangent Texture
+            mType: Property
+            mName: tangentTexture
+            mWidget: texture_group
+            mHint: "Property: tangentTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Blur Term
+            mType: Property
+            mName: blurTerm
+            mWidget: slider
+            mHint: "Property: blurTerm"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 35d52608-6684-4803-b63d-af25a86c05f2/b6f46bb71d2a27af7979edf608189895/Data/804754a/Blur Material LQ.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: b6f46bb71d2a27af7979edf608189895
+  FileHash: f69cdd4413c1c4cfc2ffa7d9ba11aa6b
+  NativePackageItems:
+    []

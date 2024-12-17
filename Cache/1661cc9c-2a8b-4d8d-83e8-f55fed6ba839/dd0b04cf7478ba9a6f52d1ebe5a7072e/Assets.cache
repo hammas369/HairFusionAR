@@ -1,0 +1,13 @@
+- !<AssetCache/dd0b04cf-7478-ba9a-6f52-d1ebe5a7072e>
+  AssetFiles:
+    3fc06a3d-bae6-448c-89b9-44c14d910754: 1661cc9c-2a8b-4d8d-83e8-f55fed6ba839/dd0b04cf7478ba9a6f52d1ebe5a7072e/Data/shadow.jpg
+  Assets:
+    - !<FileTexture/3fc06a3d-bae6-448c-89b9-44c14d910754>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 256
+        Height: 256
+  SourceHash: dd0b04cf7478ba9a6f52d1ebe5a7072e
+  FileHash: 9e787e6fab05b924c03a5ff7b04beead
+  NativePackageItems:
+    []

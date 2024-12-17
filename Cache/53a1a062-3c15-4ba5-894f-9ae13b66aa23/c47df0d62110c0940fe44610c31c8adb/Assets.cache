@@ -1,0 +1,13 @@
+- !<AssetCache/c47df0d6-2110-c094-0fe4-4610c31c8adb>
+  AssetFiles:
+    e7ba8d14-d4bd-4e57-b1ae-76918e3997e3: 53a1a062-3c15-4ba5-894f-9ae13b66aa23/c47df0d62110c0940fe44610c31c8adb/Data/lit_reflective.jpg
+  Assets:
+    - !<FileTexture/e7ba8d14-d4bd-4e57-b1ae-76918e3997e3>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 32
+        Height: 32
+  SourceHash: c47df0d62110c0940fe44610c31c8adb
+  FileHash: a4ba8a751a578fff96d9dced3c3f5517
+  NativePackageItems:
+    []

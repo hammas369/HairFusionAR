@@ -1,0 +1,13 @@
+- !<AssetCache/23d550cb-fe3d-4979-a105-08ac8ddb334f>
+  AssetFiles:
+    e46310aa-1e5c-4ff7-be32-1543a0f85e38: c7f2a712-af1d-4bc4-9ad1-73e776e16498/23d550cbfe3d4979a10508ac8ddb334f/Data/glasses.png
+  Assets:
+    - !<FileTexture/e46310aa-1e5c-4ff7-be32-1543a0f85e38>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: 23d550cbfe3d4979a10508ac8ddb334f
+  FileHash: a67e93f472d003fde1cc8d1a4821ad42
+  NativePackageItems:
+    []

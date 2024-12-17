@@ -1,0 +1,10 @@
+- !<AssetCache/88bfb189-5959-33e4-bee2-51c7d10ce7f0>
+  AssetFiles:
+    3fe25d7c-5e25-4bd2-9b63-74e7ff00263b: bd7b9735-5b00-4bba-a7b9-6d7e5db7359e/88bfb189595933e4bee251c7d10ce7f0/Data/curly_blonde_front.hair
+  Assets:
+    - !<HairDataAsset/3fe25d7c-5e25-4bd2-9b63-74e7ff00263b>
+      PackagePath: ""
+  SourceHash: 88bfb189595933e4bee251c7d10ce7f0
+  FileHash: d43461900bfbef2bcaf0a63840373296
+  NativePackageItems:
+    []

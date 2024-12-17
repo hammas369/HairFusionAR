@@ -1,0 +1,10 @@
+- !<AssetCache/877e24d2-9967-a786-a794-ea7686aa4677>
+  AssetFiles:
+    46dc58d2-2469-4c3a-8832-f61bd9a476b3: b5dd4b55-3f32-4235-91ee-196b93c6ba32/877e24d29967a786a794ea7686aa4677/Data/casual_short_straight.hair
+  Assets:
+    - !<HairDataAsset/46dc58d2-2469-4c3a-8832-f61bd9a476b3>
+      PackagePath: ""
+  SourceHash: 877e24d29967a786a794ea7686aa4677
+  FileHash: d75b1cc71defc0323bff68d812e39d6a
+  NativePackageItems:
+    []

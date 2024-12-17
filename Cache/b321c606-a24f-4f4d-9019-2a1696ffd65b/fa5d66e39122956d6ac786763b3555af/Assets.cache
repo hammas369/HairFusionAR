@@ -1,0 +1,13 @@
+- !<AssetCache/fa5d66e3-9122-956d-6ac7-86763b3555af>
+  AssetFiles:
+    a88b98ae-47e9-42b9-8369-0f100aab9a4d: b321c606-a24f-4f4d-9019-2a1696ffd65b/fa5d66e39122956d6ac786763b3555af/Data/color.jpg
+  Assets:
+    - !<FileTexture/a88b98ae-47e9-42b9-8369-0f100aab9a4d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 256
+  SourceHash: fa5d66e39122956d6ac786763b3555af
+  FileHash: 49820acd77d8b92b4f4e4952981b7da5
+  NativePackageItems:
+    []

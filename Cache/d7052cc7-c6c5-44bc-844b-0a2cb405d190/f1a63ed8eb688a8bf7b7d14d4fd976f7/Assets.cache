@@ -1,0 +1,13 @@
+- !<AssetCache/f1a63ed8-eb68-8a8b-f7b7-d14d4fd976f7>
+  AssetFiles:
+    69c7e8ac-3d0b-4a73-b6ea-8a4c1a93eea9: d7052cc7-c6c5-44bc-844b-0a2cb405d190/f1a63ed8eb688a8bf7b7d14d4fd976f7/Data/lit_dark.jpg
+  Assets:
+    - !<FileTexture/69c7e8ac-3d0b-4a73-b6ea-8a4c1a93eea9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 32
+        Height: 32
+  SourceHash: f1a63ed8eb688a8bf7b7d14d4fd976f7
+  FileHash: b15eca3e1d3c80f8c90575882e90e112
+  NativePackageItems:
+    []

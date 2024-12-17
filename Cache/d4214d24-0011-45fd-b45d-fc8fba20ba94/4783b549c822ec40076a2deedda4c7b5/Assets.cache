@@ -1,0 +1,13 @@
+- !<AssetCache/4783b549-c822-ec40-076a-2deedda4c7b5>
+  AssetFiles:
+    f70dfc73-4d15-4b19-af72-c2ec3d765920: d4214d24-0011-45fd-b45d-fc8fba20ba94/4783b549c822ec40076a2deedda4c7b5/Data/lit_lowcontrast1.jpg
+  Assets:
+    - !<FileTexture/f70dfc73-4d15-4b19-af72-c2ec3d765920>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 32
+        Height: 32
+  SourceHash: 4783b549c822ec40076a2deedda4c7b5
+  FileHash: c97e5434d35a3f9a6ea639c7478a1c29
+  NativePackageItems:
+    []

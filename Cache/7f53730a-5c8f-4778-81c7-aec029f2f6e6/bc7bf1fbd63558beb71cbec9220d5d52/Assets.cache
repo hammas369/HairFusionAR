@@ -1,0 +1,16 @@
+- !<AssetCache/bc7bf1fb-d635-58be-b71c-bec9220d5d52>
+  AssetFiles:
+    de5ec5f2-3910-4253-8235-2bc50c8398b7: 7f53730a-5c8f-4778-81c7-aec029f2f6e6/bc7bf1fbd63558beb71cbec9220d5d52/Data/nose.mesh
+  Assets:
+    - !<FileMesh/de5ec5f2-3910-4253-8235-2bc50c8398b7>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 226
+        Vertices: 136
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: bc7bf1fbd63558beb71cbec9220d5d52
+  FileHash: 828ab3af3efdd3cdd2b09f2ea4a8aaa1
+  NativePackageItems:
+    []

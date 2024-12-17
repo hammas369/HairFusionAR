@@ -1,0 +1,13 @@
+- !<AssetCache/5bd75e33-25fe-d60d-fc53-8c2a4406e7cc>
+  AssetFiles:
+    0b51a730-4d1b-45b0-872d-4436ae26f494: a1a2a924-589f-4a0d-81ff-fe518d0da053/5bd75e3325fed60dfc538c2a4406e7cc/Data/alpha_curly_thin.png
+  Assets:
+    - !<FileTexture/0b51a730-4d1b-45b0-872d-4436ae26f494>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 38
+        Height: 381
+  SourceHash: 5bd75e3325fed60dfc538c2a4406e7cc
+  FileHash: 01af7255c84e9f94a2e8331063d51db6
+  NativePackageItems:
+    []

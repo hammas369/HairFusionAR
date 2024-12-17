@@ -1,0 +1,57 @@
+- !<AssetImportMetadata/893daacc-71e2-4f3d-8ec3-6385216a0cac>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 73fe68dd-abcb-407d-b2df-5084f5074d0e
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 73fe68dd-abcb-407d-b2df-5084f5074d0e
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> d8a61aee-5828-425f-9e29-3b53a30d7f44
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/5cbd3e58-2817-4204-814f-524642a85e55>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d8a61aee-5828-425f-9e29-3b53a30d7f44>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    baldML: false
+    carousals: false
+    headBindingGlasses: false
+    headBindingHair: false
+    headBindingHats: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - groups: !<reference.SceneObject[]>
+        []
+      group1items: !<reference.SceneObject[]>
+        []
+      group2items: !<reference.SceneObject[]>
+        []
+      carousals: !<reference.SceneObject[]>
+        []
+      baldML: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hairCamera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hatsCamera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hatsObjectsGroup: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      glassesObjectsGroup: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hairsObjectsGroup: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      facialHairsObjectsGroup: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      headBindingsHair: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      headBindingHair: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      headBindingHats: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      headBindingGlasses: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      xzhjdjskh: !<reference.Image> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,16 @@
+- !<AssetCache/36b0e974-2627-bf53-a96c-87d2454c12c4>
+  AssetFiles:
+    99c69258-662e-4fc5-b6d3-ad90cef46117: 5c17aa53-fe8a-45a2-a6c4-b53219833b5b/36b0e9742627bf53a96c87d2454c12c4/Data/Neck Occluder.mesh
+  Assets:
+    - !<FileMesh/99c69258-662e-4fc5-b6d3-ad90cef46117>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 36b0e9742627bf53a96c87d2454c12c4
+  FileHash: 6acc2d6dca717cac2926bda78005b496
+  NativePackageItems:
+    []

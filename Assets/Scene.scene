@@ -1,0 +1,4988 @@
+- !<Scene/0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99>
+  PackagePath: ""
+  objects:
+    - !<own> cde6cb09-43b5-4680-b2ea-ecbb16fb38e3
+    - !<own> f5ecf07c-822e-49f7-86c0-bef997ec7a3b
+    - !<own> 144137a2-75c6-4d90-a588-e495a2a212da
+    - !<own> 0a91ab2a-344a-4262-8506-e78b39193716
+    - !<own> a00eb2c9-902d-41f3-9525-8cbdbc022992
+    - !<own> 3e70b1f8-cf6b-4e35-863d-e83eb57620e8
+    - !<own> fe41cf16-66f8-44f7-a8d1-ccf192857eb0
+    - !<own> 013dd5eb-a285-49da-af19-635c1c64fd82
+    - !<own> 5fc3f1ff-7619-4e59-a650-06095a6607c9
+    - !<own> dd1bbd6c-8848-4c5b-9bbd-70440c3629cd
+  layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
+    userLayers:
+      - |
+        id: 3
+        name: Back Camera Layer
+        color: 0
+
+      - |
+        id: 6
+        name: Hair Layer
+        color: 1
+
+      - |
+        id: 1
+        name: LIVE
+        color: 2
+
+    HasOrtho: true
+  RenderOutput: !<reference> 19d6283f-626e-4a43-b1e2-3677f33a6a6f
+  RenderPreviewOutput: !<reference> 87d3b3ae-6747-45ed-81f2-3732ce65fc18
+  RenderOverlayOutput: !<reference> 00000000-0000-0000-0000-000000000000
+  PhysicsRootWorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0007195c-9875-4b15-8384-dddd9c070657>
+  PrefabRemaps:
+    []
+  Name: Head Binding Hats
+  Enabled: false
+  Layers: 8
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b709f7b0-3893-4176-b890-04ede732269a
+    - !<own> 1dd1f61a-48ca-4e01-8d26-79b0591fc154
+    - !<own> 56a6b418-e21f-4393-944a-0e3a615aba93
+    - !<own> 761a3a23-3d7b-4794-857a-0820438f4964
+    - !<own> d52f0bc2-6480-442a-a279-b0eb4d1ed861
+  Components:
+    - !<own> 03e9ad3b-5e14-4258-9560-56f04ead9ca7
+- !<SceneObject/013dd5eb-a285-49da-af19-635c1c64fd82>
+  PrefabRemaps:
+    []
+  Name: Hair Camera
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 774b28b3-abdb-467d-aca7-79e32a2d0222
+    - !<own> 0007195c-9875-4b15-8384-dddd9c070657
+    - !<own> b5ad0ffe-36b7-4d17-9798-8f1132186f07
+    - !<own> 6d4ddc0d-171c-4573-b53e-3442061d4fb0
+    - !<own> 3f0123fe-3fff-4dc2-9b02-617f687ec109
+    - !<own> 51184a0a-2fa5-4969-abf1-049c575519d6
+  Components:
+    - !<own> 67b95eee-f2db-402a-af10-38f1f10690d7
+- !<RenderMeshVisual/0235f6df-6e83-40df-8f62-cae14c92ad57>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d25c0859-4471-40c8-a3f8-da99ea77d926
+  Mesh: !<reference> 08054e41-57c6-4e7e-9b28-35c3d9d0577c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Head/03e9ad3b-5e14-4258-9560-56f04ead9ca7>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+- !<RectangleSetter/0457244e-9f3d-4d06-b063-eb20f2b6a6a0>
+  PrefabRemaps:
+    []
+  Name: Rectangle Setter
+  Enabled: true
+  CropTexture: !<reference> 01460fd7-4158-4440-8b43-c1b4cdc169a3
+- !<SceneObject/04833dc7-4974-4ce0-a235-1053367cad8e>
+  PrefabRemaps:
+    []
+  Name: Light
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 40.000000, y: 85.000000, z: 20.000000}
+    rotation: {x: 70.000000, y: 10.000000, z: 150.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e8f38b3a-ee8b-4c29-8c58-ad3f1ff97c37
+- !<SceneObject/09906340-b197-4010-918c-5a707adf9bd5>
+  PrefabRemaps:
+    []
+  Name: Glasses 3
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.102647, y: 8.021887, z: 9.324400}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.100652, y: 1.100652, z: 1.100652}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 89a3787a-7e10-47b6-b8c5-636b418b45d3
+    - !<own> 88a0a3db-dff7-465a-a990-2d3637cc1777
+    - !<own> 2bb17978-207e-4810-9111-ef07adc7cb22
+    - !<own> 805f3493-d6c5-48cd-a766-6f6c59d89fc1
+    - !<own> 0ef3588d-e305-4122-8a60-6795986bab01
+    - !<own> 56e32f08-d82d-421a-abfb-32ea07d5546e
+    - !<own> f26e28e1-3c57-4f8b-a01a-e348f37336c1
+  Components:
+    []
+- !<SceneObject/0a91ab2a-344a-4262-8506-e78b39193716>
+  PrefabRemaps:
+    []
+  Name: HatsIndexSlider
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ca7f7654-ecba-4b2f-8be4-fecae8541d43
+- !<Image/0aa27d8c-f66b-4bb9-bab7-311f0387b07d>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: FillAndCut
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 539e0faf-0fe6-4167-91ec-75ba857d4be7
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Image/0ad9cd7b-c97c-49e6-8682-f665237c0edc>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: FillAndCut
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 226f4bbf-95f0-4dd7-ac89-a5af52d0c206
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<InteractionComponent/0b3e0dc7-6ce7-4a4e-a06c-d2f8d955a345>
+  PrefabRemaps:
+    []
+  Name: Interaction
+  Enabled: true
+  Camera: !<reference> 00000000-0000-0000-0000-000000000000
+  MinimumTouchSize: 0.000000
+  DepthFilter: true
+  MeshVisuals:
+    []
+- !<SceneObject/0c8f8ff1-b93a-4fee-aa6d-013fff65dc22>
+  PrefabRemaps:
+    []
+  Name: Straight Long
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.427218, y: -1.297172, z: -42.208076}
+    rotation: {x: -83.642273, y: 0.000000, z: 0.000000}
+    scale: {x: 0.878772, y: 0.878772, z: 0.960066}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f28c357d-9ee1-493e-ae55-a106f2eda43b
+- !<SceneObject/0e39d369-0446-48da-8b98-6ae913c9efb4>
+  PrefabRemaps:
+    []
+  Name: Head Occluder
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d1209442-78b4-48b8-b869-42a3f1540783
+  Components:
+    []
+- !<SceneObject/0ef3588d-e305-4122-8a60-6795986bab01>
+  PrefabRemaps:
+    []
+  Name: Gold_1
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.300256}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bfcec630-afd6-4a80-9fd2-884f40142676
+- !<HairVisual/0fab3c79-847d-4a34-af4f-6129c78cd5c5>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> cffbf8f4-eba1-4292-a242-5891754be6ee
+  FallbackMode: false
+  HairData: !<reference> 3ad9341d-7886-4267-9b9b-b5bf2bdc03e6
+  NeighborRadius: 0.000000
+  CosThreshold: 0.090000
+  LengthThreshold: 19.900000
+  HairResolution: 15
+  SteppedCut: false
+  Cut: 0.850000
+  Width: 2.250000
+  Taper: 1.000000
+  Density: 15
+  DensityNoise: 0.500000
+  ClumpDensity: 0
+  ClumpRadius: 0.400000
+  ClumpTipScale: 1.900000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 40.000000
+  Friction: 0.180000
+  Gravity: {x: 0.000000, y: -0.700000, z: 0.000000}
+  StretchStiffness: 410.000000
+  BendStiffness: 360.000000
+  TwistStiffness: 200.000000
+  CollapseStiffness: 360.000000
+  HairStiffness: 0.650000
+  CollisionEnabled: true
+  CollisionStiffness: 27.900000
+  CollisionOffset: 0.800000
+  CollisionFriction: 1.000000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: true
+  SelfCollisionStiffness: 0.000000
+  SelfCollisionRadius: 2.700000
+  SelfCollisionFriction: 0.670000
+  WindEnabled: false
+  WindForce: {x: 1.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<ScriptComponent/10b5d9e7-f863-4f80-abe4-84e761173eb8>
+  PrefabRemaps:
+    []
+  Name: ChainController
+  Enabled: true
+  ScriptAsset: !<reference> a42a020c-884a-49a1-a1d4-5ff5de8262fe
+  ScriptInputsDefault:
+    anchorCount: true
+    timeSpeed: true
+    useCollider: true
+    collider: true
+    colliderForce: true
+    sizeMutiplier: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      joints: !<reference.SceneObject[]>
+        - !<reference> fc08f334-93ee-4480-b4de-bdb7f6ef5605
+        - !<reference> e4ce84f7-fc73-49bc-8c65-1f3c88b65051
+        - !<reference> 682803db-a745-46a1-9cc5-96e314290020
+        - !<reference> 5d59d59b-9c58-4c73-9cb0-4dfce6186ee1
+      anchorCount: 1
+      stiffness: 0.500000
+      type: 1
+      iterations: 5
+      timeSpeed: !<float> 1.000000
+      force: !<Vec3> {x: 0.000000, y: 0.500000, z: 0.000000}
+      isRelative: true
+      relativeTo: !<reference.SceneObject> 48ab0075-db49-43b5-ba3e-b9bf5565450f
+      addRotation: true
+      useCollider: false
+      collider: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      colliderForce: !<float> 0.000000
+      sizeMutiplier: !<float> 6.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/11eeb09e-b81b-4ba2-ae76-fdcd99e7b752>
+  PrefabRemaps:
+    []
+  Name: Bone.002
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 5.982160, z: 0.000000}
+    rotation: {x: -44.704865, y: 0.000071, z: -0.000032}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8aafa5b7-50d1-4bf2-ab76-f9dc75daa737
+  Components:
+    []
+- !<SceneObject/1383c380-1f84-4311-b97b-b85d44728075>
+  PrefabRemaps:
+    []
+  Name: lenses
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.000000, y: -0.299808, z: -3.808515}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.910000, y: 0.910000, z: 0.910000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a65884c5-68f0-44c8-a27c-3dec1c12c7a2
+- !<SceneObject/144137a2-75c6-4d90-a588-e495a2a212da>
+  PrefabRemaps:
+    []
+  Name: FacialHairIndexSlider
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 452fe1fb-1d7f-4fb1-ba62-f561f563fc4a
+- !<HairVisual/14724aaf-b7c7-4d59-abf5-854b8f5428c2>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> 40ce86bb-668d-4499-9034-9cd32c10dbc6
+  FallbackMode: false
+  HairData: !<reference> f43fc981-0a88-4610-bf0a-5bec3f0fd4a7
+  NeighborRadius: 0.200000
+  CosThreshold: 0.000000
+  LengthThreshold: 7.300000
+  HairResolution: 7
+  SteppedCut: true
+  Cut: 1.000000
+  Width: 1.900000
+  Taper: 0.590000
+  Density: 8
+  DensityNoise: 1.000000
+  ClumpDensity: 0
+  ClumpRadius: 0.400000
+  ClumpTipScale: 4.300000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 8.100000
+  Friction: 0.820000
+  Gravity: {x: 0.000000, y: -1.000000, z: -1.000000}
+  StretchStiffness: 1620.000000
+  BendStiffness: 680.000000
+  TwistStiffness: 3020.000000
+  CollapseStiffness: 960.000000
+  HairStiffness: 1.250000
+  CollisionEnabled: true
+  CollisionStiffness: 0.100000
+  CollisionOffset: 0.850000
+  CollisionFriction: 0.930000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: true
+  SelfCollisionStiffness: 0.000000
+  SelfCollisionRadius: 2.900000
+  SelfCollisionFriction: 0.820000
+  WindEnabled: true
+  WindForce: {x: 0.000000, y: -1.000000, z: -1.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<ScreenTransform/14ce51e0-6cb2-4360-ad49-0b6d719731bf>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -0.693566
+    right: 1.000000
+    top: -0.233275
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/150cba35-ec5a-4324-a5b3-e1cfb8c9c88a>
+  PrefabRemaps:
+    []
+  Name: right_ear_mesh
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 50.582809, y: 80.570244, z: 17.361794}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 38ab737f-92ce-44de-a416-f3a1b5836f41
+    - !<own> 622e3b1a-852d-4784-8a10-1870a71c47cf
+- !<HairVisual/1a176db7-e2c9-40b5-afb1-0092ff643b10>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> 0d8b59fb-d357-42d6-92dd-567127356f49
+  FallbackMode: false
+  HairData: !<reference> 0314ce61-57b1-4a91-bc0e-5221bfd97534
+  NeighborRadius: 0.500000
+  CosThreshold: 0.190000
+  LengthThreshold: 0.000000
+  HairResolution: 7
+  SteppedCut: false
+  Cut: 1.000000
+  Width: 1.150000
+  Taper: 1.000000
+  Density: 15
+  DensityNoise: 0.850000
+  ClumpDensity: 0
+  ClumpRadius: 0.400000
+  ClumpTipScale: 1.300000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 24.500000
+  Friction: 0.420000
+  Gravity: {x: 0.000000, y: -0.500000, z: 0.000000}
+  StretchStiffness: 740.000000
+  BendStiffness: 1280.000000
+  TwistStiffness: 830.000000
+  CollapseStiffness: 1200.000000
+  HairStiffness: 0.650000
+  CollisionEnabled: true
+  CollisionStiffness: 24.000000
+  CollisionOffset: 0.800000
+  CollisionFriction: 1.000000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: false
+  SelfCollisionStiffness: 23.799999
+  SelfCollisionRadius: 1.700000
+  SelfCollisionFriction: 0.670000
+  WindEnabled: false
+  WindForce: {x: 1.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<HairVisual/1c9464b8-0a51-4333-9952-4331e44322e8>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> ac20065f-d429-4951-a8ea-3c7f5b06c39d
+  FallbackMode: false
+  HairData: !<reference> 0ddfa7be-e146-4d48-810e-91ec60771d0a
+  NeighborRadius: 4.000000
+  CosThreshold: 0.440000
+  LengthThreshold: 17.299999
+  HairResolution: 18
+  SteppedCut: false
+  Cut: 1.000000
+  Width: 0.600000
+  Taper: 1.000000
+  Density: 15
+  DensityNoise: 0.850000
+  ClumpDensity: 0
+  ClumpRadius: 0.500000
+  ClumpTipScale: -0.100000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 31.400000
+  Friction: 0.470000
+  Gravity: {x: 0.000000, y: -0.700000, z: 0.000000}
+  StretchStiffness: 1400.000000
+  BendStiffness: 1030.000000
+  TwistStiffness: 1160.000000
+  CollapseStiffness: 740.000000
+  HairStiffness: 0.500000
+  CollisionEnabled: true
+  CollisionStiffness: 15.100000
+  CollisionOffset: 0.800000
+  CollisionFriction: 0.300000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: true
+  SelfCollisionStiffness: 24.600000
+  SelfCollisionRadius: 1.700000
+  SelfCollisionFriction: 0.380000
+  WindEnabled: false
+  WindForce: {x: 1.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<ScriptComponent/1d8b2dce-7e1e-4cac-85a9-a2c70e7da712>
+  PrefabRemaps:
+    []
+  Name: Image Carousel
+  Enabled: true
+  ScriptAsset: !<reference> cc5291bd-c378-4564-b9b6-baec9abb41ea
+  ScriptInputsDefault:
+    behaviors: true
+    customTrigger: true
+    visibleItems: true
+    itemSize: true
+    carouselRadius: true
+    opacity: true
+    backgroundColor: true
+    advanced: true
+    ringMargin: true
+    itemRotation: true
+    baseRenderOrder: true
+    touchSensitivity: true
+    magnetForce: true
+    inertiaForce: true
+    delayCallback: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      images: !<reference.Texture[]>
+        - !<reference> aeac4ec0-7cfb-4f31-8c7f-76b0a7777740
+        - !<reference> d16fe27e-5af8-48a9-be73-3432e31c3838
+        - !<reference> 96be918b-5b4e-4c25-b012-60f3fd02d5ed
+      callbackType: 3
+      behaviors: !<reference.ScriptComponent[]>
+        []
+      customTrigger: !<string[]>
+        []
+      callbackScript: !<reference.ScriptComponent> 5a77a286-7410-4250-be49-a570fefe1d99
+      callbackFuncName: setItem
+      visibleItems: 3
+      itemSize: 1.900000
+      carouselRadius: 1.900000
+      opacity: !<float> 1.000000
+      backgroundColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      advanced: false
+      ringMargin: 0.200000
+      itemRotation: !<float> 0.000000
+      baseRenderOrder: 0
+      touchSensitivity: !<float> 2.000000
+      magnetForce: 0.400000
+      inertiaForce: 0.150000
+      delayCallback: !<float> 0.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/1dd1f61a-48ca-4e01-8d26-79b0591fc154>
+  PrefabRemaps:
+    []
+  Name: EyearHat
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7101877a-9eef-489f-b84f-d04b7466bcf7
+    - !<own> b65abe0e-a8b4-4955-a2aa-c8a193769c8f
+  Components:
+    []
+- !<HairVisual/1e323f87-81df-4c29-abfa-5d163d3d4dce>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> 6a4ae755-ef94-489e-b468-46b82f2b9e16
+  FallbackMode: false
+  HairData: !<reference> 3fe25d7c-5e25-4bd2-9b63-74e7ff00263b
+  NeighborRadius: 4.300000
+  CosThreshold: 0.870000
+  LengthThreshold: 0.000000
+  HairResolution: 15
+  SteppedCut: false
+  Cut: 0.800000
+  Width: 1.150000
+  Taper: 1.000000
+  Density: 15
+  DensityNoise: 0.850000
+  ClumpDensity: 0
+  ClumpRadius: 0.900000
+  ClumpTipScale: 0.500000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 30.700001
+  Friction: 0.850000
+  Gravity: {x: 0.000000, y: -0.700000, z: 0.000000}
+  StretchStiffness: 2310.000000
+  BendStiffness: 2070.000000
+  TwistStiffness: 1160.000000
+  CollapseStiffness: 740.000000
+  HairStiffness: 1.900000
+  CollisionEnabled: true
+  CollisionStiffness: 27.000000
+  CollisionOffset: 0.800000
+  CollisionFriction: 1.000000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: false
+  SelfCollisionStiffness: 23.799999
+  SelfCollisionRadius: 1.700000
+  SelfCollisionFriction: 0.670000
+  WindEnabled: false
+  WindForce: {x: 1.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<SceneObject/1e9bfe24-7dd9-4fb6-b070-270b044629bb>
+  PrefabRemaps:
+    []
+  Name: Bone
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.000000, y: 19.047043, z: -0.610223}
+    rotation: {x: -150.968201, y: 0.000036, z: 0.000020}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 934b735f-1c49-4105-94c2-63d18a723513
+  Components:
+    []
+- !<SceneObject/1f903ae1-eefe-481c-961e-88c6297f4a87>
+  PrefabRemaps:
+    []
+  Name: Bone.002_2
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.000000, y: 0.486225, z: -0.000000}
+    rotation: {x: 15.463011, y: 1.970575, z: -9.105121}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4d9cc6b9-e8ff-49d4-bb39-40eae24b845b
+  Components:
+    []
+- !<ScriptComponent/21add8f4-944c-41ca-8beb-34cac427bf9c>
+  PrefabRemaps:
+    []
+  Name: Button
+  Enabled: true
+  ScriptAsset: !<reference> 1dc1c35c-8142-45c1-ab88-17795e5ba200
+  ScriptInputsDefault:
+    index: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      ButtonController: !<reference.ScriptComponent> b2086685-9af8-4035-923a-a36c9173cd6e
+      index: !<float> 0.000000
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/23afa309-a9bd-4b61-a658-e27b14881382>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5997e77e-ec8f-4c11-8ec4-274f327a383e
+  Mesh: !<reference> ee9cfc93-61c5-4106-884e-7d6595cd5e27
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/2531c010-f017-42ea-94e1-edbe01bac480>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8dbb695f-2f8e-47d1-876a-532d445435c4
+  Mesh: !<reference> 692a5afb-097d-4154-aea7-dcb55eec2ba3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/27e0af83-40db-4ab6-a35d-2df06e1ae9e5>
+  PrefabRemaps:
+    []
+  Name: Envmap
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 65.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 60d75264-5511-4fdf-ae9b-cb4a70b91c54
+- !<RenderMeshVisual/2814eb42-349e-46da-bb77-c2d4d7cf8681>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ba6bdcff-329d-41b0-a590-6d21cbabcc36
+  Mesh: !<reference> 563aef06-922b-4049-8aa4-463d017371f2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/29a18f08-c652-4958-a812-b4eb755d0b7f>
+  PrefabRemaps:
+    []
+  Name: BeardButton
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 567fe5fc-7caa-4da7-a59c-03e0b6120a6b
+    - !<own> 0ad9cd7b-c97c-49e6-8682-f665237c0edc
+    - !<own> a593589a-fad2-4764-bca7-0bce0fb5ee32
+    - !<own> 9b45fcc8-bddf-49b0-8a59-d32776827672
+- !<HairVisual/2b5ef109-df42-4f34-ac57-a640c2dee42e>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> 0f24c937-b449-4d1c-9ce7-11d1373eb4ee
+  FallbackMode: false
+  HairData: !<reference> 54a48aa1-ffb9-4f1e-9b68-15075c395566
+  NeighborRadius: 1.600000
+  CosThreshold: 0.900000
+  LengthThreshold: 12.400000
+  HairResolution: 0
+  SteppedCut: false
+  Cut: 0.875000
+  Width: 1.550000
+  Taper: 1.000000
+  Density: 10
+  DensityNoise: 0.650000
+  ClumpDensity: 0
+  ClumpRadius: 0.200000
+  ClumpTipScale: -0.600000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 16.900000
+  Friction: 0.640000
+  Gravity: {x: 0.000000, y: 0.000000, z: 0.000000}
+  StretchStiffness: 2610.000000
+  BendStiffness: 1130.000000
+  TwistStiffness: 290.000000
+  CollapseStiffness: 810.000000
+  HairStiffness: 1.250000
+  CollisionEnabled: true
+  CollisionStiffness: 4.500000
+  CollisionOffset: 1.050000
+  CollisionFriction: 0.230000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: false
+  SelfCollisionStiffness: 3.600000
+  SelfCollisionRadius: 0.700000
+  SelfCollisionFriction: 0.030000
+  WindEnabled: false
+  WindForce: {x: 1.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<SceneObject/2bb17978-207e-4810-9111-ef07adc7cb22>
+  PrefabRemaps:
+    []
+  Name: Dushki
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a3967400-b5f6-421b-bc08-50499aebef77
+- !<ScriptComponent/2c6a3527-6fac-45ac-b73f-961416c27dc3>
+  PrefabRemaps:
+    []
+  Name: GravityController
+  Enabled: true
+  ScriptAsset: !<reference> 9453950c-42ba-46f9-b86c-46c8ef225bc5
+  ScriptInputsDefault:
+    gravityForce: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      hairComponents: !<reference.SceneObject> db0a6d4b-d7fc-4b6e-af03-6c7bebaadd10
+      gravityForce: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/2c843894-6afd-48bd-9a19-b5ffbb56e193>
+  PrefabRemaps:
+    []
+  Name: Tied Up Hair
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c793dff0-11ea-415b-a36d-d126ce650743
+    - !<own> 65eeb958-9929-4bb3-8166-a981c9c8d13f
+  Components:
+    []
+- !<SceneObject/31a913b1-5181-4253-b101-5e89cbd7a19e>
+  PrefabRemaps:
+    []
+  Name: Short Sleek Silver
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.345911, y: -2.553032, z: -43.012627}
+    rotation: {x: 8.063725, y: -17.044987, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1a176db7-e2c9-40b5-afb1-0092ff643b10
+- !<RenderMeshVisual/32824b86-abbf-4b31-8acd-1c4c10088c9c>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 412e0edb-12f1-48f4-bd63-1ca9cb088b03
+  Mesh: !<reference> 4ea980ee-3c8b-41d6-8dac-fa2fa72516ff
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScreenTransform/33013b04-2504-4e6f-b2da-44e1fe910e0c>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.837282
+    bottom: -0.093183
+    right: -0.558468
+    top: 0.060722
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<RenderMeshVisual/337f89c2-8290-4615-b3da-b8ec12545694>
+  PrefabRemaps:
+    []
+  Name: Mesh Visual 1
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ba6bdcff-329d-41b0-a590-6d21cbabcc36
+  Mesh: !<reference> 99c69258-662e-4fc5-b6d3-ad90cef46117
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScreenTransform/33dc78d6-4ac4-4c32-a68a-8ba54e15095b>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: true
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<RenderMeshVisual/34cdda23-67d5-45e2-8fee-480f011c6991>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 713b560a-da32-4298-a7f1-bead41972fe7
+  Mesh: !<reference> 51a1e9fb-e4c9-4b53-8585-f99706f962ca
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/34f06e47-6b16-436d-a80a-fccac8a49cde>
+  PrefabRemaps:
+    []
+  Name: Smooth Straight Gradient
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.098406, y: -3.457769, z: -41.849678}
+    rotation: {x: -3.347289, y: 0.000000, z: 0.000000}
+    scale: {x: 0.941948, y: 1.017303, z: 0.941948}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c3fe00f1-e701-43c2-8c77-122c27657068
+- !<RenderMeshVisual/359a28df-f72f-4aa7-b14a-6d2eb6b40670>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6071c01d-4dc5-4a7b-b482-1e5953d580a8
+  Mesh: !<reference> e08cd130-e89a-43b8-9ee7-9579e57c2ff8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/366f534d-f331-4a77-84a2-75c39e3ab25c>
+  PrefabRemaps:
+    []
+  Name: Mustache 2
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.030521, y: 10.183559, z: 51.882790}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.591068, y: 0.591068, z: 0.591068}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2b5ef109-df42-4f34-ac57-a640c2dee42e
+- !<Camera/3734c539-36a7-4b50-a19a-bc9560b51308>
+  PrefabRemaps:
+    []
+  Name: Camera
+  Enabled: true
+  renderLayer: 8
+  MipmapLevel: 0
+  RenderOrder: 0
+  Size: 20.000000
+  Near: 1.000000
+  Far: 200.000000
+  Fov: 63.541019
+  ClearColor: !<CameraClearColor/00000000-0000-0000-0000-000000000000>
+    Mode: Background
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  ClearDepth: !<CameraClearDepth/00000000-0000-0000-0000-000000000000>
+    Mode: Value
+    Value: 1.000000
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Aspect: 1.000000
+  CameraType: Orthographic
+  DepthMode: Regular
+  DeviceProperty: All
+  AspectPreset: Custom
+  OitLayers: NoOit
+  RenderTarget: !<reference> 19d6283f-626e-4a43-b1e2-3677f33a6a6f
+  DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/375b431e-36e6-4752-af8c-044ee6e248f8>
+  PrefabRemaps:
+    []
+  Name: Head
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: -1.502774, z: -42.381828}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.904224, y: 0.904224, z: 0.904224}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5c73dc5c-441a-4c8c-8415-0501fbd2039d
+- !<Image/38071337-c11d-4ee1-968e-dcdf61ec15cf>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 53ff9b69-a0c1-43e3-8757-c52415ffd5d5
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/38ab737f-92ce-44de-a416-f3a1b5836f41>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0f26b949-6385-4f3a-8171-5464267929bd
+  Mesh: !<reference> 1475f52c-4723-4720-b51d-2577c6a7a4c8
+  Skin: !<reference> db265bf1-19f3-4198-8789-a3ab8cd6f08e
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScreenTransform/3acfdf52-7bdb-4673-a854-8f21d41e03aa>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -0.693566
+    right: 1.000000
+    top: -0.233275
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<InteractionComponent/3e026aec-2f87-44a8-9c39-6ff310960a2b>
+  PrefabRemaps:
+    []
+  Name: Interaction
+  Enabled: true
+  Camera: !<reference> 00000000-0000-0000-0000-000000000000
+  MinimumTouchSize: 0.000000
+  DepthFilter: true
+  MeshVisuals:
+    []
+- !<InteractionComponent/3e4b20c4-942b-451f-bff1-3d7d57291cad>
+  PrefabRemaps:
+    []
+  Name: Interaction
+  Enabled: true
+  Camera: !<reference> 00000000-0000-0000-0000-000000000000
+  MinimumTouchSize: 0.000000
+  DepthFilter: true
+  MeshVisuals:
+    []
+- !<SceneObject/3e70b1f8-cf6b-4e35-863d-e83eb57620e8>
+  PrefabRemaps:
+    []
+  Name: ButtonController
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b2086685-9af8-4035-923a-a36c9173cd6e
+- !<SceneObject/3e8b3dbe-925a-49be-9c65-4fb4d3afe63f>
+  PrefabRemaps:
+    []
+  Name: nose
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: -0.917134, z: 2.113091}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> eebbbcb0-a900-4b29-8c0c-eb88c14812a8
+- !<SceneObject/3f0123fe-3fff-4dc2-9b02-617f687ec109>
+  PrefabRemaps:
+    []
+  Name: "Hair Blur Settings [EDIT_SMOOTHNESS]"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9621c5a7-26f9-46d3-9db8-c6bba1d2d9a4
+- !<ScreenTransform/3f0c29dd-cf5d-4213-bd76-146e399736f7>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/4080b80d-ae2e-4e30-8ec6-9ec490412424>
+  PrefabRemaps:
+    []
+  Name: santa_hat.002
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.315652, y: 3.957187, z: -10.127692}
+    rotation: {x: 179.999985, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000015, z: 100.000015}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 359a28df-f72f-4aa7-b14a-6d2eb6b40670
+- !<SceneObject/4152d66e-dc88-4a07-9ba0-c8cdabe54e2b>
+  PrefabRemaps:
+    []
+  Name: Bokeh_VFX
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -20.596230}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> db4ac472-ea9c-4ee4-8bd3-e0668147cfbb
+- !<Skin/419281ae-abc1-4bc7-ba42-4e40eab7fb4a>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  skinBones:
+    Bone: !<reference> 1e9bfe24-7dd9-4fb6-b070-270b044629bb
+    Bone.001: !<reference> 934b735f-1c49-4105-94c2-63d18a723513
+    Bone.002: !<reference> 11eeb09e-b81b-4ba2-ae76-fdcd99e7b752
+    Bone.003: !<reference> 8aafa5b7-50d1-4bf2-ab76-f9dc75daa737
+    Bone.004: !<reference> d4b1560f-a1c0-4c16-bd9b-8170344b657d
+    Bone.005: !<reference> eac16108-ffe0-4dff-9402-fbe1d87cedc6
+    Bone.006: !<reference> 735b5188-dbfd-4d37-b045-3fafe6663927
+    Bone.007: !<reference> 9dbcb4ee-c0d3-47ef-8f2f-df592e69b76a
+    Bone.008: !<reference> 42cd732e-8c8a-4ed3-80df-7e4cd0a289ef
+    Bone.008_end: !<reference> a4e6dd1f-4eee-441f-a557-7c9414ee7b11
+    santa_hat: !<reference> 8f716ca5-5dfa-4be7-8452-8a4713231f82
+    santa_hat.001: !<reference> 954a7339-95c0-419e-a981-c7aa5f303679
+    santa_hat_rigged4: !<reference> 5477d66f-1355-40e5-995e-58ea17ec617c
+- !<SceneObject/42cd732e-8c8a-4ed3-80df-7e4cd0a289ef>
+  PrefabRemaps:
+    []
+  Name: Bone.008
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.000000, y: 2.600308, z: 0.000000}
+    rotation: {x: -12.528797, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a4e6dd1f-4eee-441f-a557-7c9414ee7b11
+  Components:
+    []
+- !<ScriptComponent/452fe1fb-1d7f-4fb1-ba62-f561f563fc4a>
+  PrefabRemaps:
+    []
+  Name: IndexSlider
+  Enabled: true
+  ScriptAsset: !<reference> 30ebb886-b3fa-416e-9f39-f3c5bd214b26
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      items: !<reference.SceneObject[]>
+        - !<reference> 536a313c-aa31-40e5-b1a7-eb57e6b4103e
+        - !<reference> 7b2c62d2-b0c9-468b-a394-6c1ad3bf0bb9
+        - !<reference> 366f534d-f331-4a77-84a2-75c39e3ab25c
+        - !<reference> cb263c0b-7915-4053-b1d4-805b74f4a836
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/48ab0075-db49-43b5-ba3e-b9bf5565450f>
+  PrefabRemaps:
+    []
+  Name: Bone
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: -0.057391, z: 0.000000}
+    rotation: {x: 63.637966, y: -0.000000, z: 0.000012}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> fc08f334-93ee-4480-b4de-bdb7f6ef5605
+  Components:
+    []
+- !<RenderMeshVisual/49dd5562-f358-423f-af63-5b7e0f2c07c6>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 16
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b5973ec4-efe3-48cf-b04b-9416b464135e
+  Mesh: !<reference> dca98a29-8041-4103-b0fb-9e6e28dd6101
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Camera/4a0cf996-7d31-48d0-a294-717946b87cac>
+  PrefabRemaps:
+    []
+  Name: Camera
+  Enabled: true
+  renderLayer: 2
+  MipmapLevel: 0
+  RenderOrder: 2
+  Size: 20.000000
+  Near: 1.000000
+  Far: 200.000000
+  Fov: 63.541019
+  ClearColor: !<CameraClearColor/00000000-0000-0000-0000-000000000000>
+    Mode: None
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  ClearDepth: !<CameraClearDepth/00000000-0000-0000-0000-000000000000>
+    Mode: Value
+    Value: 1.000000
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Aspect: 1.000000
+  CameraType: Orthographic
+  DepthMode: Regular
+  DeviceProperty: All
+  AspectPreset: Custom
+  OitLayers: NoOit
+  RenderTarget: !<reference> 87d3b3ae-6747-45ed-81f2-3732ce65fc18
+  DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Image/4aa52a33-db8f-4417-9830-338de4440a80>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: FillAndCut
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 132dfee8-b0ab-4605-a2f4-1fad62745f92
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/4b0e88b0-fd7f-4992-8ca0-768e899e432b>
+  PrefabRemaps:
+    []
+  Name: mosepads
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: -0.468098, z: 1.468318}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.910000, y: 0.910000, z: 0.910000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 34cdda23-67d5-45e2-8fee-480f011c6991
+- !<SceneObject/4b93a18b-5a14-4a3e-823f-c55868fda3f6>
+  PrefabRemaps:
+    []
+  Name: left_ear_mesh
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -47.822899, y: 84.717072, z: 17.319302}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b143bcde-29d8-4365-ac34-7b3ca204079a
+    - !<own> 4da9d64f-4e67-418f-a9d7-2d9f2712cdd8
+- !<SceneObject/4d507d81-d64d-43a5-8a91-b78b6d6e53ed>
+  PrefabRemaps:
+    []
+  Name: Hats Carousel
+  Enabled: false
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7ddf5ba0-5a99-4fe7-a397-6f7715955fd5
+    - !<own> 3acfdf52-7bdb-4673-a854-8f21d41e03aa
+- !<SceneObject/4d9cc6b9-e8ff-49d4-bb39-40eae24b845b>
+  PrefabRemaps:
+    []
+  Name: Bone.003_2
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.521805, z: -0.000000}
+    rotation: {x: 19.384995, y: -0.578880, z: -6.209174}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 69ea0056-6ef5-4f4f-9ecf-b56f7ac1549b
+  Components:
+    []
+- !<SceneObject/4da60629-924e-4842-895a-782252687d34>
+  PrefabRemaps:
+    []
+  Name: left_ear
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -22.024969, y: -24.379608, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 8.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5628e88b-338a-4993-ae89-b179b0c8f6a8
+  Components:
+    - !<own> cf21aa63-4ce1-45e7-a564-1ab2a5e4989a
+- !<RenderMeshVisual/4da9d64f-4e67-418f-a9d7-2d9f2712cdd8>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 337fb2e3-e8aa-4285-acce-9e87b0f0a363
+  Mesh: !<reference> 215e6dfa-654a-4833-91e0-fc2b2a731b93
+  Skin: !<reference> db265bf1-19f3-4198-8789-a3ab8cd6f08e
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4fd9673c-2efc-4ec8-b6a8-27b411f41a8f>
+  PrefabRemaps:
+    []
+  Name: Long Hair
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 55529b6c-46ea-4259-80e5-05d9a56c08d5
+    - !<own> 6fa37049-1355-4454-8fa5-0071569de821
+    - !<own> 0c8f8ff1-b93a-4fee-aa6d-013fff65dc22
+  Components:
+    []
+- !<SceneObject/51184a0a-2fa5-4969-abf1-049c575519d6>
+  PrefabRemaps:
+    []
+  Name: Optimization Settings
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 596dd659-aef5-4500-bef2-e7f6bf16afe9
+- !<SceneObject/536a313c-aa31-40e5-b1a7-eb57e6b4103e>
+  PrefabRemaps:
+    []
+  Name: Beard
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.008373, y: 7.391872, z: 47.164017}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.933776, y: 0.941254, z: 0.941254}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 61223571-f1b2-4785-9f86-c02c1f205931
+- !<SceneObject/5477d66f-1355-40e5-995e-58ea17ec617c>
+  PrefabRemaps:
+    []
+  Name: santa_hat_rigged
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000183, z: 0.000488}
+    rotation: {x: -0.000001, y: -0.000000, z: 0.000001}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8f716ca5-5dfa-4be7-8452-8a4713231f82
+    - !<own> 954a7339-95c0-419e-a981-c7aa5f303679
+  Components:
+    - !<own> 419281ae-abc1-4bc7-ba42-4e40eab7fb4a
+    - !<own> c74358b4-77fa-4fea-b805-e17b0a29dec0
+- !<RenderMeshVisual/54cd9a30-5068-413c-a9dd-198cedf76f56>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fc4519a5-81a2-4572-8334-98087f18fedd
+  Mesh: !<reference> a5718471-e001-420e-a8e4-6e16169f8e17
+  Skin: !<reference> 419281ae-abc1-4bc7-ba42-4e40eab7fb4a
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/55529b6c-46ea-4259-80e5-05d9a56c08d5>
+  PrefabRemaps:
+    []
+  Name: Curly Hair Mint Blue
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: -2.474822, y: -4.133938, z: -38.132378}
+    rotation: {x: 0.000000, y: 5.625403, z: 0.000000}
+    scale: {x: 1.205428, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b932d6c6-cb01-4a3a-82c7-c7d21da20541
+- !<SceneObject/55bedb4f-f21b-4be5-8029-0d6e9ec3bea3>
+  PrefabRemaps:
+    []
+  Name: HairButton
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 86e58cca-f4b4-4d0e-902b-583dc6178cdf
+    - !<own> 4aa52a33-db8f-4417-9830-338de4440a80
+    - !<own> 3e4b20c4-942b-451f-bff1-3d7d57291cad
+    - !<own> 21add8f4-944c-41ca-8beb-34cac427bf9c
+- !<RenderMeshVisual/55c8b751-8953-4fa3-84c9-3a598440a4c0>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0a8abad4-daf8-4271-bfdf-f69bf24272f6
+  Mesh: !<reference> f2e03206-b74c-42d8-896a-a566f8840114
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<HairVisual/5605ad37-71b6-459f-94d1-2da114303244>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> 2ebc514b-bf69-4d89-9724-037b88f2c1c3
+  FallbackMode: false
+  HairData: !<reference> dc87acd7-8ec9-47ab-8de0-9ca001c366e4
+  NeighborRadius: 0.000000
+  CosThreshold: 1.000000
+  LengthThreshold: 0.000000
+  HairResolution: 10
+  SteppedCut: false
+  Cut: 1.000000
+  Width: 1.600000
+  Taper: 1.000000
+  Density: 10
+  DensityNoise: 1.000000
+  ClumpDensity: 0
+  ClumpRadius: 0.400000
+  ClumpTipScale: 2.400000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 32.400002
+  Friction: 0.260000
+  Gravity: {x: 0.000000, y: -0.300000, z: 0.000000}
+  StretchStiffness: 360.000000
+  BendStiffness: 900.000000
+  TwistStiffness: 990.000000
+  CollapseStiffness: 1960.000000
+  HairStiffness: 1.250000
+  CollisionEnabled: false
+  CollisionStiffness: 21.600000
+  CollisionOffset: 0.000000
+  CollisionFriction: 1.000000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: false
+  SelfCollisionStiffness: 23.799999
+  SelfCollisionRadius: 1.700000
+  SelfCollisionFriction: 0.670000
+  WindEnabled: false
+  WindForce: {x: 1.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<SceneObject/5628e88b-338a-4993-ae89-b179b0c8f6a8>
+  PrefabRemaps:
+    []
+  Name: Bone_2
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: -0.091825, z: 0.000000}
+    rotation: {x: 60.200291, y: -6.765862, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 62ba8b42-ad58-45dc-a8cd-2afc45ec4acc
+  Components:
+    []
+- !<ScreenTransform/567fe5fc-7caa-4da7-a59c-03e0b6120a6b>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.850685
+    bottom: 0.110207
+    right: -0.571871
+    top: 0.264112
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/56a6b418-e21f-4393-944a-0e3a615aba93>
+  PrefabRemaps:
+    []
+  Name: Barbie Hat
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 12.410931, z: -0.992491}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.120000, y: 0.120000, z: 0.120000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 717f16bd-90be-42c9-b8ea-b22ce78f20a7
+  Components:
+    []
+- !<SceneObject/56e32f08-d82d-421a-abfb-32ea07d5546e>
+  PrefabRemaps:
+    []
+  Name: Glass
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -0.108979}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c06e1d54-2c51-40cb-9046-a3370eceb2ca
+- !<SceneObject/574b030f-ee0d-4805-95da-fece504d1571>
+  PrefabRemaps:
+    []
+  Name: Single Bun Bang
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.377200, y: 4.230286, z: 3.593700}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.709300, y: 0.664100, z: 0.843900}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a397966f-1674-4001-966c-7c64f041aec4
+- !<SceneObject/57d85385-bdc4-48b7-b674-990bfb606f80>
+  PrefabRemaps:
+    []
+  Name: Short Hair
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 31a913b1-5181-4253-b101-5e89cbd7a19e
+  Components:
+    []
+- !<ScriptComponent/596dd659-aef5-4500-bef2-e7f6bf16afe9>
+  PrefabRemaps:
+    []
+  Name: OptimizationController
+  Enabled: false
+  ScriptAsset: !<reference> 860d2d86-2c25-45b4-91fc-bb727cbfbbc0
+  ScriptInputsDefault:
+    optimizationThreshold: true
+    fpsThreshold: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      HairComponents: !<reference.SceneObject> db0a6d4b-d7fc-4b6e-af03-6c7bebaadd10
+      optimizationType: fpsThreshold
+      optimizationThreshold: 5
+      fpsThreshold: 10
+      optimizeML: true
+      MLComponent: !<reference.SceneObject> 7e61fd31-d045-44f1-bb11-eccf69d35ffc
+      printInfo: true
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/5a77a286-7410-4250-be49-a570fefe1d99>
+  PrefabRemaps:
+    []
+  Name: IndexSlider
+  Enabled: true
+  ScriptAsset: !<reference> 30ebb886-b3fa-416e-9f39-f3c5bd214b26
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      items: !<reference.SceneObject[]>
+        - !<reference> 77e37af3-8dc2-44c3-a158-16bbfbf93e83
+        - !<reference> 61c8b629-7c66-41c6-a4ba-02c41553911a
+        - !<reference> 09906340-b197-4010-918c-5a707adf9bd5
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/5c73dc5c-441a-4c8c-8415-0501fbd2039d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2d4d9749-90d2-4772-bcf1-64e840e9bc67
+  Mesh: !<reference> 52718af8-d13e-4847-92d8-53d94f6b873f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5d59d59b-9c58-4c73-9cb0-4dfce6186ee1>
+  PrefabRemaps:
+    []
+  Name: Bone.003_end
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.500489, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<Head/5ecbf950-d701-45d6-b815-816705106899>
+  PrefabRemaps:
+    []
+  Name: Head
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+- !<SceneObject/5fc3f1ff-7619-4e59-a650-06095a6607c9>
+  PrefabRemaps:
+    []
+  Name: "Front Orthographic Camera [TRY_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -120.000000, y: 0.000000, z: 40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 99f1a706-53c8-4d81-ada3-090549b9daa6
+  Components:
+    - !<own> 80ada4fc-2fbf-49a7-b6e2-576592e7df24
+- !<SceneObject/609f589a-c8ea-43a2-b1a7-7304e83f31e5>
+  PrefabRemaps:
+    []
+  Name: Double Ponytail Top
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 1.322086, y: -3.151256, z: -0.000004}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b73f0a7e-28dd-41ea-940b-0e8799fe6387
+- !<LightSource/60d75264-5511-4fdf-ae9b-cb4a70b91c54>
+  PrefabRemaps:
+    []
+  Name: Light Source
+  Enabled: true
+  renderLayer: 73
+  LightType: EnvMap
+  Intensity: 1.000000
+  CastShadows: false
+  ShadowDensity: 1.000000
+  ShadowBlurRadius: 0.000000
+  ShadowTextureSize: 512
+  AutoLightSourcePosition: false
+  AutoShadowFrustumSize: false
+  AutoShadowFrustumSizeExtend: 2.000000
+  ShadowFrustumSize: 30.000000
+  ShadowFrustumNearClipPlane: 1.000000
+  ShadowFrustumFarClipPlane: 1000.000000
+  UseEnvMapFromCamera: false
+  EnvMapFromCameraMode: Auto
+  UseEstimation: false
+  EstimationIntensity: 1.000000
+  EstimationSharpness: 1.000000
+  EnvMapExposure: 1.000000
+  EnvMapRotation: 0.000000
+  DiffuseEnvTexture: !<reference> 2013a19b-93c1-4f21-b7ea-876a33550c7b
+  SpecularEnvTexture: !<reference> d795fd46-e16b-4cb9-8dfb-4ef227298f7a
+  Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+  DynamicEnvInputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  InnerConeAngle: 0.000000
+  OuterConeAngle: 45.000000
+  DecayType: None
+  DecayLimit: false
+  DecayRange: 40.000000
+- !<RenderMeshVisual/611a2d7a-3127-4a78-a8c6-6f716fde7542>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  RenderOrder: 15
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2975d8ac-0c0c-46b8-aaf7-ccd49a38c1a6
+  Mesh: !<reference> d3da95ed-457f-4eb0-9818-5e13127c2f58
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<HairVisual/61223571-f1b2-4785-9f86-c02c1f205931>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> ef4737b5-9609-47a5-b5ae-9023a2e60e64
+  FallbackMode: false
+  HairData: !<reference> e5dcb88a-228c-48b7-bbfe-02464979bf18
+  NeighborRadius: 0.600000
+  CosThreshold: 0.510000
+  LengthThreshold: 20.100000
+  HairResolution: 0
+  SteppedCut: true
+  Cut: 1.000000
+  Width: 1.750000
+  Taper: 0.000000
+  Density: 1
+  DensityNoise: 0.750000
+  ClumpDensity: 0
+  ClumpRadius: 0.600000
+  ClumpTipScale: 0.600000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 16.900000
+  Friction: 0.640000
+  Gravity: {x: 0.000000, y: -5.000000, z: 0.000000}
+  StretchStiffness: 3160.000000
+  BendStiffness: 3030.000000
+  TwistStiffness: 2710.000000
+  CollapseStiffness: 2130.000000
+  HairStiffness: 0.300000
+  CollisionEnabled: false
+  CollisionStiffness: 4.500000
+  CollisionOffset: 0.000000
+  CollisionFriction: 0.230000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: true
+  SelfCollisionStiffness: 16.100000
+  SelfCollisionRadius: 0.900000
+  SelfCollisionFriction: 0.320000
+  WindEnabled: true
+  WindForce: {x: 0.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<SceneObject/61c8b629-7c66-41c6-a4ba-02c41553911a>
+  PrefabRemaps:
+    []
+  Name: Sunglasses 2
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.102178, y: 8.232524, z: 8.407766}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a2918704-0ec2-4079-b8fd-abea815a3b32
+    - !<own> 1383c380-1f84-4311-b97b-b85d44728075
+    - !<own> 4b0e88b0-fd7f-4992-8ca0-768e899e432b
+    - !<own> 3e8b3dbe-925a-49be-9c65-4fb4d3afe63f
+  Components:
+    []
+- !<RenderMeshVisual/622e3b1a-852d-4784-8a10-1870a71c47cf>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 337fb2e3-e8aa-4285-acce-9e87b0f0a363
+  Mesh: !<reference> 8ada8a63-a604-41c2-8b0a-3e2e2acbf231
+  Skin: !<reference> db265bf1-19f3-4198-8789-a3ab8cd6f08e
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/62ba8b42-ad58-45dc-a8cd-2afc45ec4acc>
+  PrefabRemaps:
+    []
+  Name: Bone.001_2
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.565859, z: -0.000000}
+    rotation: {x: 17.531145, y: -0.362790, z: 0.633474}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1f903ae1-eefe-481c-961e-88c6297f4a87
+  Components:
+    []
+- !<RenderMeshVisual/6535197b-18fb-4b59-8851-11ce42b2abf3>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2dd935e2-b67d-4c81-b04e-0d6be599b5bc
+  Mesh: !<reference> 0a03a738-dbd5-48f3-b44d-53b523cd6f9f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/65eeb958-9929-4bb3-8166-a981c9c8d13f>
+  PrefabRemaps:
+    []
+  Name: Double Ponytail
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: -1.249120, y: 0.616456, z: -45.631367}
+    rotation: {x: 16.010849, y: -0.000000, z: 0.000000}
+    scale: {x: 0.881124, y: 0.881124, z: 0.881124}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 609f589a-c8ea-43a2-b1a7-7304e83f31e5
+  Components:
+    - !<own> 0fab3c79-847d-4a34-af4f-6129c78cd5c5
+- !<Camera/67b95eee-f2db-402a-af10-38f1f10690d7>
+  PrefabRemaps:
+    []
+  Name: Camera
+  Enabled: true
+  renderLayer: 64
+  MipmapLevel: 0
+  RenderOrder: 1
+  Size: 20.000000
+  Near: 1.000000
+  Far: 1000.000000
+  Fov: 63.541019
+  ClearColor: !<CameraClearColor/00000000-0000-0000-0000-000000000000>
+    Mode: None
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  ClearDepth: !<CameraClearDepth/00000000-0000-0000-0000-000000000000>
+    Mode: Value
+    Value: 1.000000
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Aspect: 1.000000
+  CameraType: Perspective
+  DepthMode: Regular
+  DeviceProperty: All
+  AspectPreset: Custom
+  OitLayers: NoOit
+  RenderTarget: !<reference> 19d6283f-626e-4a43-b1e2-3677f33a6a6f
+  DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/682803db-a745-46a1-9cc5-96e314290020>
+  PrefabRemaps:
+    []
+  Name: Bone.003
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.574447, z: 0.000000}
+    rotation: {x: 23.662567, y: 0.154210, z: -0.609529}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5d59d59b-9c58-4c73-9cb0-4dfce6186ee1
+  Components:
+    []
+- !<SceneObject/69ea0056-6ef5-4f4f-9ecf-b56f7ac1549b>
+  PrefabRemaps:
+    []
+  Name: Bone.003_end_2
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.582248, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/6a5081cd-5657-4f02-b909-34c8ba8fee3b>
+  PrefabRemaps:
+    []
+  Name: HatsButton
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 33013b04-2504-4e6f-b2da-44e1fe910e0c
+    - !<own> fcb0b16f-6838-40e3-a8d3-5215fb9b121a
+    - !<own> 3e026aec-2f87-44a8-9c39-6ff310960a2b
+    - !<own> db4d28b5-9554-4f1f-87f8-25bcc6d8dd34
+- !<SceneObject/6b5d4b39-985e-425d-ad54-5c027f9afda7>
+  PrefabRemaps:
+    []
+  Name: Full Frame Region 0
+  Enabled: true
+  Layers: 8
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7e61fd31-d045-44f1-bb11-eccf69d35ffc
+  Components:
+    - !<own> edf3b217-c138-4d8c-8cd4-ef0b58e646cb
+    - !<own> 33dc78d6-4ac4-4c32-a68a-8ba54e15095b
+- !<SceneObject/6d4ddc0d-171c-4573-b53e-3442061d4fb0>
+  PrefabRemaps:
+    []
+  Name: "Gravity Settings [EDIT_GRAVITY_FORCE]"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2c6a3527-6fac-45ac-b73f-961416c27dc3
+- !<RenderMeshVisual/6d89c525-e979-4d91-8b08-4cf17f2a4fdc>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4012804b-4deb-42e6-b45c-c1c94296e0d5
+  Mesh: !<reference> abdd37ad-7038-433b-9a0c-517a5fe1f229
+  Skin: !<reference> 419281ae-abc1-4bc7-ba42-4e40eab7fb4a
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScreenTransform/6e49751d-03f2-4cb6-84d0-72635115edc3>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.830580
+    bottom: -0.285273
+    right: -0.551766
+    top: -0.131368
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/6fa37049-1355-4454-8fa5-0071569de821>
+  PrefabRemaps:
+    []
+  Name: Blonde
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: -3.277195, z: -45.441818}
+    rotation: {x: 6.080873, y: -0.000000, z: 0.000000}
+    scale: {x: 0.900000, y: 1.049210, z: 0.900000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ce3b621a-442f-42a7-8cdb-70771d1bca5e
+  Components:
+    - !<own> 1c9464b8-0a51-4333-9952-4331e44322e8
+- !<SceneObject/6fd1611b-d738-4e90-a94a-30f4f15ef888>
+  PrefabRemaps:
+    []
+  Name: SummerH
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000003, y: 0.000000, z: -74.688530}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 68.067619, y: 68.067619, z: 68.067619}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0235f6df-6e83-40df-8f62-cae14c92ad57
+    - !<own> f1a074f4-1356-4266-b504-e660c1df8349
+    - !<own> 8242c9f3-292d-40b7-84fc-6b1d86d885d8
+    - !<own> bf5f209c-aaaf-4827-9c8a-0e60e6c834a5
+- !<SceneObject/7101877a-9eef-489f-b84f-d04b7466bcf7>
+  PrefabRemaps:
+    []
+  Name: SantaHat
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.287974, y: 11.214791, z: -0.613956}
+    rotation: {x: -163.264679, y: -40.195568, z: 170.854675}
+    scale: {x: 0.006600, y: 0.006600, z: 0.006600}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5477d66f-1355-40e5-995e-58ea17ec617c
+    - !<own> 9009cc8e-573e-4822-baf6-9cf435989172
+  Components:
+    []
+- !<SceneObject/715570a3-99cf-4c72-814c-20283c03a9b3>
+  PrefabRemaps:
+    []
+  Name: Wavy
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.420046, y: 3.416282, z: -34.185509}
+    rotation: {x: 0.000000, y: 5.425401, z: 0.000000}
+    scale: {x: 0.899400, y: 0.993146, z: 0.921140}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b8ade95a-22b2-45cd-b0da-31280434d8ec
+  Components:
+    - !<own> ba3209ef-e4ec-4966-aa6c-aa258fca5c0a
+- !<SceneObject/717f16bd-90be-42c9-b8ea-b22ce78f20a7>
+  PrefabRemaps:
+    []
+  Name: HatB
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.001331, y: 47.728703, z: 10.938424}
+    rotation: {x: -11.516916, y: -0.232254, z: 0.014196}
+    scale: {x: 14.004067, y: 17.323914, z: 17.323912}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 32824b86-abbf-4b31-8acd-1c4c10088c9c
+    - !<own> 6535197b-18fb-4b59-8851-11ce42b2abf3
+    - !<own> c8a40415-3ef7-4d40-9c41-b6ded7b1401d
+- !<SceneObject/735b5188-dbfd-4d37-b045-3fafe6663927>
+  PrefabRemaps:
+    []
+  Name: Bone.006
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 4.258376, z: 0.000000}
+    rotation: {x: -13.837620, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9dbcb4ee-c0d3-47ef-8f2f-df592e69b76a
+  Components:
+    []
+- !<SceneObject/761a3a23-3d7b-4794-857a-0820438f4964>
+  PrefabRemaps:
+    []
+  Name: Oppenheimer Hat
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.063388, y: 11.971443, z: 2.420269}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.080000, y: 0.080000, z: 0.080000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 89b61fdd-4b82-4587-8442-7a95570e1123
+  Components:
+    []
+- !<SceneObject/767d3865-e70a-42f5-bcd3-45a3a012c614>
+  PrefabRemaps:
+    []
+  Name: Casual Short Straight Glowing Orange
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.229761, y: -2.459000, z: -42.150829}
+    rotation: {x: 5.406496, y: -0.000000, z: 0.000000}
+    scale: {x: 0.951919, y: 0.951919, z: 0.951919}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bed90439-25fd-42af-8f4d-f58600a26722
+- !<SceneObject/76c6bbe6-7c69-4369-a57c-a5dbb9740082>
+  PrefabRemaps:
+    []
+  Name: GlassesButton
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6e49751d-03f2-4cb6-84d0-72635115edc3
+    - !<own> 0aa27d8c-f66b-4bb9-bab7-311f0387b07d
+    - !<own> 0b3e0dc7-6ce7-4a4e-a06c-d2f8d955a345
+    - !<own> ba219512-f453-403b-ad8e-b9200c9eb2c7
+- !<ScriptComponent/771f746b-7f83-4303-915b-35b73f6026a0>
+  PrefabRemaps:
+    []
+  Name: Image Carousel
+  Enabled: true
+  ScriptAsset: !<reference> cc5291bd-c378-4564-b9b6-baec9abb41ea
+  ScriptInputsDefault:
+    behaviors: true
+    customTrigger: true
+    visibleItems: true
+    itemSize: true
+    carouselRadius: true
+    opacity: true
+    backgroundColor: true
+    advanced: true
+    ringMargin: true
+    itemRotation: true
+    baseRenderOrder: true
+    touchSensitivity: true
+    magnetForce: true
+    inertiaForce: true
+    delayCallback: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      images: !<reference.Texture[]>
+        - !<reference> 517df769-1577-4025-a0ec-26dd5c86b3e0
+        - !<reference> 3bf486ea-f9ff-4e3f-8604-f759ebda1678
+        - !<reference> 7156cef1-a10c-4e56-9553-0c45f9fc930c
+        - !<reference> c43d1dee-c91a-410f-ad77-6ef2d7cdcc26
+      callbackType: 3
+      behaviors: !<reference.ScriptComponent[]>
+        []
+      customTrigger: !<string[]>
+        []
+      callbackScript: !<reference.ScriptComponent> 452fe1fb-1d7f-4fb1-ba62-f561f563fc4a
+      callbackFuncName: setItem
+      visibleItems: 3
+      itemSize: 1.900000
+      carouselRadius: 1.900000
+      opacity: !<float> 1.000000
+      backgroundColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      advanced: false
+      ringMargin: 0.200000
+      itemRotation: !<float> 0.000000
+      baseRenderOrder: 0
+      touchSensitivity: !<float> 2.000000
+      magnetForce: 0.400000
+      inertiaForce: 0.150000
+      delayCallback: !<float> 0.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/774b28b3-abdb-467d-aca7-79e32a2d0222>
+  PrefabRemaps:
+    []
+  Name: Head Binding Hairs
+  Enabled: true
+  Layers: 8
+  LocalTransform:
+    position: {x: -0.058437, y: -7.865280, z: -49.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b8f8f482-9658-43e4-9dfc-0cd5c49e75bb
+    - !<own> db0a6d4b-d7fc-4b6e-af03-6c7bebaadd10
+  Components:
+    - !<own> 7920c887-464b-4cea-a88f-92cbadd8f8cd
+- !<SceneObject/77e37af3-8dc2-44c3-a158-16bbfbf93e83>
+  PrefabRemaps:
+    []
+  Name: Sunglasses 1
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e59f7480-a9e2-4856-b50e-9d818f42c3fd
+    - !<own> 788bfa33-c4a6-472c-aff7-35eb3875524a
+    - !<own> e7956afc-ab87-4669-bf10-bf449c43db2d
+  Components:
+    []
+- !<SceneObject/788bfa33-c4a6-472c-aff7-35eb3875524a>
+  PrefabRemaps:
+    []
+  Name: glasses
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.153900, y: 9.471720, z: -0.355261}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c7c49f3e-2fde-4de7-b207-e6a6a5248aea
+- !<Head/7920c887-464b-4cea-a88f-92cbadd8f8cd>
+  PrefabRemaps:
+    []
+  Name: Head
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+- !<SceneObject/7b2c62d2-b0c9-468b-a394-6c1ad3bf0bb9>
+  PrefabRemaps:
+    []
+  Name: Mustache 1
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.081046, y: 8.097766, z: 47.931877}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.126192, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b66e4868-c0fd-446f-ad0d-47da892a625f
+- !<ScriptComponent/7ddf5ba0-5a99-4fe7-a397-6f7715955fd5>
+  PrefabRemaps:
+    []
+  Name: Image Carousel
+  Enabled: true
+  ScriptAsset: !<reference> cc5291bd-c378-4564-b9b6-baec9abb41ea
+  ScriptInputsDefault:
+    behaviors: true
+    customTrigger: true
+    visibleItems: true
+    itemSize: true
+    carouselRadius: true
+    opacity: true
+    backgroundColor: true
+    advanced: true
+    ringMargin: true
+    itemRotation: true
+    baseRenderOrder: true
+    touchSensitivity: true
+    magnetForce: true
+    inertiaForce: true
+    delayCallback: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      images: !<reference.Texture[]>
+        - !<reference> 49bd4bf5-d65c-4df2-8042-3898ed4f6d39
+        - !<reference> 96225c39-2464-408a-ae5c-6507fc21da3f
+        - !<reference> 4d159f68-d206-4748-9512-85ce59a89bde
+        - !<reference> 9da72e7c-89e7-4340-b5c7-fd6b03388a60
+      callbackType: 3
+      behaviors: !<reference.ScriptComponent[]>
+        []
+      customTrigger: !<string[]>
+        []
+      callbackScript: !<reference.ScriptComponent> ca7f7654-ecba-4b2f-8be4-fecae8541d43
+      callbackFuncName: setItem
+      visibleItems: 3
+      itemSize: 1.900000
+      carouselRadius: 1.900000
+      opacity: !<float> 1.000000
+      backgroundColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      advanced: false
+      ringMargin: 0.200000
+      itemRotation: !<float> 0.000000
+      baseRenderOrder: 0
+      touchSensitivity: !<float> 2.000000
+      magnetForce: 0.400000
+      inertiaForce: 0.150000
+      delayCallback: !<float> 0.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/7e61fd31-d045-44f1-bb11-eccf69d35ffc>
+  PrefabRemaps:
+    []
+  Name: ML Bald Layer
+  Enabled: true
+  Layers: 8
+  LocalTransform:
+    position: {x: 120.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.053478}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d4fe5898-78e3-4f07-93e9-d2f6e7c2b73d
+    - !<own> 0457244e-9f3d-4d06-b063-eb20f2b6a6a0
+    - !<own> 38071337-c11d-4ee1-968e-dcdf61ec15cf
+    - !<own> 8251622a-6c93-430e-9952-40feaffc0626
+- !<SceneObject/805f3493-d6c5-48cd-a766-6f6c59d89fc1>
+  PrefabRemaps:
+    []
+  Name: Oprava
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 49dd5562-f358-423f-af63-5b7e0f2c07c6
+- !<Camera/80ada4fc-2fbf-49a7-b6e2-576592e7df24>
+  PrefabRemaps:
+    []
+  Name: Camera
+  Enabled: true
+  renderLayer: 1048576
+  MipmapLevel: 0
+  RenderOrder: 2
+  Size: 20.000000
+  Near: 1.000000
+  Far: 200.000000
+  Fov: 63.541019
+  ClearColor: !<CameraClearColor/00000000-0000-0000-0000-000000000000>
+    Mode: None
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  ClearDepth: !<CameraClearDepth/00000000-0000-0000-0000-000000000000>
+    Mode: Value
+    Value: 1.000000
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Aspect: 1.000000
+  CameraType: Orthographic
+  DepthMode: Regular
+  DeviceProperty: All
+  AspectPreset: Custom
+  OitLayers: NoOit
+  RenderTarget: !<reference> 19d6283f-626e-4a43-b1e2-3677f33a6a6f
+  DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/8242c9f3-292d-40b7-84fc-6b1d86d885d8>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 036eb910-7c53-4295-9a8c-9c8c5f27cbb1
+  Mesh: !<reference> 204a2bd1-f444-4592-b46b-f344f585ae15
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<MLComponent/8251622a-6c93-430e-9952-40feaffc0626>
+  PrefabRemaps:
+    []
+  Name: ML Component
+  Enabled: true
+  RenderOrder: 0
+  AutoBuild: true
+  AutoRun: true
+  Inputs:
+    - !<MLInput/00000000-0000-0000-0000-000000000000>
+      Name: data
+      Shape: {x: 320.000000, y: 320.000000, z: 3.000000}
+      Normalizations:
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+      Transformer:
+        stretch: true
+        alignment.horizontal: Center
+        alignment.vertical: Center
+        fill: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+        flipX: false
+        flipY: false
+        rotation: None
+      Texture: !<reference> 01460fd7-4158-4440-8b43-c1b4cdc169a3
+  Outputs:
+    - !<MLOutput/00000000-0000-0000-0000-000000000000>
+      Name: output_0
+      Shape: {x: 320.000000, y: 320.000000, z: 4.000000}
+      Normalizations:
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+      InputName: ""
+      OutputTexture: !<reference> b2b60879-241c-4c3c-8cdd-9cc0cf465199
+  Model: !<reference> 46cfb0e5-36ed-471f-9fcd-df5ba09326dd
+- !<ScreenTransform/86e58cca-f4b4-4d0e-902b-583dc6178cdf>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.850685
+    bottom: 0.324896
+    right: -0.571871
+    top: 0.478801
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/88a0a3db-dff7-465a-a990-2d3637cc1777>
+  PrefabRemaps:
+    []
+  Name: Gold
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.882654, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 611a2d7a-3127-4a78-a8c6-6f716fde7542
+- !<SceneObject/89a3787a-7e10-47b6-b8c5-636b418b45d3>
+  PrefabRemaps:
+    []
+  Name: Rim_oprava
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ef65d20c-112b-4f0b-80b0-0a907502e9a2
+- !<SceneObject/89b61fdd-4b82-4587-8442-7a95570e1123>
+  PrefabRemaps:
+    []
+  Name: HatO
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 23afa309-a9bd-4b61-a658-e27b14881382
+    - !<own> 9626b06c-a13c-447d-ab3f-c1e6dbd053a0
+- !<SceneObject/8aafa5b7-50d1-4bf2-ab76-f9dc75daa737>
+  PrefabRemaps:
+    []
+  Name: Bone.003
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.000000, y: 4.380194, z: -0.000000}
+    rotation: {x: -45.917175, y: -0.000073, z: 0.000020}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d4b1560f-a1c0-4c16-bd9b-8170344b657d
+  Components:
+    []
+- !<ScreenTransform/8abba0b5-50b6-44dc-9c31-b2102044006f>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -0.693566
+    right: 1.000000
+    top: -0.233275
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/8b1ab3df-0c2d-4a56-b4a4-70aa74bed7f8>
+  PrefabRemaps:
+    []
+  Name: right_ear
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 21.727589, y: -25.481506, z: -1.846207}
+    rotation: {x: -90.000000, y: -0.000000, z: -31.450682}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 48ab0075-db49-43b5-ba3e-b9bf5565450f
+  Components:
+    - !<own> 10b5d9e7-f863-4f80-abe4-84e761173eb8
+- !<SceneObject/8f716ca5-5dfa-4be7-8452-8a4713231f82>
+  PrefabRemaps:
+    []
+  Name: santa_hat
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.000000, y: -0.000018, z: 0.000039}
+    rotation: {x: 179.999985, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 54cd9a30-5068-413c-a9dd-198cedf76f56
+    - !<own> 6d89c525-e979-4d91-8b08-4cf17f2a4fdc
+- !<SceneObject/9009cc8e-573e-4822-baf6-9cf435989172>
+  PrefabRemaps:
+    []
+  Name: shadow1
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 37.109375, y: 101.296814, z: -75.309082}
+    rotation: {x: -3.067787, y: -1.644091, z: 0.362961}
+    scale: {x: 0.923077, y: 0.923077, z: 0.923077}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4080b80d-ae2e-4e30-8ec6-9ec490412424
+  Components:
+    []
+- !<RenderMeshVisual/90ebb51a-3fc7-4fbb-ac71-6c715d849d55>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 713b560a-da32-4298-a7f1-bead41972fe7
+  Mesh: !<reference> 18a1fe07-21e5-4552-a9a8-15feffa12b89
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9275668f-6890-4a62-8692-acdb0dc856c3>
+  PrefabRemaps:
+    []
+  Name: Facial Hair
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.044953, y: -9.387684, z: -87.203796}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.951814, y: 0.951814, z: 0.951814}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 536a313c-aa31-40e5-b1a7-eb57e6b4103e
+    - !<own> 7b2c62d2-b0c9-468b-a394-6c1ad3bf0bb9
+    - !<own> 366f534d-f331-4a77-84a2-75c39e3ab25c
+    - !<own> cb263c0b-7915-4053-b1d4-805b74f4a836
+  Components:
+    []
+- !<SceneObject/934b735f-1c49-4105-94c2-63d18a723513>
+  PrefabRemaps:
+    []
+  Name: Bone.001
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.000000, y: 7.644827, z: 0.000000}
+    rotation: {x: -0.274502, y: 0.000014, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 11eeb09e-b81b-4ba2-ae76-fdcd99e7b752
+  Components:
+    []
+- !<RenderMeshVisual/94daeb6e-c681-42d5-8cde-e059cf1ef3b3>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7713c57d-a921-4a05-a2fb-dfa51acee3c1
+  Mesh: !<reference> 49af1702-1a80-4e83-b48f-baf2ec16b91f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/954a7339-95c0-419e-a981-c7aa5f303679>
+  PrefabRemaps:
+    []
+  Name: santa_hat.001
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 1661.986572, z: -998.371765}
+    rotation: {x: 149.951431, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1e9bfe24-7dd9-4fb6-b070-270b044629bb
+  Components:
+    []
+- !<ScriptComponent/9621c5a7-26f9-46d3-9db8-c6bba1d2d9a4>
+  PrefabRemaps:
+    []
+  Name: HairBlurController
+  Enabled: true
+  ScriptAsset: !<reference> 51570c72-6907-436c-8a5d-456344909d7e
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      smoothness: 0.500000
+      hairBlurHQ: !<reference.Material> 15c59878-adc5-48bf-b591-cf57d5d2972f
+      hairBlurLQ: !<reference.Material> 15e499a1-52d0-46f1-9c37-a0477b0e33f1
+      advanced: true
+      hairComponents: !<reference.SceneObject> db0a6d4b-d7fc-4b6e-af03-6c7bebaadd10
+      camera: !<reference.Camera> 67b95eee-f2db-402a-af10-38f1f10690d7
+      finalRenderTarget: !<reference.Texture> 19d6283f-626e-4a43-b1e2-3677f33a6a6f
+      tangentRenderTarget: !<reference.Texture> 59ab1797-1b2b-4d48-9e74-3ff05604b431
+      printInfo: true
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/9626b06c-a13c-447d-ab3f-c1e6dbd053a0>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 26284a3e-07cd-48da-bd09-b63c4689cbec
+  Mesh: !<reference> 34bcf0d0-e4da-4922-bfaa-1496206266cf
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/972c69dc-af55-4431-9cce-4515676bf740>
+  PrefabRemaps:
+    []
+  Name: IndexSlider
+  Enabled: true
+  ScriptAsset: !<reference> 30ebb886-b3fa-416e-9f39-f3c5bd214b26
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      items: !<reference.SceneObject[]>
+        - !<reference> 31a913b1-5181-4253-b101-5e89cbd7a19e
+        - !<reference> 34f06e47-6b16-436d-a80a-fccac8a49cde
+        - !<reference> 767d3865-e70a-42f5-bcd3-45a3a012c614
+        - !<reference> 715570a3-99cf-4c72-814c-20283c03a9b3
+        - !<reference> aa4adb32-a65a-4b8b-894e-48f3ff03dc43
+        - !<reference> 55529b6c-46ea-4259-80e5-05d9a56c08d5
+        - !<reference> 6fa37049-1355-4454-8fa5-0071569de821
+        - !<reference> 0c8f8ff1-b93a-4fee-aa6d-013fff65dc22
+        - !<reference> c793dff0-11ea-415b-a36d-d126ce650743
+        - !<reference> 65eeb958-9929-4bb3-8166-a981c9c8d13f
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/98966be3-d93d-4336-a7af-57bbedaa9e22>
+  PrefabRemaps:
+    []
+  Name: Mid-Length Hair
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 34f06e47-6b16-436d-a80a-fccac8a49cde
+    - !<own> 767d3865-e70a-42f5-bcd3-45a3a012c614
+    - !<own> 715570a3-99cf-4c72-814c-20283c03a9b3
+    - !<own> aa4adb32-a65a-4b8b-894e-48f3ff03dc43
+  Components:
+    []
+- !<SceneObject/99f1a706-53c8-4d81-ada3-090549b9daa6>
+  PrefabRemaps:
+    []
+  Name: Screen Overlay
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f9f0f409-d012-4005-a601-4d737b84e84d
+    - !<own> b13ef92e-4127-4fbf-bd6b-628872f917d0
+    - !<own> 4d507d81-d64d-43a5-8a91-b78b6d6e53ed
+    - !<own> a07fe7ab-32cd-4067-b118-e938c773ec9a
+    - !<own> 4152d66e-dc88-4a07-9ba0-c8cdabe54e2b
+    - !<own> 55bedb4f-f21b-4be5-8029-0d6e9ec3bea3
+    - !<own> 29a18f08-c652-4958-a812-b4eb755d0b7f
+    - !<own> 6a5081cd-5657-4f02-b909-34c8ba8fee3b
+    - !<own> 76c6bbe6-7c69-4369-a57c-a5dbb9740082
+  Components:
+    - !<own> a035c135-9e33-45e8-a0a0-bc856d0dcd8f
+    - !<own> 3f0c29dd-cf5d-4213-bd76-146e399736f7
+- !<ScriptComponent/9b45fcc8-bddf-49b0-8a59-d32776827672>
+  PrefabRemaps:
+    []
+  Name: Button
+  Enabled: true
+  ScriptAsset: !<reference> 1dc1c35c-8142-45c1-ab88-17795e5ba200
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      ButtonController: !<reference.ScriptComponent> b2086685-9af8-4035-923a-a36c9173cd6e
+      index: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/9dbcb4ee-c0d3-47ef-8f2f-df592e69b76a>
+  PrefabRemaps:
+    []
+  Name: Bone.007
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 4.000883, z: 0.000000}
+    rotation: {x: -6.271086, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 42cd732e-8c8a-4ed3-80df-7e4cd0a289ef
+  Components:
+    []
+- !<SceneObject/a00eb2c9-902d-41f3-9525-8cbdbc022992>
+  PrefabRemaps:
+    []
+  Name: GlassesIndexSlider
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5a77a286-7410-4250-be49-a570fefe1d99
+- !<ScreenRegionComponent/a035c135-9e33-45e8-a0a0-bc856d0dcd8f>
+  PrefabRemaps:
+    []
+  Name: Screen Region
+  Enabled: true
+  ScreenRegionType: FullFrame
+  ResizeWithKeyboard: false
+- !<SceneObject/a07fe7ab-32cd-4067-b118-e938c773ec9a>
+  PrefabRemaps:
+    []
+  Name: Glasses Carousel
+  Enabled: false
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1d8b2dce-7e1e-4cac-85a9-a2c70e7da712
+    - !<own> 8abba0b5-50b6-44dc-9c31-b2102044006f
+- !<SceneObject/a2918704-0ec2-4079-b8fd-abea815a3b32>
+  PrefabRemaps:
+    []
+  Name: frame
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.000000, y: -0.299808, z: -3.808515}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.910000, y: 0.910000, z: 0.910000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 90ebb51a-3fc7-4fbb-ac71-6c715d849d55
+- !<RenderMeshVisual/a3967400-b5f6-421b-bc08-50499aebef77>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  RenderOrder: 14
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b5973ec4-efe3-48cf-b04b-9416b464135e
+  Mesh: !<reference> 5beaf713-afae-4984-b460-b2504e25c136
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<HairVisual/a397966f-1674-4001-966c-7c64f041aec4>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> 354a16ec-a734-4c86-9837-36e5413bf73e
+  FallbackMode: false
+  HairData: !<reference> 6a85dc4d-4c2a-450b-8de2-959f334bb006
+  NeighborRadius: 14.200000
+  CosThreshold: 0.550000
+  LengthThreshold: 0.000000
+  HairResolution: 9
+  SteppedCut: false
+  Cut: 1.000000
+  Width: 1.000000
+  Taper: 0.620000
+  Density: 15
+  DensityNoise: 0.600000
+  ClumpDensity: 0
+  ClumpRadius: 0.500000
+  ClumpTipScale: 0.700000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 14.900000
+  Friction: 0.730000
+  Gravity: {x: 0.000000, y: -0.500000, z: 0.000000}
+  StretchStiffness: 740.000000
+  BendStiffness: 910.000000
+  TwistStiffness: 1900.000000
+  CollapseStiffness: 540.000000
+  HairStiffness: 3.700000
+  CollisionEnabled: true
+  CollisionStiffness: 24.000000
+  CollisionOffset: 0.800000
+  CollisionFriction: 1.000000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: false
+  SelfCollisionStiffness: 23.799999
+  SelfCollisionRadius: 1.700000
+  SelfCollisionFriction: 0.670000
+  WindEnabled: false
+  WindForce: {x: 1.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<SceneObject/a4e6dd1f-4eee-441f-a557-7c9414ee7b11>
+  PrefabRemaps:
+    []
+  Name: Bone.008_end
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 6.446698, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<InteractionComponent/a593589a-fad2-4764-bca7-0bce0fb5ee32>
+  PrefabRemaps:
+    []
+  Name: Interaction
+  Enabled: true
+  Camera: !<reference> 00000000-0000-0000-0000-000000000000
+  MinimumTouchSize: 0.000000
+  DepthFilter: true
+  MeshVisuals:
+    []
+- !<RenderMeshVisual/a65884c5-68f0-44c8-a27c-3dec1c12c7a2>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7eb9e7b9-0800-454e-a02a-5e1368d46ca7
+  Mesh: !<reference> ad9cd306-161a-4740-bdcc-79ed87e46377
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/aa4adb32-a65a-4b8b-894e-48f3ff03dc43>
+  PrefabRemaps:
+    []
+  Name: Messy Long
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.098406, y: 2.169429, z: -42.344257}
+    rotation: {x: -86.439293, y: 0.000000, z: 0.000000}
+    scale: {x: 0.622428, y: 0.695396, z: 0.643885}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5605ad37-71b6-459f-94d1-2da114303244
+- !<HairVisual/aba16240-d7ef-4fc2-805d-34aa33d42c08>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> 3a1de418-a902-43cf-8194-a912c1788cfd
+  FallbackMode: false
+  HairData: !<reference> a695417d-6bc3-4716-a5bf-d3f41d0b34cb
+  NeighborRadius: 7.700000
+  CosThreshold: 0.550000
+  LengthThreshold: 0.000000
+  HairResolution: 6
+  SteppedCut: false
+  Cut: 1.000000
+  Width: 1.150000
+  Taper: 0.620000
+  Density: 15
+  DensityNoise: 0.600000
+  ClumpDensity: 0
+  ClumpRadius: 0.500000
+  ClumpTipScale: 0.300000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 14.900000
+  Friction: 0.730000
+  Gravity: {x: 0.000000, y: -0.500000, z: 0.000000}
+  StretchStiffness: 740.000000
+  BendStiffness: 910.000000
+  TwistStiffness: 1900.000000
+  CollapseStiffness: 540.000000
+  HairStiffness: 2.000000
+  CollisionEnabled: true
+  CollisionStiffness: 24.000000
+  CollisionOffset: 0.800000
+  CollisionFriction: 1.000000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: false
+  SelfCollisionStiffness: 23.799999
+  SelfCollisionRadius: 1.700000
+  SelfCollisionFriction: 0.670000
+  WindEnabled: false
+  WindForce: {x: 1.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<SceneObject/b13ef92e-4127-4fbf-bd6b-628872f917d0>
+  PrefabRemaps:
+    []
+  Name: Beard Carousel
+  Enabled: false
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 771f746b-7f83-4303-915b-35b73f6026a0
+    - !<own> 14ce51e0-6cb2-4360-ad49-0b6d719731bf
+- !<RenderMeshVisual/b143bcde-29d8-4365-ac34-7b3ca204079a>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0f26b949-6385-4f3a-8171-5464267929bd
+  Mesh: !<reference> 95faef59-ad0e-4fb7-8bd4-ef079ba33dc0
+  Skin: !<reference> db265bf1-19f3-4198-8789-a3ab8cd6f08e
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/b2086685-9af8-4035-923a-a36c9173cd6e>
+  PrefabRemaps:
+    []
+  Name: ButtonController
+  Enabled: true
+  ScriptAsset: !<reference> 73fe68dd-abcb-407d-b2df-5084f5074d0e
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      carousals: !<reference.SceneObject[]>
+        - !<reference> f9f0f409-d012-4005-a601-4d737b84e84d
+        - !<reference> b13ef92e-4127-4fbf-bd6b-628872f917d0
+        - !<reference> 4d507d81-d64d-43a5-8a91-b78b6d6e53ed
+        - !<reference> a07fe7ab-32cd-4067-b118-e938c773ec9a
+      baldML: !<reference.SceneObject> 7e61fd31-d045-44f1-bb11-eccf69d35ffc
+      headBindingHair: !<reference.SceneObject> 774b28b3-abdb-467d-aca7-79e32a2d0222
+      headBindingHats: !<reference.SceneObject> 0007195c-9875-4b15-8384-dddd9c070657
+      headBindingGlasses: !<reference.SceneObject> b5ad0ffe-36b7-4d17-9798-8f1132186f07
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/b5ad0ffe-36b7-4d17-9798-8f1132186f07>
+  PrefabRemaps:
+    []
+  Name: Head Binding Glasses
+  Enabled: false
+  Layers: 8
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0e39d369-0446-48da-8b98-6ae913c9efb4
+    - !<own> 77e37af3-8dc2-44c3-a158-16bbfbf93e83
+    - !<own> 61c8b629-7c66-41c6-a4ba-02c41553911a
+    - !<own> 09906340-b197-4010-918c-5a707adf9bd5
+  Components:
+    - !<own> 5ecbf950-d701-45d6-b815-816705106899
+- !<SceneObject/b65abe0e-a8b4-4955-a2aa-c8a193769c8f>
+  PrefabRemaps:
+    []
+  Name: BunnyFace
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.287976, y: 8.929613, z: 1.074226}
+    rotation: {x: -163.264679, y: -40.195568, z: 170.854675}
+    scale: {x: 0.006500, y: 0.006500, z: 0.006500}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> dd643dca-00c9-4cfd-8c0d-bfad5c217174
+  Components:
+    []
+- !<HairVisual/b66e4868-c0fd-446f-ad0d-47da892a625f>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> ea281bcc-5124-4b84-befa-1ef9cb7ceb08
+  FallbackMode: false
+  HairData: !<reference> e5b0a507-2d83-44d9-aa8a-b8d41d1135bb
+  NeighborRadius: 4.600000
+  CosThreshold: 0.750000
+  LengthThreshold: 26.900000
+  HairResolution: 0
+  SteppedCut: false
+  Cut: 1.000000
+  Width: 0.700000
+  Taper: 0.030000
+  Density: 2
+  DensityNoise: 0.450000
+  ClumpDensity: 0
+  ClumpRadius: 0.300000
+  ClumpTipScale: -0.700000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 16.900000
+  Friction: 0.640000
+  Gravity: {x: 0.000000, y: 0.000000, z: 0.000000}
+  StretchStiffness: 2160.000000
+  BendStiffness: 2340.000000
+  TwistStiffness: 1980.000000
+  CollapseStiffness: 1580.000000
+  HairStiffness: 3.300000
+  CollisionEnabled: false
+  CollisionStiffness: 4.500000
+  CollisionOffset: 0.000000
+  CollisionFriction: 0.230000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: true
+  SelfCollisionStiffness: 6.300000
+  SelfCollisionRadius: 0.250000
+  SelfCollisionFriction: 0.030000
+  WindEnabled: false
+  WindForce: {x: 1.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<SceneObject/b709f7b0-3893-4176-b890-04ede732269a>
+  PrefabRemaps:
+    []
+  Name: Face Occluder
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 7.330000, z: 8.740000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.830000, y: 0.830000, z: 0.830000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 55c8b751-8953-4fa3-84c9-3a598440a4c0
+- !<HairVisual/b73f0a7e-28dd-41ea-940b-0e8799fe6387>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> cffbf8f4-eba1-4292-a242-5891754be6ee
+  FallbackMode: false
+  HairData: !<reference> fa816a44-15f3-4a2d-944b-56a6f67a37b0
+  NeighborRadius: 0.000000
+  CosThreshold: 0.090000
+  LengthThreshold: 19.900000
+  HairResolution: 12
+  SteppedCut: false
+  Cut: 1.000000
+  Width: 2.250000
+  Taper: 1.000000
+  Density: 10
+  DensityNoise: 0.500000
+  ClumpDensity: 0
+  ClumpRadius: 0.400000
+  ClumpTipScale: 1.900000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 40.000000
+  Friction: 0.180000
+  Gravity: {x: 0.000000, y: -5.000000, z: 0.000000}
+  StretchStiffness: 410.000000
+  BendStiffness: 360.000000
+  TwistStiffness: 200.000000
+  CollapseStiffness: 360.000000
+  HairStiffness: 8.000000
+  CollisionEnabled: true
+  CollisionStiffness: 27.900000
+  CollisionOffset: 0.800000
+  CollisionFriction: 1.000000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: true
+  SelfCollisionStiffness: 0.000000
+  SelfCollisionRadius: 2.700000
+  SelfCollisionFriction: 0.670000
+  WindEnabled: false
+  WindForce: {x: 1.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<SceneObject/b81e88b1-358c-4159-b24b-ba95183a43c0>
+  PrefabRemaps:
+    []
+  Name: Head Collider
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.018155, y: -2.586920, z: -0.808136}
+    rotation: {x: -1.315313, y: -3.718913, z: -0.056277}
+    scale: {x: 1.022504, y: 1.022504, z: 1.022504}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2814eb42-349e-46da-bb77-c2d4d7cf8681
+    - !<own> f208029e-ecdf-4ac6-90dc-53178b362304
+- !<SceneObject/b8ade95a-22b2-45cd-b0da-31280434d8ec>
+  PrefabRemaps:
+    []
+  Name: Big Wavy Gradient Secondary
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 14724aaf-b7c7-4d59-abf5-854b8f5428c2
+- !<SceneObject/b8f8f482-9658-43e4-9dfc-0cd5c49e75bb>
+  PrefabRemaps:
+    []
+  Name: Head
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b81e88b1-358c-4159-b24b-ba95183a43c0
+    - !<own> c1ea59ba-b08b-49e3-b7ac-d0f2408f9273
+  Components:
+    []
+- !<HairVisual/b932d6c6-cb01-4a3a-82c7-c7d21da20541>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> 4ae496fe-c710-4dd4-8e05-59efeefa0bb0
+  FallbackMode: false
+  HairData: !<reference> 4d6c5478-7309-4c5d-b91d-917cb99c29fe
+  NeighborRadius: 10.000000
+  CosThreshold: 0.680000
+  LengthThreshold: 7.000000
+  HairResolution: 15
+  SteppedCut: false
+  Cut: 1.000000
+  Width: 1.700000
+  Taper: 0.790000
+  Density: 10
+  DensityNoise: 1.000000
+  ClumpDensity: 0
+  ClumpRadius: 0.500000
+  ClumpTipScale: 1.800000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 9.100000
+  Friction: 0.700000
+  Gravity: {x: 0.000000, y: -1.000000, z: 0.000000}
+  StretchStiffness: 600.000000
+  BendStiffness: 390.000000
+  TwistStiffness: 300.000000
+  CollapseStiffness: 1170.000000
+  HairStiffness: 1.000000
+  CollisionEnabled: true
+  CollisionStiffness: 5.000000
+  CollisionOffset: 1.000000
+  CollisionFriction: 1.000000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: true
+  SelfCollisionStiffness: 1.000000
+  SelfCollisionRadius: 2.000000
+  SelfCollisionFriction: 1.000000
+  WindEnabled: false
+  WindForce: {x: 1.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<ScriptComponent/ba219512-f453-403b-ad8e-b9200c9eb2c7>
+  PrefabRemaps:
+    []
+  Name: Button
+  Enabled: true
+  ScriptAsset: !<reference> 1dc1c35c-8142-45c1-ab88-17795e5ba200
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      ButtonController: !<reference.ScriptComponent> b2086685-9af8-4035-923a-a36c9173cd6e
+      index: !<float> 3.000000
+  ScriptTypes:
+    "":
+      {}
+- !<HairVisual/ba3209ef-e4ec-4966-aa6c-aa258fca5c0a>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> 40ce86bb-668d-4499-9034-9cd32c10dbc6
+  FallbackMode: false
+  HairData: !<reference> ad4d72a0-93bb-46ad-b0e6-3d66581da9e4
+  NeighborRadius: 3.800000
+  CosThreshold: 0.440000
+  LengthThreshold: 0.000000
+  HairResolution: 8
+  SteppedCut: false
+  Cut: 0.850000
+  Width: 3.000000
+  Taper: 0.750000
+  Density: 5
+  DensityNoise: 0.850000
+  ClumpDensity: 0
+  ClumpRadius: 0.600000
+  ClumpTipScale: 4.300000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 23.100000
+  Friction: 0.820000
+  Gravity: {x: 0.000000, y: -1.000000, z: -1.000000}
+  StretchStiffness: 950.000000
+  BendStiffness: 950.000000
+  TwistStiffness: 590.000000
+  CollapseStiffness: 960.000000
+  HairStiffness: 1.250000
+  CollisionEnabled: true
+  CollisionStiffness: 0.100000
+  CollisionOffset: 0.850000
+  CollisionFriction: 0.930000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: true
+  SelfCollisionStiffness: 0.140000
+  SelfCollisionRadius: 2.000000
+  SelfCollisionFriction: 0.820000
+  WindEnabled: false
+  WindForce: {x: 0.000000, y: -1.000000, z: -1.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<HairVisual/bed90439-25fd-42af-8f4d-f58600a26722>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> 03f74982-2965-4fb9-8a15-1deb08935844
+  FallbackMode: false
+  HairData: !<reference> 46dc58d2-2469-4c3a-8832-f61bd9a476b3
+  NeighborRadius: 9.500000
+  CosThreshold: 0.860000
+  LengthThreshold: 0.000000
+  HairResolution: 10
+  SteppedCut: false
+  Cut: 1.000000
+  Width: 1.600000
+  Taper: 0.620000
+  Density: 10
+  DensityNoise: 1.000000
+  ClumpDensity: 0
+  ClumpRadius: 1.200000
+  ClumpTipScale: 1.100000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 15.700000
+  Friction: 0.700000
+  Gravity: {x: 0.000000, y: -0.500000, z: 0.000000}
+  StretchStiffness: 600.000000
+  BendStiffness: 390.000000
+  TwistStiffness: 300.000000
+  CollapseStiffness: 1170.000000
+  HairStiffness: 1.700000
+  CollisionEnabled: false
+  CollisionStiffness: 5.000000
+  CollisionOffset: 1.000000
+  CollisionFriction: 1.000000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: false
+  SelfCollisionStiffness: 1.000000
+  SelfCollisionRadius: 2.000000
+  SelfCollisionFriction: 1.000000
+  WindEnabled: false
+  WindForce: {x: 0.000000, y: -0.500000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<RenderMeshVisual/bf5f209c-aaaf-4827-9c8a-0e60e6c834a5>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dcc1074c-b274-4e45-a8e4-b9c33f3e38eb
+  Mesh: !<reference> 005a792a-1039-4ae2-a45f-10a29fa9a62d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/bfcec630-afd6-4a80-9fd2-884f40142676>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 15
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2975d8ac-0c0c-46b8-aaf7-ccd49a38c1a6
+  Mesh: !<reference> ccf7a947-44cb-4399-9ff8-4afb10e4f2a1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/bfe844e5-ed39-4fac-8e76-45006ab396fc>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 57d85385-bdc4-48b7-b674-990bfb606f80
+    - !<own> 98966be3-d93d-4336-a7af-57bbedaa9e22
+    - !<own> 4fd9673c-2efc-4ec8-b6a8-27b411f41a8f
+    - !<own> 2c843894-6afd-48bd-9a19-b5ffbb56e193
+  Components:
+    []
+- !<RenderMeshVisual/c06e1d54-2c51-40cb-9046-a3370eceb2ca>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 15
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e860a0aa-f417-4224-ad21-070e9fa6ed4c
+  Mesh: !<reference> aa8f8144-1089-4692-93fa-b3e3c42f1eed
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c1ea59ba-b08b-49e3-b7ac-d0f2408f9273>
+  PrefabRemaps:
+    []
+  Name: Neck Occluder
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: -1.628410, z: -1.602890}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.622230, y: 0.983467, z: 0.550773}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 337f89c2-8290-4615-b3da-b8ec12545694
+- !<HairVisual/c3fe00f1-e701-43c2-8c77-122c27657068>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> e2634262-00b5-4c3e-9243-2b83ca465e53
+  FallbackMode: false
+  HairData: !<reference> 3a6e200e-d1c8-4f2c-8bcc-b0d881b916ab
+  NeighborRadius: 4.700000
+  CosThreshold: 0.550000
+  LengthThreshold: 22.500000
+  HairResolution: 15
+  SteppedCut: false
+  Cut: 1.000000
+  Width: 2.100000
+  Taper: 1.000000
+  Density: 15
+  DensityNoise: 0.850000
+  ClumpDensity: 0
+  ClumpRadius: 0.500000
+  ClumpTipScale: -0.600000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 40.000000
+  Friction: 0.050000
+  Gravity: {x: 0.000000, y: -0.300000, z: 0.000000}
+  StretchStiffness: 120.000000
+  BendStiffness: 330.000000
+  TwistStiffness: 790.000000
+  CollapseStiffness: 1450.000000
+  HairStiffness: 1.250000
+  CollisionEnabled: true
+  CollisionStiffness: 5.700000
+  CollisionOffset: 0.600000
+  CollisionFriction: 0.620000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: false
+  SelfCollisionStiffness: 23.799999
+  SelfCollisionRadius: 1.700000
+  SelfCollisionFriction: 0.670000
+  WindEnabled: false
+  WindForce: {x: 1.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<RenderMeshVisual/c50d78c7-21d8-4ed5-952c-71005595f0bb>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 15
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e860a0aa-f417-4224-ad21-070e9fa6ed4c
+  Mesh: !<reference> fb0bf918-1d5d-48f9-913c-ebd4b82281bd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/c74358b4-77fa-4fea-b805-e17b0a29dec0>
+  PrefabRemaps:
+    []
+  Name: ChainController
+  Enabled: true
+  ScriptAsset: !<reference> a42a020c-884a-49a1-a1d4-5ff5de8262fe
+  ScriptInputsDefault:
+    type: true
+    isRelative: true
+    addRotation: true
+    useCollider: true
+    collider: true
+    colliderForce: true
+    sizeMutiplier: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      joints: !<reference.SceneObject[]>
+        - !<reference> eac16108-ffe0-4dff-9402-fbe1d87cedc6
+        - !<reference> 735b5188-dbfd-4d37-b045-3fafe6663927
+        - !<reference> 9dbcb4ee-c0d3-47ef-8f2f-df592e69b76a
+        - !<reference> 42cd732e-8c8a-4ed3-80df-7e4cd0a289ef
+        - !<reference> a4e6dd1f-4eee-441f-a557-7c9414ee7b11
+      anchorCount: 2
+      stiffness: 0.410000
+      type: 0
+      iterations: 5
+      timeSpeed: 0.500000
+      force: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      isRelative: false
+      relativeTo: !<reference.SceneObject> 8a5615b0-1c28-4b9a-ba02-5630181b50af
+      addRotation: false
+      useCollider: false
+      collider: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      colliderForce: !<float> 0.000000
+      sizeMutiplier: !<float> 6.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/c793dff0-11ea-415b-a36d-d126ce650743>
+  PrefabRemaps:
+    []
+  Name: Single Bun
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.280014, y: -0.588229, z: -43.192936}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.972485, y: 0.914841, z: 0.972485}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 574b030f-ee0d-4805-95da-fece504d1571
+  Components:
+    - !<own> aba16240-d7ef-4fc2-805d-34aa33d42c08
+- !<RenderMeshVisual/c7c49f3e-2fde-4de7-b207-e6a6a5248aea>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8e03d104-4758-441d-9e46-313504e051c3
+  Mesh: !<reference> 9fc1bd3d-a0c2-4708-b1ca-c0785e31f203
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c8a40415-3ef7-4d40-9c41-b6ded7b1401d>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 47a3b6c1-bc64-4d94-b56e-f5b65d436d87
+  Mesh: !<reference> 302b0acc-08cb-4700-ad92-18d6c902f3e9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/ca7f7654-ecba-4b2f-8be4-fecae8541d43>
+  PrefabRemaps:
+    []
+  Name: IndexSlider
+  Enabled: true
+  ScriptAsset: !<reference> 30ebb886-b3fa-416e-9f39-f3c5bd214b26
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      items: !<reference.SceneObject[]>
+        - !<reference> 1dd1f61a-48ca-4e01-8d26-79b0591fc154
+        - !<reference> 56a6b418-e21f-4393-944a-0e3a615aba93
+        - !<reference> 761a3a23-3d7b-4794-857a-0820438f4964
+        - !<reference> d52f0bc2-6480-442a-a279-b0eb4d1ed861
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/cb263c0b-7915-4053-b1d4-805b74f4a836>
+  PrefabRemaps:
+    []
+  Name: Mustache 3
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.012617, y: 8.714935, z: 47.233551}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.969393, y: 0.846854, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d71ad65e-4cc6-464e-b16e-86dd7e544393
+- !<SceneObject/cde6cb09-43b5-4680-b2ea-ecbb16fb38e3>
+  PrefabRemaps:
+    []
+  Name: Lighting
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 27e0af83-40db-4ab6-a35d-2df06e1ae9e5
+    - !<own> 04833dc7-4974-4ce0-a235-1053367cad8e
+  Components:
+    []
+- !<SceneObject/ce3b621a-442f-42a7-8cdb-70771d1bca5e>
+  PrefabRemaps:
+    []
+  Name: Blonde Bang
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 1.533530, z: 6.124529}
+    rotation: {x: -0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 0.750000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1e323f87-81df-4c29-abfa-5d163d3d4dce
+- !<ScreenTransform/ce8d9abb-cb83-4b3d-beae-fb55481920e3>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -0.693566
+    right: 1.000000
+    top: -0.233275
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<ScriptComponent/cf21aa63-4ce1-45e7-a564-1ab2a5e4989a>
+  PrefabRemaps:
+    []
+  Name: ChainController
+  Enabled: true
+  ScriptAsset: !<reference> a42a020c-884a-49a1-a1d4-5ff5de8262fe
+  ScriptInputsDefault:
+    anchorCount: true
+    timeSpeed: true
+    useCollider: true
+    collider: true
+    colliderForce: true
+    sizeMutiplier: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      joints: !<reference.SceneObject[]>
+        - !<reference> 62ba8b42-ad58-45dc-a8cd-2afc45ec4acc
+        - !<reference> 1f903ae1-eefe-481c-961e-88c6297f4a87
+        - !<reference> 4d9cc6b9-e8ff-49d4-bb39-40eae24b845b
+        - !<reference> 69ea0056-6ef5-4f4f-9ecf-b56f7ac1549b
+      anchorCount: 1
+      stiffness: 0.500000
+      type: 1
+      iterations: 5
+      timeSpeed: !<float> 1.000000
+      force: !<Vec3> {x: 0.000000, y: 0.500000, z: 0.000000}
+      isRelative: true
+      relativeTo: !<reference.SceneObject> 5628e88b-338a-4993-ae89-b179b0c8f6a8
+      addRotation: true
+      useCollider: false
+      collider: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      colliderForce: !<float> 0.000000
+      sizeMutiplier: !<float> 6.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/d1209442-78b4-48b8-b869-42a3f1540783>
+  PrefabRemaps:
+    []
+  Name: msh_mask_head
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.051300, y: 7.210131, z: 1.032727}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.100000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2531c010-f017-42ea-94e1-edbe01bac480
+- !<SceneObject/d4b1560f-a1c0-4c16-bd9b-8170344b657d>
+  PrefabRemaps:
+    []
+  Name: Bone.004
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.000000, y: 4.987190, z: -0.000000}
+    rotation: {x: -22.613249, y: 0.000000, z: 0.000011}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> eac16108-ffe0-4dff-9402-fbe1d87cedc6
+  Components:
+    []
+- !<ScreenTransform/d4fe5898-78e3-4f07-93e9-d2f6e7c2b73d>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 120.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.053478}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.491879
+    bottom: -1.159064
+    right: 1.482185
+    top: 1.071485
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/d52f0bc2-6480-442a-a279-b0eb4d1ed861>
+  PrefabRemaps:
+    []
+  Name: Summer Hat
+  Enabled: false
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.063388, y: 11.821106, z: 7.436392}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.090000, y: 0.090000, z: 0.090000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6fd1611b-d738-4e90-a94a-30f4f15ef888
+  Components:
+    []
+- !<HairVisual/d71ad65e-4cc6-464e-b16e-86dd7e544393>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> ea281bcc-5124-4b84-befa-1ef9cb7ceb08
+  FallbackMode: false
+  HairData: !<reference> 6bdccc94-58b5-4f90-90dd-a0cef6c215bf
+  NeighborRadius: 0.000000
+  CosThreshold: 0.300000
+  LengthThreshold: 27.799999
+  HairResolution: 0
+  SteppedCut: false
+  Cut: 0.925000
+  Width: 0.550000
+  Taper: 0.590000
+  Density: 20
+  DensityNoise: 0.450000
+  ClumpDensity: 0
+  ClumpRadius: 0.300000
+  ClumpTipScale: 0.300000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 16.900000
+  Friction: 0.640000
+  Gravity: {x: 0.000000, y: 0.000000, z: 0.000000}
+  StretchStiffness: 2160.000000
+  BendStiffness: 2340.000000
+  TwistStiffness: 1980.000000
+  CollapseStiffness: 1580.000000
+  HairStiffness: 1.250000
+  CollisionEnabled: false
+  CollisionStiffness: 4.500000
+  CollisionOffset: 0.000000
+  CollisionFriction: 0.230000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: true
+  SelfCollisionStiffness: 6.300000
+  SelfCollisionRadius: 0.250000
+  SelfCollisionFriction: 0.030000
+  WindEnabled: false
+  WindForce: {x: 1.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<SceneObject/db0a6d4b-d7fc-4b6e-af03-6c7bebaadd10>
+  PrefabRemaps:
+    []
+  Name: "Hair Components [EDIT_CHILDREN]"
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 1.578852, z: 44.768948}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.050625, y: 1.050625, z: 1.050625}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 375b431e-36e6-4752-af8c-044ee6e248f8
+    - !<own> bfe844e5-ed39-4fac-8e76-45006ab396fc
+    - !<own> 9275668f-6890-4a62-8692-acdb0dc856c3
+  Components:
+    []
+- !<Skin/db265bf1-19f3-4198-8789-a3ab8cd6f08e>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  skinBones:
+    Bone: !<reference> 48ab0075-db49-43b5-ba3e-b9bf5565450f
+    Bone.001: !<reference> fc08f334-93ee-4480-b4de-bdb7f6ef5605
+    Bone.001_2: !<reference> 62ba8b42-ad58-45dc-a8cd-2afc45ec4acc
+    Bone.002: !<reference> e4ce84f7-fc73-49bc-8c65-1f3c88b65051
+    Bone.002_2: !<reference> 1f903ae1-eefe-481c-961e-88c6297f4a87
+    Bone.003: !<reference> 682803db-a745-46a1-9cc5-96e314290020
+    Bone.003_2: !<reference> 4d9cc6b9-e8ff-49d4-bb39-40eae24b845b
+    Bone.003_end: !<reference> 5d59d59b-9c58-4c73-9cb0-4dfce6186ee1
+    Bone.003_end_2: !<reference> 69ea0056-6ef5-4f4f-9ecf-b56f7ac1549b
+    Bone_2: !<reference> 5628e88b-338a-4993-ae89-b179b0c8f6a8
+    bunny_ears_anim1: !<reference> dd643dca-00c9-4cfd-8c0d-bfad5c217174
+    left_ear: !<reference> 4da60629-924e-4842-895a-782252687d34
+    left_ear_mesh: !<reference> 4b93a18b-5a14-4a3e-823f-c55868fda3f6
+    right_ear: !<reference> 8b1ab3df-0c2d-4a56-b4a4-70aa74bed7f8
+    right_ear_mesh: !<reference> 150cba35-ec5a-4324-a5b3-e1cfb8c9c88a
+- !<VFXComponent/db4ac472-ea9c-4ee4-8bd3-e0668147cfbb>
+  PrefabRemaps:
+    []
+  Name: VFX
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> afb86983-6786-4661-90e9-552598d68385
+- !<ScriptComponent/db4d28b5-9554-4f1f-87f8-25bcc6d8dd34>
+  PrefabRemaps:
+    []
+  Name: Button
+  Enabled: true
+  ScriptAsset: !<reference> 1dc1c35c-8142-45c1-ab88-17795e5ba200
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      ButtonController: !<reference.ScriptComponent> b2086685-9af8-4035-923a-a36c9173cd6e
+      index: !<float> 2.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/dd1bbd6c-8848-4c5b-9bbd-70440c3629cd>
+  PrefabRemaps:
+    []
+  Name: Front Orthographic Camera LIVE
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: -120.000000, y: 0.000000, z: 40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4a0cf996-7d31-48d0-a294-717946b87cac
+- !<SceneObject/dd643dca-00c9-4cfd-8c0d-bfad5c217174>
+  PrefabRemaps:
+    []
+  Name: bunny_ears_rigged
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -188.649902, y: 2015.748657, z: 224.400879}
+    rotation: {x: -166.408981, y: 37.649426, z: -178.697388}
+    scale: {x: 15.384614, y: 15.384616, z: 15.384613}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4b93a18b-5a14-4a3e-823f-c55868fda3f6
+    - !<own> 150cba35-ec5a-4324-a5b3-e1cfb8c9c88a
+    - !<own> 8b1ab3df-0c2d-4a56-b4a4-70aa74bed7f8
+    - !<own> 4da60629-924e-4842-895a-782252687d34
+  Components:
+    - !<own> db265bf1-19f3-4198-8789-a3ab8cd6f08e
+- !<ScriptComponent/e3750361-a07a-4547-b17a-de8df07dc389>
+  PrefabRemaps:
+    []
+  Name: Image Carousel
+  Enabled: true
+  ScriptAsset: !<reference> cc5291bd-c378-4564-b9b6-baec9abb41ea
+  ScriptInputsDefault:
+    behaviors: true
+    customTrigger: true
+    visibleItems: true
+    itemSize: true
+    carouselRadius: true
+    opacity: true
+    backgroundColor: true
+    advanced: true
+    ringMargin: true
+    itemRotation: true
+    baseRenderOrder: true
+    touchSensitivity: true
+    magnetForce: true
+    inertiaForce: true
+    delayCallback: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      images: !<reference.Texture[]>
+        - !<reference> df3901aa-0a60-4564-a3d3-13f93e05c4bf
+        - !<reference> 57775214-b5aa-423b-9f9f-9603216cb5c4
+        - !<reference> c9f5eccc-0931-4c28-8678-4e61f3ec6863
+        - !<reference> 1ac34400-c4bf-48c0-91a4-47fbabe2dd62
+        - !<reference> 3b9d12be-6705-448a-8a98-3840fa3c0d04
+        - !<reference> 05b0dd82-d381-423a-9511-7b927d6371f2
+        - !<reference> 3a363a35-cafe-4bb7-ae43-74f23339b5e3
+        - !<reference> fc10b5ca-f288-4c86-9cb2-ce9f362eaa98
+        - !<reference> 927c14b2-b0e3-40f7-88ab-eb9ae21b7356
+        - !<reference> fd155796-6bae-44a6-b8fa-04e440fe9c9d
+      callbackType: 3
+      behaviors: !<reference.ScriptComponent[]>
+        []
+      customTrigger: !<string[]>
+        []
+      callbackScript: !<reference.ScriptComponent> 972c69dc-af55-4431-9cce-4515676bf740
+      callbackFuncName: setItem
+      visibleItems: 3
+      itemSize: 1.900000
+      carouselRadius: 1.900000
+      opacity: !<float> 1.000000
+      backgroundColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      advanced: false
+      ringMargin: 0.200000
+      itemRotation: !<float> 0.000000
+      baseRenderOrder: 0
+      touchSensitivity: !<float> 2.000000
+      magnetForce: 0.400000
+      inertiaForce: 0.150000
+      delayCallback: !<float> 0.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/e4ce84f7-fc73-49bc-8c65-1f3c88b65051>
+  PrefabRemaps:
+    []
+  Name: Bone.002
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.499177, z: 0.000000}
+    rotation: {x: 14.848125, y: -0.210840, z: 0.783606}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 682803db-a745-46a1-9cc5-96e314290020
+  Components:
+    []
+- !<SceneObject/e59f7480-a9e2-4856-b50e-9d818f42c3fd>
+  PrefabRemaps:
+    []
+  Name: wishbones
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.153900, y: 9.471720, z: -0.355261}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f9a911cf-ada8-4500-a7c4-9b76274909c3
+- !<SceneObject/e7956afc-ab87-4669-bf10-bf449c43db2d>
+  PrefabRemaps:
+    []
+  Name: frame
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.153900, y: 9.471720, z: -0.355261}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 94daeb6e-c681-42d5-8cde-e059cf1ef3b3
+- !<LightSource/e8f38b3a-ee8b-4c29-8c58-ad3f1ff97c37>
+  PrefabRemaps:
+    []
+  Name: Light Source
+  Enabled: true
+  renderLayer: 73
+  LightType: Directional
+  Intensity: 1.000000
+  CastShadows: false
+  ShadowDensity: 0.440000
+  ShadowBlurRadius: 4.000000
+  ShadowTextureSize: 512
+  AutoLightSourcePosition: true
+  AutoShadowFrustumSize: true
+  AutoShadowFrustumSizeExtend: 2.000000
+  ShadowFrustumSize: 30.000000
+  ShadowFrustumNearClipPlane: 1.000000
+  ShadowFrustumFarClipPlane: 1000.000000
+  UseEnvMapFromCamera: false
+  EnvMapFromCameraMode: Auto
+  UseEstimation: false
+  EstimationIntensity: 1.000000
+  EstimationSharpness: 1.000000
+  EnvMapExposure: 1.000000
+  EnvMapRotation: 0.000000
+  DiffuseEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  SpecularEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+  DynamicEnvInputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  InnerConeAngle: 0.000000
+  OuterConeAngle: 45.000000
+  DecayType: None
+  DecayLimit: false
+  DecayRange: 40.000000
+- !<SceneObject/eac16108-ffe0-4dff-9402-fbe1d87cedc6>
+  PrefabRemaps:
+    []
+  Name: Bone.005
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: -0.000000, y: 5.040512, z: 0.000000}
+    rotation: {x: -18.201984, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 735b5188-dbfd-4d37-b045-3fafe6663927
+  Components:
+    []
+- !<ScreenRegionComponent/edf3b217-c138-4d8c-8cd4-ef0b58e646cb>
+  PrefabRemaps:
+    []
+  Name: Screen Region
+  Enabled: true
+  ScreenRegionType: FullFrame
+  ResizeWithKeyboard: false
+- !<RenderMeshVisual/eebbbcb0-a900-4b29-8c0c-eb88c14812a8>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8dbb695f-2f8e-47d1-876a-532d445435c4
+  Mesh: !<reference> de5ec5f2-3910-4253-8235-2bc50c8398b7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ef65d20c-112b-4f0b-80b0-0a907502e9a2>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 15
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b5973ec4-efe3-48cf-b04b-9416b464135e
+  Mesh: !<reference> 3bf9a253-3da6-440d-8cb6-3d7eec88e3ba
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f1a074f4-1356-4266-b504-e660c1df8349>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 300b5b06-1755-477f-bbfe-51383efe5196
+  Mesh: !<reference> 01789ce8-1151-49af-815f-b9c4fa478f33
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/f208029e-ecdf-4ac6-90dc-53178b362304>
+  PrefabRemaps:
+    []
+  Name: Hair Collider
+  Enabled: true
+  Shape: !<LevelSet/00000000-0000-0000-0000-000000000000>
+    Asset: !<reference> c5a3ca94-2a42-4cc7-b8c7-2c28c66ea758
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/f26e28e1-3c57-4f8b-a01a-e348f37336c1>
+  PrefabRemaps:
+    []
+  Name: Glass_1
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -0.108979}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c50d78c7-21d8-4ed5-952c-71005595f0bb
+- !<HairVisual/f28c357d-9ee1-493e-ae55-a106f2eda43b>
+  PrefabRemaps:
+    []
+  Name: Hair
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  HairMaterial: !<reference> c6eb75ca-05f7-4378-bf06-fac48239f647
+  FallbackMode: false
+  HairData: !<reference> ced24023-687f-43b4-8acb-ee0c73179a6f
+  NeighborRadius: 1.200000
+  CosThreshold: 0.470000
+  LengthThreshold: 3.500000
+  HairResolution: 10
+  SteppedCut: false
+  Cut: 0.675000
+  Width: 1.050000
+  Taper: 0.780000
+  Density: 40
+  DensityNoise: 0.850000
+  ClumpDensity: 0
+  ClumpRadius: 0.500000
+  ClumpTipScale: 1.500000
+  FrameRate: 30
+  StretchLimit: true
+  Damp: 40.000000
+  Friction: 0.050000
+  Gravity: {x: 0.000000, y: -0.300000, z: 0.000000}
+  StretchStiffness: 140.000000
+  BendStiffness: 0.000000
+  TwistStiffness: 230.000000
+  CollapseStiffness: 770.000000
+  HairStiffness: 0.650000
+  CollisionEnabled: true
+  CollisionStiffness: 27.900000
+  CollisionOffset: 0.800000
+  CollisionFriction: 1.000000
+  Colliders:
+    - !<reference> f208029e-ecdf-4ac6-90dc-53178b362304
+  SelfCollisionEnabled: false
+  SelfCollisionStiffness: 23.799999
+  SelfCollisionRadius: 1.700000
+  SelfCollisionFriction: 0.670000
+  WindEnabled: false
+  WindForce: {x: 1.000000, y: 0.000000, z: 0.000000}
+  LoadedStrands: false
+  SimulatedStrands: false
+  DebugMode: false
+- !<SceneObject/f5ecf07c-822e-49f7-86c0-bef997ec7a3b>
+  PrefabRemaps:
+    []
+  Name: HairIndexSlider
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 972c69dc-af55-4431-9cce-4515676bf740
+- !<RenderMeshVisual/f9a911cf-ada8-4500-a7c4-9b76274909c3>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7713c57d-a921-4a05-a2fb-dfa51acee3c1
+  Mesh: !<reference> 48287427-d959-44da-b348-e0090ac4f355
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f9f0f409-d012-4005-a601-4d737b84e84d>
+  PrefabRemaps:
+    []
+  Name: Hair Carousel
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e3750361-a07a-4547-b17a-de8df07dc389
+    - !<own> ce8d9abb-cb83-4b3d-beae-fb55481920e3
+- !<SceneObject/fc08f334-93ee-4480-b4de-bdb7f6ef5605>
+  PrefabRemaps:
+    []
+  Name: Bone.001
+  Enabled: true
+  Layers: 64
+  LocalTransform:
+    position: {x: 0.000000, y: 0.564066, z: 0.000000}
+    rotation: {x: 15.746970, y: 1.014677, z: -2.178548}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e4ce84f7-fc73-49bc-8c65-1f3c88b65051
+  Components:
+    []
+- !<Image/fcb0b16f-6838-40e3-a8d3-5215fb9b121a>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: FillAndCut
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 68fc6813-d97d-429a-b2c4-b8c30764507c
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/fe41cf16-66f8-44f7-a8d1-ccf192857eb0>
+  PrefabRemaps:
+    []
+  Name: Back Orthographic Camera
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -120.000000, y: 0.000000, z: 40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6b5d4b39-985e-425d-ad54-5c027f9afda7
+  Components:
+    - !<own> 3734c539-36a7-4b50-a19a-bc9560b51308

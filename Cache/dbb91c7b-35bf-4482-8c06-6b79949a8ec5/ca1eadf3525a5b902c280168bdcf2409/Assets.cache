@@ -1,0 +1,13 @@
+- !<AssetCache/ca1eadf3-525a-5b90-2c28-0168bdcf2409>
+  AssetFiles:
+    966d411d-7bba-41f9-987e-22d58224d5b7: dbb91c7b-35bf-4482-8c06-6b79949a8ec5/ca1eadf3525a5b902c280168bdcf2409/Data/tercioN.png
+  Assets:
+    - !<FileTexture/966d411d-7bba-41f9-987e-22d58224d5b7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: ca1eadf3525a5b902c280168bdcf2409
+  FileHash: 08ca0a20c0e94cc1e80bdc16ba53db12
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache/4922ddba-3800-6d4a-6e34-2c631fe4beda>
+  AssetFiles:
+    acb99906-2f51-4b6f-b88b-745278bceae8: 23549366-1843-4984-8a86-1593b18fa1e4/4922ddba38006d4a6e342c631fe4beda/Data/barsN.jpg
+  Assets:
+    - !<FileTexture/acb99906-2f51-4b6f-b88b-745278bceae8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: 4922ddba38006d4a6e342c631fe4beda
+  FileHash: e0cff241b18d357c0908d9162f04c846
+  NativePackageItems:
+    []

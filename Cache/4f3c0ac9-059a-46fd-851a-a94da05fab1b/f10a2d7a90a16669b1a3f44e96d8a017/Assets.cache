@@ -1,0 +1,13 @@
+- !<AssetCache/f10a2d7a-90a1-6669-b1a3-f44e96d8a017>
+  AssetFiles:
+    6b3fb86d-c76f-448d-b8c6-b551436cec2a: 4f3c0ac9-059a-46fd-851a-a94da05fab1b/f10a2d7a90a16669b1a3f44e96d8a017/Data/beard (1).png
+  Assets:
+    - !<FileTexture/6b3fb86d-c76f-448d-b8c6-b551436cec2a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1200
+        Height: 1200
+  SourceHash: f10a2d7a90a16669b1a3f44e96d8a017
+  FileHash: 565af769058461b23a9af7960f836f30
+  NativePackageItems:
+    []

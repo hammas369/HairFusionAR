@@ -1,0 +1,13 @@
+- !<AssetCache/56216b39-032f-1104-6dc2-d317b63aa2e8>
+  AssetFiles:
+    5a32e038-27d1-4b44-969c-1e052f787376: 0c19e85f-3f12-4eb7-ba08-bd8e46e40e24/56216b39032f11046dc2d317b63aa2e8/Data/hair_intensity_gradient.jpg
+  Assets:
+    - !<FileTexture/5a32e038-27d1-4b44-969c-1e052f787376>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1
+        Height: 32
+  SourceHash: 56216b39032f11046dc2d317b63aa2e8
+  FileHash: dfe8801c36c799ad5503d786d07eb9f3
+  NativePackageItems:
+    []

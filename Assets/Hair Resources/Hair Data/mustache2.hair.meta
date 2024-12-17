@@ -1,0 +1,14 @@
+- !<AssetImportMetadata/fbbe87fe-51b2-447d-974b-0ff2fb2433e7>
+  ImportedAssetIds:
+    HairDataAsset: !<reference> 54a48aa1-ffb9-4f1e-9b68-15075c395566
+  ImporterName: HairDataAssetImporter
+  PrimaryAsset: !<reference> 54a48aa1-ffb9-4f1e-9b68-15075c395566
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/3c925c31-358a-45ca-a8a1-e4b4e51c38e6>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

@@ -1,0 +1,45 @@
+- !<AssetCache/0ce62f91-ab68-5312-74f1-c0efc10b3c3f>
+  AssetFiles:
+    46cfb0e5-36ed-471f-9fcd-df5ba09326dd: eb546a57-b224-4301-9efb-711664cba8ab/0ce62f91ab68531274f1c0efc10b3c3f/Data/bald_model.dnn
+  Assets:
+    - !<FileMLAsset/46cfb0e5-36ed-471f-9fcd-df5ba09326dd>
+      PackagePath: ""
+      Inputs:
+        - !<MLInput/aa609ed4-fc10-4d4a-b6b7-4fc5713f340a>
+          Name: data
+          Shape: {x: 320.000000, y: 320.000000, z: 3.000000}
+          Normalizations:
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+          Transformer:
+            stretch: true
+            alignment.horizontal: Center
+            alignment.vertical: Center
+            fill: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+            flipX: false
+            flipY: false
+            rotation: None
+          Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      Outputs:
+        - !<MLOutput/1205ef59-7879-4d2d-b20b-d2ca441c9f46>
+          Name: output_0
+          Shape: {x: 320.000000, y: 320.000000, z: 4.000000}
+          Normalizations:
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+          InputName: ""
+          OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  SourceHash: 0ce62f91ab68531274f1c0efc10b3c3f
+  FileHash: e38933ed7c225c70e8ce074bd6175594
+  NativePackageItems:
+    []

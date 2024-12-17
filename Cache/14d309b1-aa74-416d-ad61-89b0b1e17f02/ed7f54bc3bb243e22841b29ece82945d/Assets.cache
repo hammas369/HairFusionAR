@@ -1,0 +1,16 @@
+- !<AssetCache/ed7f54bc-3bb2-43e2-2841-b29ece82945d>
+  AssetFiles:
+    ee9cfc93-61c5-4106-884e-7d6595cd5e27: 14d309b1-aa74-416d-ad61-89b0b1e17f02/ed7f54bc3bb243e22841b29ece82945d/Data/HatO.mesh
+  Assets:
+    - !<FileMesh/ee9cfc93-61c5-4106-884e-7d6595cd5e27>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 896
+        Vertices: 545
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: ed7f54bc3bb243e22841b29ece82945d
+  FileHash: 804a013e066adb2156bda905ac683f80
+  NativePackageItems:
+    []

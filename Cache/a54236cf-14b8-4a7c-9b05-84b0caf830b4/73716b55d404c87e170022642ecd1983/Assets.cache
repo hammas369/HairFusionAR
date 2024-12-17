@@ -1,0 +1,356 @@
+- !<AssetCache/73716b55-d404-c87e-1700-22642ecd1983>
+  AssetFiles:
+    755dbf19-9df8-42eb-9420-d030bdab063c: a54236cf-14b8-4a7c-9b05-84b0caf830b4/73716b55d404c87e170022642ecd1983/Data/Hair 4.ss_graph
+  Assets:
+    - !<ShaderGraphPass/755dbf19-9df8-42eb-9420-d030bdab063c>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Bool_N023:
+          typeIdx: 1
+          value: 0.000000
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N030:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N057:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N085:
+          typeIdx: 3
+          value: {x: 2.000000, y: 2.000000}
+        Port_Input1_N121:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Input1_N134:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Input1_N135:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Input1_N277:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N001:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N147:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N180:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Threshold_N011:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value2_N120:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N066:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N078:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N120:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N123:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N132:
+          typeIdx: 1
+          value: 1.000000
+        Port_Value3_N145:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N181:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N066:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N078:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N120:
+          typeIdx: 1
+          value: 1.000000
+        Port_Value4_N123:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N145:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N181:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value_N116:
+          typeIdx: 3
+          value: {x: 0.000000, y: 1.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData/00000000-0000-0000-0000-000000000000>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Hair Texture
+            mType: Property
+            mName: Tweak_N0
+            mWidget: texture_group
+            mHint: "Property: Tweak_N0"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: Tweak_N9
+            mWidget: slider
+            mHint: "Property: Tweak_N9"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Blur Multiplier
+            mType: Property
+            mName: Tweak_N10
+            mWidget: slider
+            mHint: "Property: Tweak_N10"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Hair Growth
+            mType: Property
+            mName: Tweak_N152
+            mWidget: slider
+            mHint: "Property: Tweak_N152"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Lit Lookup
+            mType: Property
+            mName: LitLookup
+            mWidget: texture_group
+            mHint: "Property: LitLookup"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Lit Lookup
+            mType: Property
+            mName: Tweak_N147
+            mWidget: texture_group
+            mHint: "Property: Tweak_N147"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Direction Map
+            mType: Property
+            mName: Tweak_N180
+            mWidget: texture_group
+            mHint: "Property: Tweak_N180"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Primary Diffuse Intensity
+            mType: Property
+            mName: Tweak_N13
+            mWidget: slider
+            mHint: "Property: Tweak_N13"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Primary Specular Intensity
+            mType: Property
+            mName: Tweak_N14
+            mWidget: slider
+            mHint: "Property: Tweak_N14"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Hair Tips Color
+            mType: Property
+            mName: Tweak_N6
+            mWidget: color
+            mHint: "Property: Tweak_N6"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Hair Roots Color
+            mType: Property
+            mName: Tweak_N5
+            mWidget: color
+            mHint: "Property: Tweak_N5"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Mix Edge
+            mType: Property
+            mName: Tweak_N15
+            mWidget: slider
+            mHint: "Property: Tweak_N15"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Mix Size
+            mType: Property
+            mName: Tweak_N16
+            mWidget: slider
+            mHint: "Property: Tweak_N16"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Diffuse Light Color
+            mType: Property
+            mName: Tweak_N17
+            mWidget: color
+            mHint: "Property: Tweak_N17"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Specular Light Color
+            mType: Property
+            mName: Tweak_N18
+            mWidget: color
+            mHint: "Property: Tweak_N18"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Lit Offset
+            mType: Property
+            mName: Tweak_N19
+            mWidget: slider
+            mHint: "Property: Tweak_N19"
+            mMin: -1.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Lit Rotation
+            mType: Property
+            mName: Tweak_N20
+            mWidget: slider
+            mHint: "Property: Tweak_N20"
+            mMin: 0.000000
+            mMax: 3.140000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: a54236cf-14b8-4a7c-9b05-84b0caf830b4/73716b55d404c87e170022642ecd1983/Data/804754a/Hair 4.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 73716b55d404c87e170022642ecd1983
+  FileHash: adab9265689a11f890d01e7d84171a40
+  NativePackageItems:
+    []

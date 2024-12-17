@@ -1,0 +1,13 @@
+- !<AssetCache/30106323-24bd-fb13-f593-6336805260c1>
+  AssetFiles:
+    209ab531-3bec-4e23-bdd4-b0259ee8f361: 09a840bf-33b7-4e7b-9024-87a9c506546a/3010632324bdfb13f5936336805260c1/Data/lit_Contrast.jpg
+  Assets:
+    - !<FileTexture/209ab531-3bec-4e23-bdd4-b0259ee8f361>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 32
+        Height: 32
+  SourceHash: 3010632324bdfb13f5936336805260c1
+  FileHash: ac4b770062e7c316cf39de5e7b7461d7
+  NativePackageItems:
+    []

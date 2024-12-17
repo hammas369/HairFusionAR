@@ -1,0 +1,10 @@
+- !<AssetCache/62b6ba1e-ac68-2037-6f99-6c1566822ae0>
+  AssetFiles:
+    dc87acd7-8ec9-47ab-8de0-9ca001c366e4: 7a1d3c0f-cff2-41a8-8d8f-0e4a878b6d6e/62b6ba1eac6820376f996c1566822ae0/Data/messy_long.hair
+  Assets:
+    - !<HairDataAsset/dc87acd7-8ec9-47ab-8de0-9ca001c366e4>
+      PackagePath: ""
+  SourceHash: 62b6ba1eac6820376f996c1566822ae0
+  FileHash: cea76cb19bcd6933fa1597a1d487ed38
+  NativePackageItems:
+    []

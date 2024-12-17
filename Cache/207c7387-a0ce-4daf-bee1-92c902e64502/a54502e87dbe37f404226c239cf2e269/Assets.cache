@@ -1,0 +1,10 @@
+- !<AssetCache/a54502e8-7dbe-37f4-0422-6c239cf2e269>
+  AssetFiles:
+    3ad9341d-7886-4267-9b9b-b5bf2bdc03e6: 207c7387-a0ce-4daf-bee1-92c902e64502/a54502e87dbe37f404226c239cf2e269/Data/ponytails_and_bangs.hair
+  Assets:
+    - !<HairDataAsset/3ad9341d-7886-4267-9b9b-b5bf2bdc03e6>
+      PackagePath: ""
+  SourceHash: a54502e87dbe37f404226c239cf2e269
+  FileHash: f31388f95f0a8d3862bcd22f277bd0ee
+  NativePackageItems:
+    []

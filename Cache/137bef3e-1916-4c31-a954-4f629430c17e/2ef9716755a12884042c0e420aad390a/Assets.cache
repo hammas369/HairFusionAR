@@ -1,0 +1,13 @@
+- !<AssetCache/2ef97167-55a1-2884-042c-0e420aad390a>
+  AssetFiles:
+    cc78ba0c-4a85-4c24-9b59-c2e2ad297a3f: 137bef3e-1916-4c31-a954-4f629430c17e/2ef9716755a12884042c0e420aad390a/Data/hair_curly_param.jpg
+  Assets:
+    - !<FileTexture/cc78ba0c-4a85-4c24-9b59-c2e2ad297a3f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 88
+        Height: 512
+  SourceHash: 2ef9716755a12884042c0e420aad390a
+  FileHash: 97c90861d1690d670179f58945589e08
+  NativePackageItems:
+    []

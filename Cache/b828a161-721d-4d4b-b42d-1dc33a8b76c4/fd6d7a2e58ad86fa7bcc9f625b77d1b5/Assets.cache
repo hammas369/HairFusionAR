@@ -1,0 +1,16 @@
+- !<AssetCache/fd6d7a2e-58ad-86fa-7bcc-9f625b77d1b5>
+  AssetFiles:
+    8ada8a63-a604-41c2-8b0a-3e2e2acbf231: b828a161-721d-4d4b-b42d-1dc33a8b76c4/fd6d7a2e58ad86fa7bcc9f625b77d1b5/Data/right_ear_mesh1.mesh
+  Assets:
+    - !<FileMesh/8ada8a63-a604-41c2-8b0a-3e2e2acbf231>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 2000
+        Vertices: 1136
+        Blendshapes:
+          []
+        Joints: 4
+  SourceHash: fd6d7a2e58ad86fa7bcc9f625b77d1b5
+  FileHash: ed916d4d82e6fb1992883e25e6bdd2a3
+  NativePackageItems:
+    []

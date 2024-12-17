@@ -1,0 +1,13 @@
+- !<AssetCache/18b92def-ea47-22a1-3565-5165fe04bc11>
+  AssetFiles:
+    d16fe27e-5af8-48a9-be73-3432e31c3838: 06226259-0a56-4f79-87b1-74a9a5580a5f/18b92defea4722a135655165fe04bc11/Data/Glasses2.png
+  Assets:
+    - !<FileTexture/d16fe27e-5af8-48a9-be73-3432e31c3838>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 520
+        Height: 562
+  SourceHash: 18b92defea4722a135655165fe04bc11
+  FileHash: 5add89bace727e619e21ec391da8710e
+  NativePackageItems:
+    []

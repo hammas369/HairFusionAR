@@ -1,0 +1,16 @@
+- !<AssetCache/7a2ecdbb-dfe0-1518-0b86-b1690b79128f>
+  AssetFiles:
+    ccf7a947-44cb-4399-9ff8-4afb10e4f2a1: bd7a1f0a-e282-4909-be54-bbb0e7e8d331/7a2ecdbbdfe015180b86b1690b79128f/Data/polySurface18.mesh
+  Assets:
+    - !<FileMesh/ccf7a947-44cb-4399-9ff8-4afb10e4f2a1>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 332
+        Vertices: 290
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 7a2ecdbbdfe015180b86b1690b79128f
+  FileHash: ccf4f477c3ff547b4ea46f3f903f24c5
+  NativePackageItems:
+    []

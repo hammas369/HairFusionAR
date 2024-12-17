@@ -1,0 +1,13 @@
+- !<AssetCache/1919d74d-09af-6f27-ce56-85cb10c8a5e3>
+  AssetFiles:
+    49bd4bf5-d65c-4df2-8042-3898ed4f6d39: e193824b-3ec4-413c-bffb-476e5bf1fe80/1919d74d09af6f27ce5685cb10c8a5e3/Data/hat1.png
+  Assets:
+    - !<FileTexture/49bd4bf5-d65c-4df2-8042-3898ed4f6d39>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 473
+        Height: 562
+  SourceHash: 1919d74d09af6f27ce5685cb10c8a5e3
+  FileHash: 9368f1eff27f0cc56997c394ceb55fdc
+  NativePackageItems:
+    []

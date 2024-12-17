@@ -1,0 +1,17 @@
+- !<AssetImportMetadata/05ba772b-0f13-49aa-9419-e27849d805c3>
+  ImportedAssetIds:
+    Texture: !<reference> 7156cef1-a10c-4e56-9553-0c45f9fc930c
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 7156cef1-a10c-4e56-9553-0c45f9fc930c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/3ebe1e87-e87e-437f-9294-300bac6bb878>
+    {}
+  CompressionSettings: !<SingleCompressionSettings/ad683988-17a8-4649-a1af-a9344cf2ef5f>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionSettings/265feade-0e4a-45b8-85de-73bd243cd9d4>
+      Level: Medium

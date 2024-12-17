@@ -1,0 +1,13 @@
+- !<AssetCache/5d51a0a3-cbce-d766-82f2-2a1e429e84d9>
+  AssetFiles:
+    b7bf8f0d-dd3c-4763-8c7d-f3638bf916b5: b3f065c3-7d50-4f2e-b704-24dc9713704e/5d51a0a3cbced76682f22a1e429e84d9/Data/hat.png
+  Assets:
+    - !<FileTexture/b7bf8f0d-dd3c-4763-8c7d-f3638bf916b5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: 5d51a0a3cbced76682f22a1e429e84d9
+  FileHash: 7df64ea1b0472ccfb41542ef848723d2
+  NativePackageItems:
+    []

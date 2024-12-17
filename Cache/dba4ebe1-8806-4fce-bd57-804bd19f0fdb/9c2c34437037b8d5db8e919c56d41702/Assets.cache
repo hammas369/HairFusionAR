@@ -1,0 +1,13 @@
+- !<AssetCache/9c2c3443-7037-b8d5-db8e-919c56d41702>
+  AssetFiles:
+    ac6fab91-e466-44ec-b231-15fcc50d6154: dba4ebe1-8806-4fce-bd57-804bd19f0fdb/9c2c34437037b8d5db8e919c56d41702/Data/lit_mild.jpg
+  Assets:
+    - !<FileTexture/ac6fab91-e466-44ec-b231-15fcc50d6154>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1
+        Height: 32
+  SourceHash: 9c2c34437037b8d5db8e919c56d41702
+  FileHash: ca750fe19c14974501e6bf8e0c640a4a
+  NativePackageItems:
+    []

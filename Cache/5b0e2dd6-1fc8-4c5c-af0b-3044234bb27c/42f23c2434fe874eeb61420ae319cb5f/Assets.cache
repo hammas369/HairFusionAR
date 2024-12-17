@@ -1,0 +1,13 @@
+- !<AssetCache/42f23c24-34fe-874e-eb61-420ae319cb5f>
+  AssetFiles:
+    84b61659-aac8-4dd0-ba26-e9c433d4a020: 5b0e2dd6-1fc8-4c5c-af0b-3044234bb27c/42f23c2434fe874eeb61420ae319cb5f/Data/alpha_straight.png
+  Assets:
+    - !<FileTexture/84b61659-aac8-4dd0-ba26-e9c433d4a020>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 48
+        Height: 384
+  SourceHash: 42f23c2434fe874eeb61420ae319cb5f
+  FileHash: 0e25bafb558a2add92f7b31d48f58634
+  NativePackageItems:
+    []

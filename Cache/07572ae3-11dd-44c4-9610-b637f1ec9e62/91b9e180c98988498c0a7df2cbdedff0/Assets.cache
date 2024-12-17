@@ -1,0 +1,10 @@
+- !<AssetCache/91b9e180-c989-8849-8c0a-7df2cbdedff0>
+  AssetFiles:
+    a695417d-6bc3-4716-a5bf-d3f41d0b34cb: 07572ae3-11dd-44c4-9610-b637f1ec9e62/91b9e180c98988498c0a7df2cbdedff0/Data/single_bun_top.hair
+  Assets:
+    - !<HairDataAsset/a695417d-6bc3-4716-a5bf-d3f41d0b34cb>
+      PackagePath: ""
+  SourceHash: 91b9e180c98988498c0a7df2cbdedff0
+  FileHash: 63ade71d57fca5fe7b43df787d05332f
+  NativePackageItems:
+    []

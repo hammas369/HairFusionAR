@@ -1,0 +1,153 @@
+- !<AssetCache/f877b494-9ba0-f9b9-eea8-356605df8f5d>
+  AssetFiles:
+    7e79dab5-5171-4acc-b3f6-6872103cbb5d: 410ed6e0-07c1-4ff2-9623-ed7c3008b0b3/f877b4949ba0f9b9eea8356605df8f5d/Data/ML Bald.ss_graph
+  Assets:
+    - !<ShaderGraphPass/7e79dab5-5171-4acc-b3f6-6872103cbb5d>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 0.501198, y: 0.509972, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N005:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input2_N005:
+          typeIdx: 1
+          value: -1.000000
+        Port_LODValue_N007:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N087:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value2_N017:
+          typeIdx: 1
+          value: 1.000000
+        Port_Value3_N017:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N017:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData/00000000-0000-0000-0000-000000000000>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Input Texture
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ML Output
+            mType: Property
+            mName: colorTex
+            mWidget: texture_group
+            mHint: "Property: colorTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Edge Crop
+            mType: Property
+            mName: edgecrop
+            mWidget: slider
+            mHint: "Property: edgecrop"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Edge Blur
+            mType: Property
+            mName: edgeBlur
+            mWidget: slider
+            mHint: "Property: edgeBlur"
+            mMin: 0.000000
+            mMax: 0.300000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 410ed6e0-07c1-4ff2-9623-ed7c3008b0b3/f877b4949ba0f9b9eea8356605df8f5d/Data/804754a/ML Bald.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: f877b4949ba0f9b9eea8356605df8f5d
+  FileHash: d1005477ed89f68d7c624241313aae03
+  NativePackageItems:
+    []

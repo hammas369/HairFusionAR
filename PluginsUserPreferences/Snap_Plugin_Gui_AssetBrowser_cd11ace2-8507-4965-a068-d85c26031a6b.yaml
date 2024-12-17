@@ -1,0 +1,269 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 263
+    values:
+      - Button.js
+      - ButtonController.js
+      - ButtonsIcons
+      - ButtonsIcons/0.png
+      - ButtonsIcons/10.png
+      - ButtonsIcons/2.png
+      - ButtonsIcons/3.png
+      - ButtonsIcons/4.png
+      - ButtonsIcons/5.png
+      - ButtonsIcons/6.png
+      - ButtonsIcons/7.png
+      - ButtonsIcons/8.png
+      - ButtonsIcons/9.png
+      - ButtonsIcons/Beard1.png
+      - ButtonsIcons/Beard2.png
+      - ButtonsIcons/Beard3.png
+      - ButtonsIcons/Beard4.png
+      - ButtonsIcons/Glasses1.png
+      - ButtonsIcons/Glasses2.png
+      - ButtonsIcons/Glasses3.png
+      - ButtonsIcons/Hat4.png
+      - ButtonsIcons/Hat5.png
+      - ButtonsIcons/Hat6.png
+      - ButtonsIcons/hat1.png
+      - Hair Resources
+      - Hair Resources/Hair Data/beard.hair
+      - Hair Resources/Hair Data/casual_short_straight.hair
+      - Hair Resources/Hair Data/curly_blonde.hair
+      - Hair Resources/Hair Data/curly_blonde_front.hair
+      - Hair Resources/Hair Data/curly_blue.hair
+      - Hair Resources/Hair Data/curly_long.hair
+      - Hair Resources/Hair Data/messy_long.hair
+      - Hair Resources/Hair Data/mustache1.hair
+      - Hair Resources/Hair Data/mustache2.hair
+      - Hair Resources/Hair Data/mustache3.hair
+      - Hair Resources/Hair Data/ponytails_and_bangs.hair
+      - Hair Resources/Hair Data/ponytails_top_rear.hair
+      - Hair Resources/Hair Data/short_and_sleek.hair
+      - Hair Resources/Hair Data/single_bun_front.hair
+      - Hair Resources/Hair Data/single_bun_top.hair
+      - Hair Resources/Hair Data/smooth_and_straight.hair
+      - Hair Resources/Hair Data/wavy_secondary_layer.hair
+      - Hair Resources/Hair Data/wavy_top_layer.hair
+      - Hair Resources/ML Resources
+      - Hair Resources/ML Resources/Face Crop Texture Wide.faceCropTexture
+      - Hair Resources/ML Resources/ML Bald.mat
+      - Hair Resources/ML Resources/bald_model.dnn
+      - Hair Resources/ML Resources/output_0 Proxy Texture.proxyTexture
+      - Hair Resources/Materials/Blur Material HQ.mat
+      - Hair Resources/Materials/Blur Material LQ.mat
+      - Hair Resources/Materials/Graph Occluder MRT.mat
+      - Hair Resources/Materials/Hair Materials/Facial Hair Beard.mat
+      - Hair Resources/Materials/Hair Materials/Facial Hair Mustache 1.mat
+      - Hair Resources/Materials/Hair Materials/Facial Hair Mustache 2.mat
+      - Hair Resources/Materials/Hair Materials/Hair Blonde Bang.mat
+      - Hair Resources/Materials/Hair Materials/Hair Blonde Curly.mat
+      - Hair Resources/Materials/Hair Materials/Hair Brown.mat
+      - Hair Resources/Materials/Hair Materials/Hair Curly Blue.mat
+      - Hair Resources/Materials/Hair Materials/Hair Dreamy Purple Bang.mat
+      - Hair Resources/Materials/Hair Materials/Hair Dreamy Purple.mat
+      - Hair Resources/Materials/Hair Materials/Hair Glowing Orange.mat
+      - Hair Resources/Materials/Hair Materials/Hair Gradient Pink Blue.mat
+      - Hair Resources/Materials/Hair Materials/Hair Pink.mat
+      - Hair Resources/Materials/Hair Materials/Hair Pompom Red.mat
+      - Hair Resources/Materials/Hair Materials/Hair Shiny Silver.mat
+      - Hair Resources/Materials/Hair Materials/Hair Wavy Gradient Blue.mat
+      - Hair Resources/Materials/Head with Shadow MRT.mat
+      - Hair Resources/Meshes
+      - Hair Resources/Meshes/Face Mesh.facemesh
+      - Hair Resources/Meshes/Head Occluder.mesh
+      - Hair Resources/Meshes/Neck Occluder.mesh
+      - Hair Resources/Render Targets
+      - Hair Resources/Render Targets/Hair Tangents Output.renderTarget
+      - Hair Resources/Scripts
+      - Hair Resources/Scripts/GravityController.js
+      - Hair Resources/Scripts/HairBlurController.js
+      - Hair Resources/Scripts/OptimizationController.js
+      - Hair Resources/Shaders
+      - Hair Resources/Shaders/Blur Material HQ.ss_graph
+      - Hair Resources/Shaders/Blur Material LQ.ss_graph
+      - Hair Resources/Shaders/Graph Occluder MRT.ss_graph
+      - Hair Resources/Shaders/Hair
+      - Hair Resources/Shaders/Hair/Hair 1.ss_graph
+      - Hair Resources/Shaders/Hair/Hair 2.ss_graph
+      - Hair Resources/Shaders/Hair/Hair 3.ss_graph
+      - Hair Resources/Shaders/Hair/Hair 4.ss_graph
+      - Hair Resources/Shaders/Hair/Hair 5.ss_graph
+      - Hair Resources/Shaders/Hair/Hair 6.ss_graph
+      - Hair Resources/Shaders/Head with Shadow MRT.ss_graph
+      - Hair Resources/Shaders/ML Bald.ss_graph
+      - Hair Resources/Textures
+      - Hair Resources/Textures/Alpha
+      - Hair Resources/Textures/Alpha/alpha_curly_big.png
+      - Hair Resources/Textures/Alpha/alpha_curly_thin.png
+      - Hair Resources/Textures/Alpha/alpha_curly_wavy_long.png
+      - Hair Resources/Textures/Alpha/alpha_natural_thick.png
+      - Hair Resources/Textures/Alpha/alpha_smallcurl_double.png
+      - Hair Resources/Textures/Alpha/alpha_smallcurl_single.png
+      - Hair Resources/Textures/Alpha/alpha_straight.png
+      - Hair Resources/Textures/Alpha/alpha_straight_thick_1.png
+      - Hair Resources/Textures/Contrast
+      - Hair Resources/Textures/Contrast/lit_Contrast.jpg
+      - Hair Resources/Textures/Contrast/lit_dark.jpg
+      - Hair Resources/Textures/Contrast/lit_default_light.jpg
+      - Hair Resources/Textures/Contrast/lit_lowcontrast1.jpg
+      - Hair Resources/Textures/Contrast/lit_lowcontrast2.jpg
+      - Hair Resources/Textures/Contrast/lit_mild.jpg
+      - Hair Resources/Textures/Contrast/lit_reflective.jpg
+      - Hair Resources/Textures/Direction
+      - Hair Resources/Textures/Direction/direction_1.jpg
+      - Hair Resources/Textures/Direction/direction_2.jpg
+      - Hair Resources/Textures/Direction/hair_curly_param.jpg
+      - Hair Resources/Textures/Intensity
+      - Hair Resources/Textures/Intensity/beard_intensity.jpg
+      - Hair Resources/Textures/Intensity/hair_intensity_gradient.jpg
+      - Image 1.mat
+      - Image 2.mat
+      - Image 3.mat
+      - Image Carousel.lsc
+      - Image.mat
+      - IndexSlider.js
+      - ObjectsCamera
+      - ObjectsCamera/3pack Hats/.hidden
+      - ObjectsCamera/3pack Hats/.hidden/base.ss_graph
+      - ObjectsCamera/3pack Hats/3 Pack Hats
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Barbiehat
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Barbiehat/Materials
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Barbiehat/Materials/base.mat
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Barbiehat/Materials/edge.mat
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Barbiehat/Materials/pink.mat
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Barbiehat/Meshes
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Barbiehat/Meshes/HatB 2.mesh
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Barbiehat/Meshes/HatB 3.mesh
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Barbiehat/Meshes/HatB.mesh
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Oppenheimer Hat
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Oppenheimer Hat/Materials
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Oppenheimer Hat/Materials/base.mat
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Oppenheimer Hat/Materials/cinto.mat
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Oppenheimer Hat/Meshes
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Oppenheimer Hat/Meshes/HatO 2.mesh
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Oppenheimer Hat/Meshes/HatO.mesh
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Oppenheimer Hat/Textures
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Oppenheimer Hat/Textures/tercioN.png
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat/Materials
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat/Materials/base3.mat
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat/Materials/batin.mat
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat/Materials/broche.mat
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat/Materials/side3.mat
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat/Meshes
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat/Meshes/SummerH 2.mesh
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat/Meshes/SummerH 3.mesh
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat/Meshes/SummerH 4.mesh
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat/Meshes/SummerH.mesh
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat/Textures
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat/Textures/barsN.jpg
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat/Textures/circlesN.jpg
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Summer Hat/Textures/fabricN.png
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Textures
+      - ObjectsCamera/3pack Hats/3 Pack Hats/Textures/White.png
+      - ObjectsCamera/Glasses Pack 2.lspkg
+      - ObjectsCamera/Glasses Pack 2.lspkg/Materials
+      - ObjectsCamera/Glasses Pack 2.lspkg/Materials/Glasses 3
+      - ObjectsCamera/Glasses Pack 2.lspkg/Materials/Glasses 3/glass.mat
+      - ObjectsCamera/Glasses Pack 2.lspkg/Materials/Glasses 3/gold.mat
+      - ObjectsCamera/Glasses Pack 2.lspkg/Materials/Glasses 3/oprava.mat
+      - ObjectsCamera/Glasses Pack 2.lspkg/Materials/Sunglasses 1
+      - ObjectsCamera/Glasses Pack 2.lspkg/Materials/Sunglasses 1/Occluder.mat
+      - ObjectsCamera/Glasses Pack 2.lspkg/Materials/Sunglasses 1/frame.mat
+      - ObjectsCamera/Glasses Pack 2.lspkg/Materials/Sunglasses 1/glass.mat
+      - ObjectsCamera/Glasses Pack 2.lspkg/Materials/Sunglasses 2
+      - ObjectsCamera/Glasses Pack 2.lspkg/Materials/Sunglasses 2/frame.mat
+      - ObjectsCamera/Glasses Pack 2.lspkg/Materials/Sunglasses 2/glass.mat
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes0
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes0/glasses
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes0/glasses/Meshes
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes0/glasses/Meshes/frame.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes0/glasses/Meshes/lenses.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes0/glasses/Meshes/mosepads.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes0/glasses/Meshes/nose.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes2
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes2/face2.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes2/face3.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes2/pCube1.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes2/polySurface18.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes2/polySurface19.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes2/polySurface20.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/Meshes2/polySurface21.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/meshes
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/meshes/mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/meshes/mesh/Meshes
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/meshes/mesh/Meshes/frame.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/meshes/mesh/Meshes/glasses_2.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/meshes/mesh/Meshes/msh_mask_head.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Meshes/meshes/mesh/Meshes/wishbones.mesh
+      - ObjectsCamera/Glasses Pack 2.lspkg/Shaders
+      - ObjectsCamera/Glasses Pack 2.lspkg/Shaders/Occluder.ss_graph
+      - ObjectsCamera/Glasses Pack 2.lspkg/Shaders/frame.ss_graph
+      - ObjectsCamera/Glasses Pack 2.lspkg/Textures
+      - ObjectsCamera/Glasses Pack 2.lspkg/Textures/MaterialParams.png
+      - ObjectsCamera/Glasses Pack 2.lspkg/Textures/Normal.png
+      - ObjectsCamera/Glasses Pack 2.lspkg/Textures/bl1.jpg
+      - ObjectsCamera/Glasses Pack 2.lspkg/Textures/color.jpg
+      - ObjectsCamera/Glasses Pack 2.lspkg/Textures/glass_refl.jpg
+      - ObjectsCamera/Glasses Pack 2.lspkg/Textures/lenses_darken.jpg
+      - ObjectsCamera/Glasses Pack 2.lspkg/Textures/opacity_mask.jpg
+      - ObjectsCamera/Glasses Pack 2.lspkg/Textures/opacity_mask.png
+      - ObjectsCamera/Glasses Pack 2.lspkg/Textures/refl.jpg
+      - ObjectsCamera/Glasses Pack 2.lspkg/Textures/refl_gold.jpg
+      - ObjectsCamera/Glasses Pack 2.lspkg/Textures/reflection_4.jpg
+      - ObjectsCamera/Glasses Pack 2.lspkg/package.native
+      - ObjectsCamera/bunny_santa_hat
+      - ObjectsCamera/bunny_santa_hat/Camera Object12
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/Scripts
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/Scripts/ChainController.js
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/Scripts/JSMathLibraryModule.js
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/Scripts/PositionBasedDynamicsModule.js
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/.hidden
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/.hidden/Occluder.ss_graph
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/.hidden/Uber Unlit.ss_graph
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/.hidden/bunny_pink_hair.ss_graph
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Bunny_santa_hat
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Bunny_santa_hat/Uber Unlit.mat
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Bunny_santa_hat/shadow22.png
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Head.mesh
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Mane_Fur
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Mane_Fur/bunny_pink_hair.mat
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Mane_Fur/bunny_white_hair.mat
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Mane_Fur/hat_red_hair.mat
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Mane_Fur/hat_white_hair.mat
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Meshes
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Meshes/left_ear_mesh.mesh
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Meshes/left_ear_mesh1.mesh
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Meshes/right_ear_mesh.mesh
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Meshes/right_ear_mesh1.mesh
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Meshes/santa_hat.002.mesh
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_bunny_hat/Occluder.mat
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_hat_rigged4.fbx
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_hat_rigged4.fbx/.hidden
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_hat_rigged4.fbx/.hidden/red
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_hat_rigged4.fbx/.hidden/white
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_hat_rigged4.fbx/Materials
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_hat_rigged4.fbx/Materials/red
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_hat_rigged4.fbx/Materials/white
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_hat_rigged4.fbx/Meshes
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_hat_rigged4.fbx/Meshes/santa_hat
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_hat_rigged4.fbx/Meshes/santa_hat1
+      - ObjectsCamera/bunny_santa_hat/Camera Object12/santa_hat_rigged4.fbx/santa_hat_rigged4
+      - Textures
+      - Textures/Device Camera Texture.deviceCameraTexture
+      - Textures/Echopark.hdr
+      - Textures/Render Target LIVE.renderTarget
+      - Textures/Render Target.renderTarget
+      - VFX
+      - VFX/Bokeh.vfxgraph
+      - VFX/hexagon_bokeh.jpg
+      - beard (1).png
+      - flat.ss_graph
+      - glasses.png
+      - hair (1).png
+      - hat.png
+  options: 4

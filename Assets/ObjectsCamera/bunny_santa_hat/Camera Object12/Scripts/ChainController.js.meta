@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/2cc3bb2f-2854-4c20-bc6e-dfb0a27ba6bc>
+  ImporterSettings: !<AssetImporterSettings/1fd83e5b-2943-4151-a874-a7d9f6119a66>
+    {}
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> a42a020c-884a-49a1-a1d4-5ff5de8262fe
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> a42a020c-884a-49a1-a1d4-5ff5de8262fe
+  PackageType: NotAPackage
+  AssetDataMap:
+    JavaScriptAsset: !<own> 34c34881-5598-4219-956f-974e2465bf69
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+- !<ScriptAssetData/34c34881-5598-4219-956f-974e2465bf69>
+  Icon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    addRotation: false
+    anchorCount: false
+    collider: false
+    colliderForce: false
+    force: false
+    isRelative: false
+    iterations: false
+    joints: false
+    relativeTo: false
+    sizeMutiplier: false
+    stiffness: false
+    timeSpeed: false
+    type: false
+    useCollider: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - joints: !<reference.SceneObject[]>
+        []
+      anchorCount: 1
+      stiffness: !<float> 1.000000
+      type: 0
+      iterations: 1
+      timeSpeed: !<float> 1.000000
+      force: !<Vec3> {x: 0.000000, y: -1.000000, z: 0.000000}
+      isRelative: false
+      relativeTo: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      addRotation: false
+      useCollider: false
+      collider: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      colliderForce: !<float> 0.000000
+      sizeMutiplier: !<float> 6.000000
+  ScriptTypes:
+    -
+      {}
+  SvgIcon: ""

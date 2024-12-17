@@ -1,0 +1,16 @@
+- !<AssetCache/beff7b41-9744-a06a-68dd-a88ffb443366>
+  AssetFiles:
+    48287427-d959-44da-b348-e0090ac4f355: deb31038-ea76-499e-88de-64a7235706e3/beff7b419744a06a68dda88ffb443366/Data/wishbones.mesh
+  Assets:
+    - !<FileMesh/48287427-d959-44da-b348-e0090ac4f355>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 192
+        Vertices: 126
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: beff7b419744a06a68dda88ffb443366
+  FileHash: 61ba5dfbb35cd954e609a654a86681ee
+  NativePackageItems:
+    []

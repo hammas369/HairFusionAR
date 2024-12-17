@@ -1,0 +1,13 @@
+- !<AssetCache/144d8a2e-c85a-7430-0ece-98fd1b370a66>
+  AssetFiles:
+    4af4240c-83ec-41f2-ace9-bc3ed0dc4c1f: ccc03d67-6507-4fd1-8185-bba94c6e9ce0/144d8a2ec85a74300ece98fd1b370a66/Data/bl1.jpg
+  Assets:
+    - !<FileTexture/4af4240c-83ec-41f2-ace9-bc3ed0dc4c1f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1
+        Height: 1
+  SourceHash: 144d8a2ec85a74300ece98fd1b370a66
+  FileHash: f05a20544e4b21caf40936ed92ee1f0a
+  NativePackageItems:
+    []

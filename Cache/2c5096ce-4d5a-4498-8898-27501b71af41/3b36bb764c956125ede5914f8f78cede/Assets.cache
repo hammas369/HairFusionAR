@@ -1,0 +1,16 @@
+- !<AssetCache/3b36bb76-4c95-6125-ede5-914f8f78cede>
+  AssetFiles:
+    e08cd130-e89a-43b8-9ee7-9579e57c2ff8: 2c5096ce-4d5a-4498-8898-27501b71af41/3b36bb764c956125ede5914f8f78cede/Data/santa_hat.002.mesh
+  Assets:
+    - !<FileMesh/e08cd130-e89a-43b8-9ee7-9579e57c2ff8>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 66
+        Vertices: 68
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 3b36bb764c956125ede5914f8f78cede
+  FileHash: 039e85e6a2c2136ff789e45196733d9f
+  NativePackageItems:
+    []

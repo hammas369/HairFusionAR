@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/c2a42a5c-8239-482f-9319-8600081f2974>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 860d2d86-2c25-45b4-91fc-bb727cbfbbc0
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 860d2d86-2c25-45b4-91fc-bb727cbfbbc0
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4d387f2f-2569-45c9-8012-a20673f64312
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/f0395135-5192-444f-b67a-588f3da36263>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4d387f2f-2569-45c9-8012-a20673f64312>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    HairComponents: false
+    MLComponent: false
+    fpsThreshold: false
+    optimizationThreshold: false
+    optimizationType: false
+    optimizeML: false
+    printInfo: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - HairComponents: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      optimizationType: mlDeviceIndex
+      optimizationThreshold: 5
+      fpsThreshold: 10
+      optimizeML: false
+      MLComponent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      printInfo: false
+  ScriptTypes:
+    -
+      {}

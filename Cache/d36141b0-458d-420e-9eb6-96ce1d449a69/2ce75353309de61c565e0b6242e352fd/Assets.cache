@@ -1,0 +1,10 @@
+- !<AssetCache/2ce75353-309d-e61c-565e-0b6242e352fd>
+  AssetFiles:
+    0314ce61-57b1-4a91-bc0e-5221bfd97534: d36141b0-458d-420e-9eb6-96ce1d449a69/2ce75353309de61c565e0b6242e352fd/Data/short_and_sleek.hair
+  Assets:
+    - !<HairDataAsset/0314ce61-57b1-4a91-bc0e-5221bfd97534>
+      PackagePath: ""
+  SourceHash: 2ce75353309de61c565e0b6242e352fd
+  FileHash: c2a6b2b70129593a1450532bce10a307
+  NativePackageItems:
+    []

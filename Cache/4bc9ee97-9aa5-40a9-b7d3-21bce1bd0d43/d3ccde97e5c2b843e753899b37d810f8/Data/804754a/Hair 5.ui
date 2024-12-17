@@ -1,0 +1,206 @@
+
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{ 
+                	"bindingName": "Tweak_N0", 
+                	"label":       "Hair Texture", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "Tweak_N9",
+                	"label":       "Alpha Test Threshold",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "1",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N10",
+                	"label":       "Blur Multiplier",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "2",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N152",
+                	"label":       "Hair Growth",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "3",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                { 
+                	"bindingName": "LitLookup", 
+                	"label":       "Lit Lookup", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "4",
+                	"hint":        ""
+                },
+                
+                { 
+                	"bindingName": "Tweak_N180", 
+                	"label":       "Direction Map", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "5",
+                	"hint":        ""
+                },
+                
+                { 
+                	"bindingName": "Tweak_N3", 
+                	"label":       "Intensity Map", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "6",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "Tweak_N13",
+                	"label":       "Primary Diffuse Intensity",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "7",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N14",
+                	"label":       "Primary Specular Intensity",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "8",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N6",
+                	"label":       "Hair Tips Color",
+                	"widget":      "color",
+                	"sortIndex":   "9",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N5",
+                	"label":       "Hair Roots Color",
+                	"widget":      "color",
+                	"sortIndex":   "10",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N15",
+                	"label":       "Mix Edge",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "11",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N16",
+                	"label":       "Mix Size",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "12",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N17",
+                	"label":       "Diffuse Light Color",
+                	"widget":      "color",
+                	"sortIndex":   "13",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N18",
+                	"label":       "Specular Light Color",
+                	"widget":      "color",
+                	"sortIndex":   "14",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N19",
+                	"label":       "Lit Offset",
+                	"widget":      "slider",
+                	"min":         -1,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "15",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N20",
+                	"label":       "Lit Rotation",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         3.14,
+                	"step":        "0.01",
+                	"sortIndex":   "16",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"extraDefines":
+	[
+		
+	]
+}

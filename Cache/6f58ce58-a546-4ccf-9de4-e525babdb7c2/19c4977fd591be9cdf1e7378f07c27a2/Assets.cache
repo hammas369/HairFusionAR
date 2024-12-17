@@ -1,0 +1,10 @@
+- !<AssetCache/19c4977f-d591-be9c-df1e-7378f07c27a2>
+  AssetFiles:
+    4d6c5478-7309-4c5d-b91d-917cb99c29fe: 6f58ce58-a546-4ccf-9de4-e525babdb7c2/19c4977fd591be9cdf1e7378f07c27a2/Data/curly_blue.hair
+  Assets:
+    - !<HairDataAsset/4d6c5478-7309-4c5d-b91d-917cb99c29fe>
+      PackagePath: ""
+  SourceHash: 19c4977fd591be9cdf1e7378f07c27a2
+  FileHash: 187edb3cb6a6f1b193791811693d48c2
+  NativePackageItems:
+    []

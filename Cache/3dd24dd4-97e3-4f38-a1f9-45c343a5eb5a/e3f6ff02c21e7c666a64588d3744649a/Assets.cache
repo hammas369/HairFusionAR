@@ -1,0 +1,13 @@
+- !<AssetCache/e3f6ff02-c21e-7c66-6a64-588d3744649a>
+  AssetFiles:
+    cdfa5d0c-d62e-42ad-b70b-6fbeb4a8325c: 3dd24dd4-97e3-4f38-a1f9-45c343a5eb5a/e3f6ff02c21e7c666a64588d3744649a/Data/fabricN.png
+  Assets:
+    - !<FileTexture/cdfa5d0c-d62e-42ad-b70b-6fbeb4a8325c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: e3f6ff02c21e7c666a64588d3744649a
+  FileHash: fbb3e2ea56c2056bc40a977863d9028b
+  NativePackageItems:
+    []

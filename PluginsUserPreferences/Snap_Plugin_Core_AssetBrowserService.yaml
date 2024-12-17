@@ -1,0 +1,32 @@
+ExternalSources:
+  type: "std::map<Es::Uuid, Es::Path>"
+  value:
+    - 04950dd4-43d5-41fa-a831-7c928b51ede6: /Users/faheemasghar/Desktop/ButtonsIcons/5.png
+    - 05ba772b-0f13-49aa-9419-e27849d805c3: /Users/faheemasghar/Desktop/ButtonsIcons/Beard3.png
+    - 06226259-0a56-4f79-87b1-74a9a5580a5f: /Users/faheemasghar/Desktop/ButtonsIcons/Glasses2.png
+    - 09de0d49-5b71-4baa-94f7-bee84dd1182b: /Users/faheemasghar/Desktop/ButtonsIcons/8.png
+    - 145c5e80-d21e-484a-8b07-cf9328e61e35: /Users/faheemasghar/Desktop/ButtonsIcons/Beard1.png
+    - 20b0c336-8b76-49d2-bad2-f8cd9c0d3dc3: /Users/faheemasghar/Desktop/ButtonsIcons/Beard2.png
+    - 36592574-dcb2-410a-b27c-6e0b3947709e: /Users/faheemasghar/Downloads/IndexSlider.js
+    - 3d81a3f1-07d1-4416-8a0c-26f88ed561e4: /Users/faheemasghar/Desktop/ButtonsIcons/3.png
+    - 3e790824-f234-461b-a9c3-ee0a6e14a873: /Users/faheemasghar/Desktop/ButtonsIcons/Hat4.png
+    - 40ca879c-b4ac-45fe-9cac-c8d9b4a15126: /Users/faheemasghar/Desktop/ButtonsIcons/7.png
+    - 4cf54cb6-1eaf-42ab-bffb-5a84113ef204: /Users/faheemasghar/Desktop/ButtonsIcons/6.png
+    - 4f3c0ac9-059a-46fd-851a-a94da05fab1b: /Users/faheemasghar/Downloads/beard (1).png
+    - 4f53b6fc-a0da-49b7-8671-deafc12acf75: /Users/faheemasghar/Desktop/ButtonsIcons/Hat6.png
+    - 51a386b6-9ed0-4e29-9fae-d64e99549d8d: /Users/faheemasghar/Desktop/ButtonsIcons/4.png
+    - 754453dd-43d3-48e2-999f-b70a16ff8dc1: /Users/faheemasghar/Desktop/ButtonsIcons/0.png
+    - 77d4e0a5-7d6e-4697-9c38-e834b1e28a65: /Users/faheemasghar/Desktop/ButtonsIcons/9.png
+    - 79de5569-1ce8-449c-8221-db64a6f52b8e: /Users/faheemasghar/Downloads/hair (1).png
+    - 893daacc-71e2-4f3d-8ec3-6385216a0cac: /Users/faheemasghar/Documents/LensStudioProjects/hatsglasses/Assets/ButtonController.js
+    - a0d1fd73-007b-4b0e-934c-f975cc729ac3: /Users/faheemasghar/Desktop/ButtonsIcons/Beard4.png
+    - a360ec0b-5d89-4e3a-90ba-855bc2ae6d6f: /Users/faheemasghar/Desktop/ButtonsIcons/Glasses1.png
+    - b3f065c3-7d50-4f2e-b704-24dc9713704e: /Users/faheemasghar/Downloads/hat.png
+    - c09372d9-e522-40d5-b14e-a96e053d89d1: /Users/faheemasghar/Desktop/ButtonsIcons/2.png
+    - c23f51bd-cb07-4c6d-8c56-10c4a2319bbb: /Users/faheemasghar/Desktop/ButtonsIcons/10.png
+    - c7a8a374-4bff-439d-a35d-cc426c52e60d: /Users/faheemasghar/Documents/LensStudioProjects/hatsglasses/Assets/Button.js
+    - c7f2a712-af1d-4bc4-9ad1-73e776e16498: /Users/faheemasghar/Downloads/glasses.png
+    - cde47006-5746-47ad-aef2-4a2eea95c930: /Users/faheemasghar/Desktop/ButtonsIcons/Glasses3.png
+    - d006a8b3-b7c9-4dbb-b9d8-2ba8d66aadb5: /Users/faheemasghar/Desktop/ButtonsIcons/Hat5.png
+    - e193824b-3ec4-413c-bffb-476e5bf1fe80: /Users/faheemasghar/Desktop/ButtonsIcons/hat1.png
+  options: 4

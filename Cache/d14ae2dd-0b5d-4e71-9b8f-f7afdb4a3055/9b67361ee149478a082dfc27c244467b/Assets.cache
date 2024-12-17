@@ -1,0 +1,16 @@
+- !<AssetCache/9b67361e-e149-478a-082d-fc27c244467b>
+  AssetFiles:
+    5beaf713-afae-4984-b460-b2504e25c136: d14ae2dd-0b5d-4e71-9b8f-f7afdb4a3055/9b67361ee149478a082dfc27c244467b/Data/pCube1.mesh
+  Assets:
+    - !<FileMesh/5beaf713-afae-4984-b460-b2504e25c136>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 48
+        Vertices: 64
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 9b67361ee149478a082dfc27c244467b
+  FileHash: b8c4e0055698a79dcf9613f3ffafa8c7
+  NativePackageItems:
+    []

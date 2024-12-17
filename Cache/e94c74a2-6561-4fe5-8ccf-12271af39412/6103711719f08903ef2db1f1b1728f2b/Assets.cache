@@ -1,0 +1,16 @@
+- !<AssetCache/61037117-19f0-8903-ef2d-b1f1b1728f2b>
+  AssetFiles:
+    9fc1bd3d-a0c2-4708-b1ca-c0785e31f203: e94c74a2-6561-4fe5-8ccf-12271af39412/6103711719f08903ef2db1f1b1728f2b/Data/glasses_2.mesh
+  Assets:
+    - !<FileMesh/9fc1bd3d-a0c2-4708-b1ca-c0785e31f203>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 608
+        Vertices: 362
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 6103711719f08903ef2db1f1b1728f2b
+  FileHash: c4c469a5957a99531df8d4e092c014d0
+  NativePackageItems:
+    []

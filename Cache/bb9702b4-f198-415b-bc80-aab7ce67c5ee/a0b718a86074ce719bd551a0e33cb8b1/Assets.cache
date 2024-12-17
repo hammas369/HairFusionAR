@@ -1,0 +1,13 @@
+- !<AssetCache/a0b718a8-6074-ce71-9bd5-51a0e33cb8b1>
+  AssetFiles:
+    2d560e3e-db4a-4aab-9023-b5d32b8e5788: bb9702b4-f198-415b-bc80-aab7ce67c5ee/a0b718a86074ce719bd551a0e33cb8b1/Data/alpha_natural_thick.png
+  Assets:
+    - !<FileTexture/2d560e3e-db4a-4aab-9023-b5d32b8e5788>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 36
+        Height: 256
+  SourceHash: a0b718a86074ce719bd551a0e33cb8b1
+  FileHash: de486ea3551eda8428599a97965792f7
+  NativePackageItems:
+    []

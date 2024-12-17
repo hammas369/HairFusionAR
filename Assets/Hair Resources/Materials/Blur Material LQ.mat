@@ -1,0 +1,119 @@
+- !<Material/15e499a1-52d0-46f1-9c37-a0477b0e33f1>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> d500565c-4f9a-42ed-9710-fae77cbce171
+- !<PassInfo/d500565c-4f9a-42ed-9710-fae77cbce171>
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Disabled
+  Properties:
+    Port_Import_N056:
+      typeIdx: 1
+      value: 1.000000
+    Port_Import_N080:
+      typeIdx: 1
+      value: 2.000000
+    Port_Import_N096:
+      typeIdx: 1
+      value: 3.000000
+    Port_Input1_N013:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N034:
+      typeIdx: 3
+      value: {x: 2.000000, y: 2.000000}
+    Port_Value_N024:
+      typeIdx: 1
+      value: 0.214600
+    Port_Value_N026:
+      typeIdx: 1
+      value: 0.189900
+    Port_Value_N028:
+      typeIdx: 1
+      value: 0.131500
+    Port_Value_N030:
+      typeIdx: 1
+      value: 0.071300
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    blurTerm:
+      typeIdx: 1
+      value: 7.400000
+    mainTexture:
+      typeIdx: 9
+      value:
+        id: 19d6283f-626e-4a43-b1e2-3677f33a6a6f
+        sampler:
+          filteringMode: Bilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    mainTextureBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    mainTextureDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    mainTextureTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    mainTextureUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    overrideTimeDelta:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+    tangentTexture:
+      typeIdx: 9
+      value:
+        id: 59ab1797-1b2b-4d48-9e74-3ff05604b431
+        sampler:
+          filteringMode: Bilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    tangentTextureBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    tangentTextureDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    tangentTextureSize:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    tangentTextureTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    tangentTextureUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  Pass: !<reference> 2201eee4-2715-4b39-b2a6-808a8b9c79a6

@@ -1,0 +1,13 @@
+- !<AssetCache/3ed5f3ac-f017-4529-c3dd-754676f6e8e4>
+  AssetFiles:
+    d6839f89-dfac-45e0-b1ab-13bda9a7041e: 782a586a-15dc-4992-a7a6-3104e35a08bd/3ed5f3acf0174529c3dd754676f6e8e4/Data/alpha_curly_big.png
+  Assets:
+    - !<FileTexture/d6839f89-dfac-45e0-b1ab-13bda9a7041e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 88
+        Height: 512
+  SourceHash: 3ed5f3acf0174529c3dd754676f6e8e4
+  FileHash: e68fc6f59ba4cce61d7b78778e407693
+  NativePackageItems:
+    []

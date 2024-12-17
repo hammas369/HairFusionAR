@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/26c40171-1601-45e4-ae0a-5ab8d175ef5f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 51570c72-6907-436c-8a5d-456344909d7e
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 51570c72-6907-436c-8a5d-456344909d7e
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 736733df-06b5-4cde-8e02-59d7e5a279c9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/8a037ff4-0c69-4e1f-befa-28a79f05b6b3>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/736733df-06b5-4cde-8e02-59d7e5a279c9>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    advanced: false
+    camera: false
+    finalRenderTarget: false
+    hairBlurHQ: false
+    hairBlurLQ: false
+    hairComponents: false
+    printInfo: false
+    smoothness: false
+    tangentRenderTarget: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - smoothness: !<float> 0.000000
+      hairBlurHQ: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      hairBlurLQ: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      advanced: false
+      hairComponents: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      finalRenderTarget: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      tangentRenderTarget: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      printInfo: false
+  ScriptTypes:
+    -
+      {}

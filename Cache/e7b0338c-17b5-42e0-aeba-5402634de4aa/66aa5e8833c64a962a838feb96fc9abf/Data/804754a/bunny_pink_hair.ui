@@ -1,0 +1,579 @@
+
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"label": "Style",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label": "Color",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "colorFalloff",
+                        	"label":       "Falloff",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         2,
+                        	"step":        "0.1",
+                        	"sortIndex":   "-1",
+                        	"hint":        "0 = base, 1 = linear, 2 = ends",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "baseColorRGB",
+                        	"label":       "Base Color",
+                        	"widget":      "color",
+                        	"sortIndex":   "0",
+                        	"hint":        "color of hair base",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "endsColor",
+                        	"label":       "Ends Color",
+                        	"widget":      "color",
+                        	"sortIndex":   "0",
+                        	"hint":        "color of hair ends",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"label": "Decoloration",
+                        	"widget": "group_start"
+                        },                            
+                            {
+                            	"bindingName": "decolorizeIntensity",
+                            	"label":       "Intensity",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         1,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "decolorization intensity",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "decolorizeColor",
+                            	"label":       "Color",
+                            	"widget":      "color",
+                            	"sortIndex":   "1",
+                            	"hint":        "decolorization color",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "decolorizeSeed",
+                            	"label":       "Seed",
+                            	"widget":      "spinbox",
+                            	"step":        "1",
+                            	"sortIndex":   "1",
+                            	"hint":        "decolorization area seed",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "decolorizeAreaScale",
+                            	"label":       "AreaScale",
+                            	"widget":      "spinbox",
+                            	"step":        "0.1",
+                            	"sortIndex":   "1",
+                            	"hint":        "decolorization area scale",
+                            	"default":     "1.0"
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                        
+                        {
+                        	"label":       "Base Texture",
+                        	"bindingName": "Tweak_N204",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"widget":      "group_start",
+                        	"sortIndex":   "0",
+                        	"hint":        ""
+                        }
+                        ,                            
+                            { 
+                            	"bindingName": "baseTexture", 
+                            	"label":       "Base Texture", 
+                            	"widget":      "texture_group",
+                            	"sortIndex":   "1",
+                            	"hint":        "custom color map for the base"
+                            },
+                        {
+                        	"_bindingName": "Tweak_N204",
+                        	"widget": "group_end"
+                        }
+                        ,
+                        
+                        {
+                        	"label":       "Ends Texture",
+                        	"bindingName": "Tweak_N50",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"widget":      "group_start",
+                        	"sortIndex":   "0",
+                        	"hint":        ""
+                        }
+                        ,                            
+                            { 
+                            	"bindingName": "endsTexture", 
+                            	"label":       "Ends Texture", 
+                            	"widget":      "texture_group",
+                            	"sortIndex":   "1",
+                            	"hint":        "custom color map for the ends"
+                            },
+                        {
+                        	"_bindingName": "Tweak_N50",
+                        	"widget": "group_end"
+                        }
+                        ,
+                    {
+                    	"widget": "group_end"
+                    },
+                    
+                    {
+                    	"label": "Light",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "rimExponent",
+                        	"label":       "Rim Exponent",
+                        	"widget":      "spinbox",
+                        	"step":        "0.1",
+                        	"sortIndex":   "0",
+                        	"hint":        "rim light falloff",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "rimIntensity",
+                        	"label":       "Rim Intensity",
+                        	"widget":      "spinbox",
+                        	"step":        "0.1",
+                        	"sortIndex":   "0",
+                        	"hint":        "rim light strength",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "rimColor",
+                        	"label":       "Rim Color",
+                        	"widget":      "color",
+                        	"sortIndex":   "0",
+                        	"hint":        "rim light color",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "subsurface",
+                        	"label":       "Subsurface",
+                        	"widget":      "color",
+                        	"sortIndex":   "0",
+                        	"hint":        "light shining through tips of hair",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "AO",
+                        	"label":       "AO",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "0",
+                        	"hint":        "darker near base",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                    
+                    {
+                    	"label":       "Rainbow",
+                    	"bindingName": "Tweak_N160",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "rainbowRingsCount",
+                        	"label":       "Rings Count",
+                        	"widget":      "spinbox",
+                        	"step":        "1",
+                        	"sortIndex":   "0",
+                        	"hint":        "overrides current colors with a rainbow effect",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "rainbowOffset",
+                        	"label":       "Rainbow Offset",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "0",
+                        	"hint":        "rainbow rings offset",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "Tweak_N160",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Hair Shape",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "uvScaleTex",
+                    	"label":       "Density",
+                    	"widget":      "spinbox",
+                    	"step":        "0.5",
+                    	"sortIndex":   "-1",
+                    	"hint":        "hair density",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "UVs",
+                    	"bindingType": "defineSelect",
+                    	"values":      
+                    	[
+                    		
+                    		{
+                    			"value": "NODE_257_DROPLIST_ITEM 0",
+                    			"label": "Coords 0"
+                    		},
+                    		
+                    		{
+                    			"value": "NODE_257_DROPLIST_ITEM 1",
+                    			"label": "Coords 1"
+                    		}
+                    	],
+                    	"sortIndex":   "0",
+                    	"hint":        "uvs to use for distributing hairs (on face mesh, coords 1 is more uniform)"
+                    },
+                    
+                    {
+                    	"label":       "Use Texture",
+                    	"bindingName": "Tweak_N63",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "use a custom (repeatable/tileable) texture for the shape of the hairs"
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "shapeTexture", 
+                        	"label":       "Shape Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "0",
+                        	"hint":        "repeatable black & white noise pattern to use as base for the hairs"
+                        },
+                    {
+                    	"_bindingName": "Tweak_N63",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Length",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "hairLength",
+                    	"label":       "Hair Length",
+                    	"widget":      "spinbox",
+                    	"step":        "0.1",
+                    	"sortIndex":   "0",
+                    	"hint":        "overall multiplier for length of hair",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "cutoff",
+                    	"label":       "Cutoff",
+                    	"widget":      "spinbox",
+                    	"step":        "0.2",
+                    	"sortIndex":   "0",
+                    	"hint":        "remove hairs below this length",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Mask",
+                    	"bindingName": "Tweak_N164",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "use a custom hair length map"
+                    }
+                    ,                        
+                        {
+                        	"label":       "Mask Type",
+                        	"bindingType": "defineSelect",
+                        	"values":      
+                        	[
+                        		
+                        		{
+                        			"value": "NODE_167_DROPLIST_ITEM 0",
+                        			"label": "Texture"
+                        		},
+                        		
+                        		{
+                        			"value": "NODE_167_DROPLIST_ITEM 1",
+                        			"label": "Face Mesh Beard"
+                        		},
+                        		
+                        		{
+                        			"value": "NODE_167_DROPLIST_ITEM 2",
+                        			"label": "Face Mesh Moustache"
+                        		},
+                        		
+                        		{
+                        			"value": "NODE_167_DROPLIST_ITEM 3",
+                        			"label": "Face Mesh Eyebrows"
+                        		},
+                        		
+                        		{
+                        			"value": "NODE_167_DROPLIST_ITEM 4",
+                        			"label": "Face Mesh Unibrow"
+                        		}
+                        	],
+                        	"sortIndex":   "0",
+                        	"hint":        "pick a texture type to use as length mask"
+                        },
+                        
+                        { 
+                        	"bindingName": "customLengthTexture", 
+                        	"label":       "Custom Length Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "1",
+                        	"hint":        "black & white texture of hair length on mesh"
+                        },
+                        
+                        {
+                        	"label":       "Use Uv From",
+                        	"bindingType": "defineSelect",
+                        	"values":      
+                        	[
+                        		
+                        		{
+                        			"value": "NODE_67_DROPLIST_ITEM 0",
+                        			"label": "Coords 0"
+                        		},
+                        		
+                        		{
+                        			"value": "NODE_67_DROPLIST_ITEM 1",
+                        			"label": "Coords 1"
+                        		}
+                        	],
+                        	"sortIndex":   "1",
+                        	"hint":        "uvs to use for custom hair length map"
+                        },
+                        
+                        {
+                        	"bindingName": "customLengthBlend",
+                        	"label":       "Custom Length Blend",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "1",
+                        	"hint":        "strength of custom hair length map",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "Tweak_N164",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"label": "Variation",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "variationStrength",
+                        	"label":       "Strength",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         2,
+                        	"step":        "0.05",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "variationScale",
+                        	"label":       "Scale",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         100,
+                        	"step":        "1",
+                        	"sortIndex":   "1",
+                        	"hint":        "density of variation pattern",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "variationSharpness",
+                        	"label":       "Sharpness",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         10,
+                        	"step":        "1",
+                        	"sortIndex":   "1",
+                        	"hint":        "sharpness in the variation of hair length",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Thickness",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "bendDirection",
+                    	"label":       "Bend Direction",
+                    	"widget":      "spinbox",
+                    	"step":        "1",
+                    	"sortIndex":   "0",
+                    	"hint":        "direction to bend hair ends towards",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "fluffy",
+                    	"label":       "Fluffy",
+                    	"widget":      "spinbox",
+                    	"min":         0.05,
+                    	"step":        "0.05",
+                    	"sortIndex":   "0",
+                    	"hint":        "hair thickness falloff changes the fluffyness",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "hairTransparency",
+                    	"label":       "Hair Transparency",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "featheredSmallHairs",
+                    	"label":       "Feathered Small Hairs",
+                    	"widget":      "spinbox",
+                    	"step":        "1",
+                    	"sortIndex":   "0",
+                    	"hint":        "transparency falloff - makes hair with length variation feel more organic",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label":       "Wind",
+                	"bindingName": "Tweak_N108",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                }
+                ,                    
+                    {
+                    	"bindingName": "Tweak_N107",
+                    	"label":       "Wind Strength",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         0.5,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "amount of wind motion",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N110",
+                    	"label":       "Wind Speed",
+                    	"widget":      "spinbox",
+                    	"step":        "1",
+                    	"sortIndex":   "0",
+                    	"hint":        "wind motion speed",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "windScale",
+                    	"label":       "Wind Scale",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "wind motion scale",
+                    	"default":     "1.0"
+                    },
+                {
+                	"_bindingName": "Tweak_N108",
+                	"widget": "group_end"
+                }
+                ,
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_RECEIVER"
+	]
+}

@@ -1,0 +1,16 @@
+- !<AssetCache/15d1096d-bd67-1c24-ddbe-b802c5919dcc>
+  AssetFiles:
+    692a5afb-097d-4154-aea7-dcb55eec2ba3: 593665a6-e2c2-4988-b4b6-5a64c7aca5aa/15d1096dbd671c24ddbeb802c5919dcc/Data/msh_mask_head.mesh
+  Assets:
+    - !<FileMesh/692a5afb-097d-4154-aea7-dcb55eec2ba3>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 792
+        Vertices: 492
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 15d1096dbd671c24ddbeb802c5919dcc
+  FileHash: f4716631bc08dfeb3186621911454721
+  NativePackageItems:
+    []
